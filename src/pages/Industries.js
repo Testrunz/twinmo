@@ -173,8 +173,8 @@ const Industries = () => {
           <div
             className="privacy-policy2"
             onClick={onPrivacyPolicyClick}
-          >{`Privacy Policy | `}</div>
-          <div className="terms-of-service2">{`Terms of Service | `}</div>
+          >Privacy Policy | </div>
+          <div className="terms-of-service2">Terms of Service |</div>
           <div className="cookie-policy2" onClick={onCookiePolicyTextClick}>
             Cookie Policy
           </div>

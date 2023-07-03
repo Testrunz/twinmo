@@ -51,8 +51,8 @@
 }
 .frame-parent38 {
   position: absolute;
-  top: calc(50% - 315.88px);
-  left: calc(50% - 590px);
+  left: 40px;
+  top: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -407,7 +407,7 @@
 .privacy-policy-parent3 {
   position: absolute;
   top: 356px;
-  left: 1004.15px;
+  left: 900px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -422,7 +422,7 @@
 }
 .footerdefault5 {
   bottom: -0.32px;
-  left: calc(50% - 704px);
+  /* left: calc(50% - 704px); */
   width: 1407.49px;
   height: 393.32px;
   font-size: var(--paragraph-style-1-size);
@@ -467,7 +467,6 @@
 .header5 {
   position: absolute;
   top: 0;
-  left: calc(50% - 720px);
   width: 1440px;
   height: 89px;
   font-size: var(--font-size-mini);

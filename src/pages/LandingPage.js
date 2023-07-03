@@ -327,12 +327,14 @@ const LandingPage = () => {
             alt=""
             src="/image-9@2x.png"
             onClick={onClickHome}
+            style={{cursor:"pointer"}}
           />
           <div className="button-hover-line-parent3">
             <div className="button-hover-line25">
               <div
                 className="vertically-integrated-solution"
                 onClick={onClickPlatform}
+                style={{cursor:"pointer"}}
               >
                 Platforms
               </div>
@@ -341,6 +343,7 @@ const LandingPage = () => {
               <div
                 className="vertically-integrated-solution"
                 onClick={onClickUsecase}
+                style={{cursor:"pointer"}}
               >
                 Use Cases
               </div>
@@ -349,6 +352,7 @@ const LandingPage = () => {
               <div
                 className="vertically-integrated-solution"
                 onClick={onClickIndustries}
+                style={{cursor:"pointer"}}
               >
                 Industries
               </div>
@@ -357,6 +361,7 @@ const LandingPage = () => {
               <div
                 className="vertically-integrated-solution"
                 onClick={onClickServices}
+                style={{cursor:"pointer"}}
               >
                 Service
               </div>
@@ -365,6 +370,7 @@ const LandingPage = () => {
               <div
                 className="vertically-integrated-solution"
                 onClick={onClickResource}
+                style={{cursor:"pointer"}}
               >
                 Resource
               </div>

@@ -10,19 +10,19 @@ const Platforms = () => {
 
   const onClickUsecase = () => {
     navigate("/use-cases");
-  }
+  };
 
   const onClickIndustries = () => {
     navigate("/industries");
-  }
+  };
 
-  const onClickService=() => {
+  const onClickService = () => {
     navigate("/services");
-  }
+  };
 
-  const onClickResource =() => {
+  const onClickResource = () => {
     navigate("/resource");
-  }
+  };
 
   const onPrivacyPolicyClick = useCallback(() => {
     // Please sync "Privacy and policy" to the project
@@ -305,19 +305,48 @@ const Platforms = () => {
           />
           <div className="button-hover-line-parent2">
             <div className="button-hover-line20">
-              <div className="digital-experimentation" style={{cursor:"pointer"}}>Platforms</div>
+              <div
+                className="digital-experimentation"
+                style={{ cursor: "pointer" }}
+              >
+                Platforms
+              </div>
             </div>
             <div className="button-hover-line20">
-              <div className="digital-experimentation" onClick={onClickUsecase} style={{cursor:"pointer"}}>Use Cases</div>
+              <div
+                className="digital-experimentation"
+                onClick={onClickUsecase}
+                style={{ cursor: "pointer" }}
+              >
+                Use Cases
+              </div>
             </div>
             <div className="button-hover-line20">
-              <div className="digital-experimentation" onClick={onClickIndustries} style={{cursor:"pointer"}}>Industries</div>
+              <div
+                className="digital-experimentation"
+                onClick={onClickIndustries}
+                style={{ cursor: "pointer" }}
+              >
+                Industries
+              </div>
             </div>
             <div className="button-hover-line20">
-              <div className="digital-experimentation" onClick={onClickService} style={{cursor:"pointer"}}>Service</div>
+              <div
+                className="digital-experimentation"
+                onClick={onClickService}
+                style={{ cursor: "pointer" }}
+              >
+                Service
+              </div>
             </div>
             <div className="button-hover-line20">
-              <div className="digital-experimentation" onClick={onClickResource} style={{cursor:"pointer"}}>Resource</div>
+              <div
+                className="digital-experimentation"
+                onClick={onClickResource}
+                style={{ cursor: "pointer" }}
+              >
+                Resource
+              </div>
             </div>
           </div>
         </div>

@@ -274,7 +274,7 @@
 .privacy-policy-container {
   position: absolute;
   top: 356px;
-  left: 1004.15px;
+  left: 900px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -289,7 +289,6 @@
 }
 .footerdefault2 {
   bottom: -0.32px;
-  left: calc(50% - 704px);
   width: 1407.49px;
   height: 393.32px;
   font-size: var(--paragraph-style-1-size);
@@ -334,7 +333,6 @@
 .header2 {
   position: absolute;
   top: -1px;
-  left: calc(50% - 719px);
   width: 1440px;
   height: 89px;
   color: var(--color-black);

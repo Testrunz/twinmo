@@ -110,7 +110,6 @@
 .header {
   position: absolute;
   top: -1px;
-  left: calc(50% - 719px);
   width: 1440px;
   height: 89px;
   font-size: var(--font-size-mini);
@@ -366,7 +365,7 @@
 .privacy-policy-parent {
   position: absolute;
   top: 356px;
-  left: 1004.15px;
+  left: 900px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -377,7 +376,6 @@
 .footerdefault {
   position: absolute;
   bottom: 0;
-  left: calc(50% - 703px);
   background-color: var(--mini-title-bg);
   width: 1407px;
   height: 398px;
