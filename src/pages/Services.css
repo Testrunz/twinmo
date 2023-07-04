@@ -62,7 +62,6 @@
 .vector-group {
   position: absolute;
   top: 65.25px;
-  left: calc(50% - 720px);
   width: 1440px;
   height: 704.25px;
   color: var(--primar-yellow);

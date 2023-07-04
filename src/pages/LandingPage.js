@@ -1,4 +1,3 @@
-import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./LandingPage.css";
 const LandingPage = () => {
@@ -28,13 +27,13 @@ const LandingPage = () => {
     navigate("/resource");
   };
 
-  const onPrivacyPolicyClick = useCallback(() => {
-    // Please sync "Privacy and policy" to the project
-  }, []);
+  const onPrivacyPolicyClick = () => {
+    navigate("/privacy-policy");
+  };
 
-  const onCookiePolicyTextClick = useCallback(() => {
-    // Please sync "Cookie Policy" to the project
-  }, []);
+  const onCookiePolicyTextClick = () => {
+    navigate("/cookie-policy");
+  };
 
   return (
     <div className="landing-page">
@@ -327,14 +326,14 @@ const LandingPage = () => {
             alt=""
             src="/image-9@2x.png"
             onClick={onClickHome}
-            style={{cursor:"pointer"}}
+            style={{ cursor: "pointer" }}
           />
           <div className="button-hover-line-parent3">
             <div className="button-hover-line25">
               <div
                 className="vertically-integrated-solution"
                 onClick={onClickPlatform}
-                style={{cursor:"pointer"}}
+                style={{ cursor: "pointer" }}
               >
                 Platforms
               </div>
@@ -343,7 +342,7 @@ const LandingPage = () => {
               <div
                 className="vertically-integrated-solution"
                 onClick={onClickUsecase}
-                style={{cursor:"pointer"}}
+                style={{ cursor: "pointer" }}
               >
                 Use Cases
               </div>
@@ -352,7 +351,7 @@ const LandingPage = () => {
               <div
                 className="vertically-integrated-solution"
                 onClick={onClickIndustries}
-                style={{cursor:"pointer"}}
+                style={{ cursor: "pointer" }}
               >
                 Industries
               </div>
@@ -361,7 +360,7 @@ const LandingPage = () => {
               <div
                 className="vertically-integrated-solution"
                 onClick={onClickServices}
-                style={{cursor:"pointer"}}
+                style={{ cursor: "pointer" }}
               >
                 Service
               </div>
@@ -370,7 +369,7 @@ const LandingPage = () => {
               <div
                 className="vertically-integrated-solution"
                 onClick={onClickResource}
-                style={{cursor:"pointer"}}
+                style={{ cursor: "pointer" }}
               >
                 Resource
               </div>

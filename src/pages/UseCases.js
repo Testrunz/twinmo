@@ -1,12 +1,11 @@
-import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./UseCases.css";
 const UseCases = () => {
   const navigate = useNavigate();
 
-  const onClickHome = useCallback(() => {
+  const onClickHome = () => {
     navigate("/");
-  }, [navigate]);
+  }
 
   const onClickPlatform = () => {
     navigate("/platforms");
@@ -23,13 +22,13 @@ const UseCases = () => {
   const onClickResource = () => {
     navigate("/resource");
   };
-  const onPrivacyPolicyClick = useCallback(() => {
-    // Please sync "Privacy and policy" to the project
-  }, []);
+  const onPrivacyPolicyClick = () => {
+    navigate("/privacy-policy");
+  };
 
-  const onCookiePolicyTextClick = useCallback(() => {
-    // Please sync "Cookie Policy" to the project
-  }, []);
+  const onCookiePolicyTextClick = () => {
+    navigate("/cookie-policy");
+  };
 
   return (
     <div className="use-cases3">

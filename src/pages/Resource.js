@@ -1,4 +1,3 @@
-import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Resource.css";
 const Resource = () => {
@@ -25,11 +24,11 @@ const Resource = () => {
   };
 
   const onPrivacyPolicyClick = () => {
-    // Please sync "Privacy and policy" to the project
+    navigate("/privacy-policy");
   };
 
   const onCookiePolicyTextClick = () => {
-    // Please sync "Cookie Policy" to the project
+    navigate("/cookie-policy");
   };
 
   return (
