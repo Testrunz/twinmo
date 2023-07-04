@@ -61,7 +61,7 @@
 .vector-parent3 {
   position: absolute;
   top: 83.5px;
-  left: 0;
+  left: calc(50% - 670px);
   width: 1440px;
   height: 704.25px;
   font-size: var(--paragraph-style-1-size);
@@ -465,6 +465,7 @@
 }
 .header5 {
   position: absolute;
+  left: calc(50% - 670px);
   top: 0;
   width: 1440px;
   height: 89px;
