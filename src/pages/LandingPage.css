@@ -351,7 +351,7 @@
 .image-19-parent3 {
   position: absolute;
   top: 66px;
-  left: 1137px;
+  left: 1100px;
   width: 185.28px;
   height: 19.5px;
 }
@@ -419,9 +419,9 @@
   position: absolute;
   background-color: var(--mini-title-bg);
 }
-.footerdefault5 {
+.footerdefault5 { 
   bottom: -0.32px;
-  /* left: calc(50% - 704px); */
+  left: calc(50% - 670px);
   width: 1407.49px;
   height: 393.32px;
   font-size: var(--paragraph-style-1-size);

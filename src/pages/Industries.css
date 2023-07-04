@@ -219,7 +219,7 @@
 .image-19-container {
   position: absolute;
   top: 66px;
-  left: 1137px;
+  left: 1100px;
   width: 185.28px;
   height: 19.5px;
 }
@@ -288,6 +288,8 @@
   background-color: var(--mini-title-bg);
 }
 .footerdefault2 {
+  left: calc(50% - 670px);
+  left: calc(50% - 670px);
   bottom: -0.32px;
   width: 1407.49px;
   height: 393.32px;

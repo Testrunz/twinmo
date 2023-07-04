@@ -310,7 +310,7 @@
 .image-19-parent {
   position: absolute;
   top: 66px;
-  left: 1137px;
+  left: 1100px;
   width: 185.28px;
   height: 19.5px;
 }
@@ -376,6 +376,7 @@
 }
 .footerdefault {
   position: absolute;
+  left: calc(50% - 670px);
   bottom: 0;
   background-color: var(--mini-title-bg);
   width: 1407px;

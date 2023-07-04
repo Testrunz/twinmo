@@ -230,8 +230,8 @@ const Resource = () => {
           <div
             className="privacy-policy"
             onClick={onPrivacyPolicyClick}
-          >{`Privacy Policy | `}</div>
-          <div className="terms-of-service">{`Terms of Service | `}</div>
+          >Privacy Policy | </div>
+          <div className="terms-of-service">Terms of Service | </div>
           <div className="cookie-policy" onClick={onCookiePolicyTextClick}>
             Cookie Policy
           </div>

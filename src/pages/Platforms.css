@@ -161,7 +161,7 @@
 .image-19-parent2 {
   position: absolute;
   top: 66px;
-  left: 1137px;
+  left: 1100px;
   width: 185.28px;
   height: 19.5px;
 }
@@ -224,9 +224,11 @@
   gap: var(--gap-12xs);
   color: var(--color-gray-300);
 }
+
 .footerdefault4 {
   position: absolute;
   bottom: -0.32px;
+  left: calc(50% - 670px);
   background-color: var(--mini-title-bg);
   width: 1407.49px;
   height: 393.32px;
@@ -244,6 +246,9 @@
   height: 51.13px;
 }
 .digital-experimentation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
 }
 .a-web-based-application {
@@ -287,9 +292,11 @@
   gap: var(--gap-51xl);
 }
 .key-features {
-  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   top: 2831.75px;
-  left: 614.38px;
 }
 .over-1000-experimentation,
 .procedures {
@@ -365,8 +372,7 @@
   width: 221.25px;
   height: 78px;
 }
-.frame-parent33,
-.platforms-wrapper3 {
+.frame-parent33 {
   display: flex;
   justify-content: flex-start;
 }
@@ -402,6 +408,7 @@
   position: relative;
   width: 474.24px;
   height: 273px;
+  right:45px
 }
 .software,
 .testrunz {
@@ -482,9 +489,9 @@
   font-size: var(--font-size-17xl);
 }
 .frame-parent34 {
-  position: absolute;
+  position: relative;
   top: 863.75px;
-  left: 150px;
+  /* left: 150px; */
   flex-direction: column;
   align-items: center;
   gap: var(--gap-31xl);

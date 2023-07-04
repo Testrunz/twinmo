@@ -136,7 +136,9 @@ const Platforms = () => {
           <img className="my-page-4-1" alt="" src="/my-page-4-1@2x.png" />
         </div>
       </div>
-      <b className="key-features">Key Features</b>
+      <div class="key-features">
+        <b>Key Features</b>
+      </div>
       <div className="frame-parent33">
         <div className="section-parent">
           <div className="section">
@@ -224,8 +226,8 @@ const Platforms = () => {
         </div>
       </div>
       <div className="frame-parent34">
-        <div className="platforms-wrapper3">
-          <b className="digital-experimentation">Platforms</b>
+          <div className="digital-experimentation">
+            <b>Platforms</b>
         </div>
         <div className="frame-parent35">
           <div className="rectangle-parent7">

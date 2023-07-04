@@ -311,8 +311,8 @@ const LandingPage = () => {
           <div
             className="privacy-policy5"
             onClick={onPrivacyPolicyClick}
-          >{`Privacy Policy | `}</div>
-          <div className="terms-of-service5">{`Terms of Service | `}</div>
+          >Privacy Policy | </div>
+          <div className="terms-of-service5">Terms of Service | </div>
           <div className="cookie-policy5" onClick={onCookiePolicyTextClick}>
             Cookie Policy
           </div>

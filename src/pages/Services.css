@@ -564,7 +564,7 @@
 .image-19-group {
   position: absolute;
   top: 66px;
-  left: 1137px;
+  left: 1100px;
   width: 185.28px;
   height: 19.5px;
 }
@@ -632,6 +632,7 @@
   background-color: var(--mini-title-bg);
 }
 .footerdefault1 {
+  left: calc(50% - 670px);
   position: absolute;
   bottom: -0.32px;
   width: 1407.49px;
