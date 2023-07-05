@@ -76,12 +76,10 @@ const Services = () => {
               <div className="input">
                 <div className="input-title-section">
                   <div className="input-section">
-                    <div className="base-input-rounded-not-sel" />
-                    <div className="input-items-group-wrapper">
-                      <div className="input-items-group">
-                        <div className="interested-to-talk">Name</div>
-                      </div>
-                    </div>
+                    <input
+                      className="base-input-rounded-not-sel"
+                      placeholder="Name"
+                    ></input>
                     <div className="mini-title-contaier">
                       <div className="title">First name</div>
                       <div className="div">*</div>
@@ -92,13 +90,11 @@ const Services = () => {
               <div className="input1">
                 <div className="input-title-section">
                   <div className="input-section">
-                    <div className="base-input-rounded-not-sel" />
-                    <div className="input-items-group-wrapper">
-                      <div className="input-items-group">
-                        <div className="interested-to-talk">Lastname</div>
-                      </div>
-                    </div>
-                    <div className="mini-title-contaier1">
+                    <input
+                      className="base-input-rounded-not-sel"
+                      placeholder="Lastname"
+                    ></input>
+                    <div className="mini-title-contaier">
                       <div className="title">Last name</div>
                       <div className="div">*</div>
                     </div>
@@ -109,17 +105,13 @@ const Services = () => {
             <div className="input2">
               <div className="input-title-section">
                 <div className="input-section">
-                  <div className="base-input-rounded-not-sel2" />
-                  <div className="input-items-group-wrapper">
-                    <div className="input-items-group">
-                      <div className="interested-to-talk">
-                        yourmail@gmail.com
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mini-title-contaier2">
+                  <input
+                    className="base-input-rounded-not-sel"
+                    placeholder="yourmail@gmail.com"
+                  ></input>
+                  <div className="mini-title-contaier">
                     <div className="title">E-mail</div>
-                    <div className="div2">*</div>
+                    <div className="div">*</div>
                   </div>
                   <div className="input-right-section">
                     <img
@@ -134,7 +126,12 @@ const Services = () => {
             <div className="input3">
               <div className="input-title-section">
                 <div className="input-section">
-                  <div className="base-input-rounded-not-sel2" />
+                  <input
+                    className="base-input-rounded-not-sel"
+                    style={{paddingLeft:"130px"}}
+                    placeholder="XXXXXXXXXX"
+                  >
+                  </input>
                   <div className="input-items-group-wrapper">
                     <div className="input-items-group3">
                       <div className="flag-container">
@@ -150,9 +147,9 @@ const Services = () => {
                         />
                         <div className="button9">+91</div>
                       </div>
-                      <div className="placeholder3">xxxxxxxxxxxxxx</div>
                     </div>
                   </div>
+
                   <div className="mini-title-contaier3">
                     <div className="title">Phone</div>
                   </div>
@@ -191,10 +188,11 @@ const Services = () => {
             <div className="input5">
               <div className="input-title-section">
                 <div className="input-section">
-                  <div className="base-input-rounded-not-sel5" />
-                  <div className="input-items-group5">
-                    <div className="interested-to-talk">Your message</div>
-                  </div>
+                <textarea
+                    className="base-input-rounded-not-sel"
+                    placeholder="Your Message"
+                    style={{height:"150px", fontFamily:"Poppins"}}
+                  ></textarea>
                   <div className="mini-title-contaier1">
                     <div className="title">Message</div>
                     <div className="div">*</div>
@@ -204,9 +202,9 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="button10">
+        <button className="button10">
           <div className="enter">Enter</div>
-        </div>
+        </button>
       </div>
       <div className="header1">
         <div className="header-item" />
@@ -246,8 +244,27 @@ const Services = () => {
               </div>
             </div>
             <div className="button-hover-line5">
-              <div className="interested-to-talk" style={{ cursor: "pointer" }}>
+              <div
+                className="digital-experimentation"
+                style={{
+                  cursor: "pointer",
+                  position: "relative",
+                  display: "inline-block",
+                  paddingBottom: "5px",
+                }}
+              >
                 Service
+                <div
+                  className="underline"
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    bottom: 0,
+                    width: "100%",
+                    height: "3px",
+                    backgroundColor: "#F1C232",
+                  }}
+                ></div>
               </div>
             </div>
             <div className="button-hover-line5">

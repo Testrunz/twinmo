@@ -203,14 +203,32 @@ const Industries = () => {
                 className="twinmo2"
                 onClick={onClickUsecase}
                 style={{ cursor: "pointer" }}
-                style={{ cursor: "pointer" }}
               >
                 Use Cases
               </div>
             </div>
             <div className="button-hover-line10">
-              <div className="twinmo2" style={{ cursor: "pointer" }}>
+            <div
+                className="digital-experimentation"
+                style={{
+                  cursor: "pointer",
+                  position: "relative",
+                  display: "inline-block",
+                  paddingBottom: "5px",
+                }}
+              >
                 Industries
+                <div
+                  className="underline"
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    bottom: 0,
+                    width: "100%",
+                    height: "3px",
+                    backgroundColor: "#F1C232",
+                  }}
+                ></div>
               </div>
             </div>
             <div className="button-hover-line10">

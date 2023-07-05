@@ -226,8 +226,8 @@ const Platforms = () => {
         </div>
       </div>
       <div className="frame-parent34">
-          <div className="digital-experimentation">
-            <b>Platforms</b>
+        <div className="digital-experimentation">
+          <b>Platforms</b>
         </div>
         <div className="frame-parent35">
           <div className="rectangle-parent7">
@@ -309,9 +309,25 @@ const Platforms = () => {
             <div className="button-hover-line20">
               <div
                 className="digital-experimentation"
-                style={{ cursor: "pointer" }}
+                style={{
+                  cursor: "pointer",
+                  position: "relative",
+                  display: "inline-block",
+                  paddingBottom: "5px",
+                }}
               >
                 Platforms
+                <div
+                  className="underline"
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    bottom: 0,
+                    width: "100%",
+                    height: "3px",
+                    backgroundColor: "#F1C232",
+                  }}
+                ></div>
               </div>
             </div>
             <div className="button-hover-line20">

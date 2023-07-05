@@ -113,7 +113,28 @@ const Resource = () => {
               </div>
             </div>
             <div className="button-hover-line">
-              <div className="twinmo">Resource</div>
+              <div
+                className="digital-experimentation"
+                style={{
+                  cursor: "pointer",
+                  position: "relative",
+                  display: "inline-block",
+                  paddingBottom: "5px",
+                }}
+              >
+                Resource
+                <div
+                  className="underline"
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    bottom: 0,
+                    width: "100%",
+                    height: "3px",
+                    backgroundColor: "#F1C232",
+                  }}
+                ></div>
+              </div>
             </div>
           </div>
         </div>
@@ -227,10 +248,9 @@ const Resource = () => {
           </div>
         </div>
         <div className="privacy-policy-parent">
-          <div
-            className="privacy-policy"
-            onClick={onPrivacyPolicyClick}
-          >Privacy Policy | </div>
+          <div className="privacy-policy" onClick={onPrivacyPolicyClick}>
+            Privacy Policy |{" "}
+          </div>
           <div className="terms-of-service">Terms of Service | </div>
           <div className="cookie-policy" onClick={onCookiePolicyTextClick}>
             Cookie Policy

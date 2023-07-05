@@ -67,7 +67,7 @@
   height: 704.25px;
   color: var(--primar-yellow);
 }
-.interested-to-talk {
+/* .interested-to-talk {
   position: relative;
 }
 .interested-to-talk-wrapper {
@@ -76,7 +76,7 @@
   padding: var(--padding-5xs-5);
   align-items: center;
   justify-content: center;
-}
+} */
 .achieve-your-most {
   position: relative;
   font-size: var(--font-size-mini);
@@ -115,25 +115,23 @@
   border: 1px solid var(--input-border-color);
   box-sizing: border-box;
   height: 46px;
+  padding: 15px;
 }
-.input-items-group,
+
 .input-items-group-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-}
-.input-items-group {
-  width: 225px;
-  padding: 0 var(--padding-base);
-  box-sizing: border-box;
-}
-.input-items-group-wrapper {
   position: absolute;
   top: 0;
   left: 0;
   height: 46px;
+  width: 225px;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
 }
+
 .div,
 .title {
   position: relative;
@@ -392,6 +390,7 @@
   position: relative;
   line-height: 28px;
   font-weight: 600;
+  cursor: pointer;
 }
 .button10 {
   align-self: stretch;
@@ -407,6 +406,8 @@
   text-align: center;
   font-size: 28px;
   color: var(--mini-title-bg);
+  border: none;
+  cursor: pointer;
 }
 .contact-form,
 .header-item {

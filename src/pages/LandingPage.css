@@ -483,3 +483,6 @@
   color: var(--heading-color);
   font-family: var(--h3);
 }
+.active {
+  text-decoration: underline;
+}

@@ -176,8 +176,27 @@ const UseCases = () => {
               </div>
             </div>
             <div className="button-hover-line15">
-              <div className="button27" style={{ cursor: "pointer" }}>
+            <div
+                className="digital-experimentation"
+                style={{
+                  cursor: "pointer",
+                  position: "relative",
+                  display: "inline-block",
+                  paddingBottom: "5px",
+                }}
+              >
                 Use Cases
+                <div
+                  className="underline"
+                  style={{
+                    position: "absolute",
+                    left: 0,
+                    bottom: 0,
+                    width: "100%",
+                    height: "3px",
+                    backgroundColor: "#F1C232",
+                  }}
+                ></div>
               </div>
             </div>
             <div className="button-hover-line15">
