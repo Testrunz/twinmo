@@ -162,11 +162,11 @@ const Industries = () => {
             <div className="twinmo-frame">
               <div className="twinmo2">Contact us</div>
             </div>
-            {/* <div className="twinmo-frame">
+            <div className="twinmo-frame">
               <div className="twinmo-ay-1102">
-                Twinmo ,ay 110 Plaza WestSan Jose, CA 95128 USA
+                No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="image-19-container">
             <img className="image-19-icon2" alt="" src="/image-19@2x.png" />

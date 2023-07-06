@@ -228,7 +228,7 @@ const Resource = () => {
               <div className="home-wrapper" onClick={onClickServices}>
                 <div className="twinmo">Services</div>
               </div>
-              <div className="home-wrapper" onClick={ onClickResource }>
+              <div className="home-wrapper" onClick={onClickResource}>
                 <div className="twinmo">Resource</div>
               </div>
             </div>
@@ -240,11 +240,11 @@ const Resource = () => {
             <div className="twinmo-wrapper">
               <div className="twinmo">Contact us</div>
             </div>
-            {/* <div className="twinmo-wrapper">
+            <div className="twinmo-wrapper">
               <div className="twinmo-ay-110">
-                Twinmo ,ay 110 Plaza WestSan Jose, CA 95128 USA
+              No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="image-19-parent">
             <img className="image-19-icon" alt="" src="/image-19@2x.png" />

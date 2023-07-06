@@ -45,42 +45,71 @@ const CookiePolicy = () => {
 
   return (
     <div className={styles.cookiePolicy}>
-      <div className={styles.headerNew}>
-        <img
-          className={styles.image12Icon}
-          alt=""
-          src="/image-12@2x.png"
-          onClick={onClickHome}
-        />
-        <div className={styles.buttonHoverLineParent}>
-          <div className={styles.buttonHoverLine}>
-            <div className={styles.button} onClick={onClickPlatform}>
-              Platforms
+      <div className="header5">
+        <div className="header-child3" />
+        <div className="image-9-parent3">
+          <img
+            className="image-9-icon11"
+            alt=""
+            src="/image-9@2x.png"
+            onClick={onClickHome}
+            style={{ cursor: "pointer" }}
+          />
+          <div className="button-hover-line-parent3">
+            <div className="button-hover-line25">
+              <div
+                className={styles.verticallyintegratedsolution}
+                onClick={onClickPlatform}
+                style={{ cursor: "pointer" }}
+              >
+                Platforms
+              </div>
             </div>
-          </div>
-          <div className={styles.buttonHoverLine}>
-            <div className={styles.button} onClick={onClickUsecase}>
-              Use Cases
+            <div className="button-hover-line25">
+              <div
+                className={styles.verticallyintegratedsolution}
+                onClick={onClickUsecase}
+                style={{ cursor: "pointer" }}
+              >
+                Use Cases
+              </div>
             </div>
-          </div>
-          <div className={styles.buttonHoverLine}>
-            <div
-              className={styles.button}
-              onClick={onClickServices}
-            >Service</div>
-          </div>
-          <div className={styles.buttonHoverLine}>
-            <div className={styles.button} onClick={onClickResource}>
-              Resource
+            <div className="button-hover-line25">
+              <div
+                className={styles.verticallyintegratedsolution}
+                onClick={onClickIndustries}
+                style={{ cursor: "pointer" }}
+              >
+                Industries
+              </div>
+            </div>
+            <div className="button-hover-line25">
+              <div
+                className={styles.verticallyintegratedsolution}
+                onClick={onClickServices}
+                style={{ cursor: "pointer" }}
+              >
+                Service
+              </div>
+            </div>
+            <div className="button-hover-line25">
+              <div
+                className={styles.verticallyintegratedsolution}
+                onClick={onClickResource}
+                style={{ cursor: "pointer" }}
+              >
+                Resource
+              </div>
             </div>
           </div>
         </div>
       </div>
+
       <div className={styles.footerdefault}>
         <div className={styles.footer}>
           <div className={styles.frameParent}>
             <div className={styles.twinmoWrapper}>
-              <b className={styles.button}>Twinmo</b>
+              <b className={styles.buttonhead}>Twinmo</b>
             </div>
             <div className={styles.frameGroup}>
               <div className={styles.homeWrapper} onClick={onClickHome}>
@@ -105,16 +134,16 @@ const CookiePolicy = () => {
           </div>
           <div className={styles.frameContainer}>
             <div className={styles.contactWrapper}>
-              <b className={styles.button}>Contact</b>
+              <b className={styles.buttonhead}>Contact</b>
             </div>
             <div className={styles.twinmoWrapper}>
               <div className={styles.button}>Contact us</div>
             </div>
-            {/* <div className={styles.twinmoWrapper}>
+            <div className={styles.twinmoWrapper}>
               <div className={styles.twinmoAy110}>
-                Twinmo ,ay 110 Plaza WestSan Jose, CA 95128 USA
+                No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div> */}
+            </div>
           </div>
           <div className={styles.image19Parent}>
             <img className={styles.image19Icon} alt="" src="/image-19@2x.png" />

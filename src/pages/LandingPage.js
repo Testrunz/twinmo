@@ -297,11 +297,11 @@ const LandingPage = () => {
             <div className="twinmo-wrapper3">
               <div className="vertically-integrated-solution">Contact us</div>
             </div>
-            {/* <div className="twinmo-wrapper3">
+            <div className="twinmo-wrapper3">
               <div className="twinmo-ay-1105">
-                Twinmo ,ay 110 Plaza WestSan Jose, CA 95128 USA
+                No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="image-19-parent3">
             <img className="image-19-icon5" alt="" src="/image-19@2x.png" />
@@ -316,10 +316,9 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="privacy-policy-parent3">
-          <div
-            className="privacy-policy5"
-            onClick={onPrivacyPolicyClick}
-          >Privacy Policy | </div>
+          <div className="privacy-policy5" onClick={onPrivacyPolicyClick}>
+            Privacy Policy |{" "}
+          </div>
           <div className="terms-of-service5">Terms of Service | </div>
           <div className="cookie-policy5" onClick={onCookiePolicyTextClick}>
             Cookie Policy

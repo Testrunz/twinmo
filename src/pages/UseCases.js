@@ -287,6 +287,11 @@ const UseCases = () => {
             <div className="twinmo-wrapper1">
               <div className="button27">Contact us</div>
             </div>
+            <div className="twinmo-container">
+              <div className="twinmo-ay-1101">
+                No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
+              </div>
+            </div>
           </div>
           <div className="image-19-parent1">
             <img className="image-19-icon3" alt="" src="/image-19@2x.png" />

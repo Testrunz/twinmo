@@ -324,11 +324,11 @@ const Services = () => {
             <div className="twinmo-container">
               <div className="interested-to-talk">Contact us</div>
             </div>
-            {/* <div className="twinmo-container">
+            <div className="twinmo-container">
               <div className="twinmo-ay-1101">
-                Twinmo ,ay 110 Plaza WestSan Jose, CA 95128 USA
+              No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="image-19-group">
             <img className="image-19-icon1" alt="" src="/image-19@2x.png" />

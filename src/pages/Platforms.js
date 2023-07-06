@@ -99,11 +99,11 @@ const Platforms = () => {
             <div className="twinmo-wrapper2">
               <div className="digital-experimentation">Contact us</div>
             </div>
-            {/* <div className="twinmo-wrapper2">
+            <div className="twinmo-wrapper2">
               <div className="twinmo-ay-1104">
-                Twinmo ,ay 110 Plaza WestSan Jose, CA 95128 USA
+                No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div> */}
+            </div>
           </div>
           <div className="image-19-parent2">
             <img className="image-19-icon4" alt="" src="/image-19@2x.png" />
@@ -220,7 +220,7 @@ const Platforms = () => {
           <div className="section">
             <b className="runz-report">Saves time</b>
             <div className="over-1000-experimentation">
-              No need to calculate the result. Submitted runz shown the actual
+              No need to calculate the result. Submitted runz shows the actual
               result.
             </div>
             <div className="section-child">

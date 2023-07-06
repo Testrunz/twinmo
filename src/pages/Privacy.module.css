@@ -5,8 +5,12 @@
   object-fit: cover;
   cursor: pointer;
 }
+.buttonhead{
+  font-size: 19.5px;
+}
 .button {
   position: relative;
+  font-size: 16px;
 }
 .buttonHoverLine {
   display: flex;
@@ -38,6 +42,10 @@
   align-items: flex-end;
   justify-content: flex-start;
   gap: var(--gap-152xl);
+}
+.verticallyintegratedsolution {
+  font-family: Poppins;
+  font-size: 15px;
 }
 .twinmoWrapper {
   display: flex;
@@ -135,7 +143,7 @@
 .image19Parent {
   position: absolute;
   top: 66px;
-  left: 1137px;
+  left: 1100px;
   width: 185.28px;
   height: 19.5px;
 }
@@ -192,7 +200,7 @@
 .privacyPolicyParent {
   position: absolute;
   top: 356px;
-  left: 1004.15px;
+  left: 900px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -208,6 +216,7 @@
   width: 1407.49px;
   height: 393.32px;
   font-size: var(--paragraph-size);
+  font-family: "Poppins";
 }
 .privacyPolicy1 {
   position: absolute;
@@ -322,6 +331,7 @@
   width: 842px;
   height: 1076px;
   font-size: var(--h4-size);
+  font-family: "Poppins";
 }
 .privacyAndPolicy {
   position: relative;
