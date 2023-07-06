@@ -5,33 +5,41 @@ const LandingPage = () => {
 
   const onClickHome = () => {
     navigate("/");
+    window.scrollTo(0, 0);
   };
 
   const onClickPlatform = () => {
+    window.scrollTo(0, 0);
     navigate("/platforms");
   };
 
   const onClickUsecase = () => {
+    window.scrollTo(0, 0);
     navigate("/use-cases");
   };
 
   const onClickIndustries = () => {
+    window.scrollTo(0, 0);
     navigate("/industries");
   };
 
   const onClickServices = () => {
+    window.scrollTo(0, 0);
     navigate("/services");
   };
 
   const onClickResource = () => {
+    window.scrollTo(0, 0);
     navigate("/resource");
   };
 
   const onPrivacyPolicyClick = () => {
+    window.scrollTo(0, 0);
     navigate("/privacy-policy");
   };
 
   const onCookiePolicyTextClick = () => {
+    window.scrollTo(0, 0);
     navigate("/cookie-policy");
   };
 
@@ -289,11 +297,11 @@ const LandingPage = () => {
             <div className="twinmo-wrapper3">
               <div className="vertically-integrated-solution">Contact us</div>
             </div>
-            <div className="twinmo-wrapper3">
+            {/* <div className="twinmo-wrapper3">
               <div className="twinmo-ay-1105">
                 Twinmo ,ay 110 Plaza WestSan Jose, CA 95128 USA
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="image-19-parent3">
             <img className="image-19-icon5" alt="" src="/image-19@2x.png" />

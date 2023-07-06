@@ -1,34 +1,43 @@
-import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Platforms.css";
 const Platforms = () => {
   const navigate = useNavigate();
 
-  const onClickHome = useCallback(() => {
+  const onClickHome = () => {
+    window.scrollTo(0, 0);
     navigate("/");
-  }, [navigate]);
-
+  };
+  const onClickPlatform = () => {
+    window.scrollTo(0, 0);
+    navigate("/platforms");
+  };
   const onClickUsecase = () => {
+    window.scrollTo(0, 0);
     navigate("/use-cases");
   };
 
   const onClickIndustries = () => {
+    window.scrollTo(0, 0);
     navigate("/industries");
   };
 
   const onClickService = () => {
+    window.scrollTo(0, 0);
     navigate("/services");
   };
 
   const onClickResource = () => {
+    window.scrollTo(0, 0);
     navigate("/resource");
   };
 
   const onPrivacyPolicyClick = () => {
+    window.scrollTo(0, 0);
     navigate("/privacy-policy");
   };
 
   const onCookiePolicyTextClick = () => {
+    window.scrollTo(0, 0);
     navigate("/cookie-policy");
   };
 
@@ -66,7 +75,7 @@ const Platforms = () => {
               <div className="home-wrapper2" onClick={onClickHome}>
                 <div className="digital-experimentation">Home</div>
               </div>
-              <div className="home-wrapper2">
+              <div className="home-wrapper2" onClick={onClickPlatform}>
                 <div className="digital-experimentation">Platforms</div>
               </div>
               <div className="home-wrapper2" onClick={onClickUsecase}>
@@ -90,11 +99,11 @@ const Platforms = () => {
             <div className="twinmo-wrapper2">
               <div className="digital-experimentation">Contact us</div>
             </div>
-            <div className="twinmo-wrapper2">
+            {/* <div className="twinmo-wrapper2">
               <div className="twinmo-ay-1104">
                 Twinmo ,ay 110 Plaza WestSan Jose, CA 95128 USA
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="image-19-parent2">
             <img className="image-19-icon4" alt="" src="/image-19@2x.png" />

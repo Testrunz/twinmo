@@ -4,30 +4,42 @@ const Services = () => {
   const navigate = useNavigate();
 
   const onClickHome = () => {
+    window.scrollTo(0, 0);
     navigate("/");
   };
 
   const onClickPlatform = () => {
+    window.scrollTo(0, 0);
     navigate("/platforms");
   };
 
   const onClickUsecase = () => {
+    window.scrollTo(0, 0);
     navigate("/use-cases");
   };
 
   const onClickIndustries = () => {
+    window.scrollTo(0, 0);
     navigate("/industries");
   };
 
+  const onClickServices = () => {
+    window.scrollTo(0, 0);
+    navigate("/services");
+  };
+
   const onClickResource = () => {
+    window.scrollTo(0, 0);
     navigate("/resource");
   };
 
   const onPrivacyPolicyClick = () => {
+    window.scrollTo(0, 0);
     navigate("/privacy-policy");
   };
 
   const onCookiePolicyTextClick = () => {
+    window.scrollTo(0, 0);
     navigate("/cookie-policy");
   };
 
@@ -128,10 +140,9 @@ const Services = () => {
                 <div className="input-section">
                   <input
                     className="base-input-rounded-not-sel"
-                    style={{paddingLeft:"130px"}}
+                    style={{ paddingLeft: "130px" }}
                     placeholder="XXXXXXXXXX"
-                  >
-                  </input>
+                  ></input>
                   <div className="input-items-group-wrapper">
                     <div className="input-items-group3">
                       <div className="flag-container">
@@ -188,10 +199,10 @@ const Services = () => {
             <div className="input5">
               <div className="input-title-section">
                 <div className="input-section">
-                <textarea
+                  <textarea
                     className="base-input-rounded-not-sel"
                     placeholder="Your Message"
-                    style={{height:"150px", fontFamily:"Poppins"}}
+                    style={{ height: "150px", fontFamily: "Poppins" }}
                   ></textarea>
                   <div className="mini-title-contaier1">
                     <div className="title">Message</div>
@@ -298,7 +309,7 @@ const Services = () => {
               <div className="home-container" onClick={onClickIndustries}>
                 <div className="interested-to-talk">Industries</div>
               </div>
-              <div className="home-container">
+              <div className="home-container" onClick={onClickServices}>
                 <div className="interested-to-talk">Services</div>
               </div>
               <div className="home-container" onClick={onClickResource}>
@@ -313,11 +324,11 @@ const Services = () => {
             <div className="twinmo-container">
               <div className="interested-to-talk">Contact us</div>
             </div>
-            <div className="twinmo-container">
+            {/* <div className="twinmo-container">
               <div className="twinmo-ay-1101">
                 Twinmo ,ay 110 Plaza WestSan Jose, CA 95128 USA
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="image-19-group">
             <img className="image-19-icon1" alt="" src="/image-19@2x.png" />

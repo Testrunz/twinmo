@@ -1,32 +1,46 @@
 import { useNavigate } from "react-router-dom";
+import { Typewriter } from "react-simple-typewriter";
+
 import "./UseCases.css";
 const UseCases = () => {
   const navigate = useNavigate();
 
   const onClickHome = () => {
+    window.scrollTo(0, 0);
     navigate("/");
-  }
+  };
 
   const onClickPlatform = () => {
+    window.scrollTo(0, 0);
     navigate("/platforms");
   };
 
   const onClickIndustries = () => {
+    window.scrollTo(0, 0);
     navigate("/industries");
   };
 
+  const onClickUsecase = () => {
+    window.scrollTo(0, 0);
+    navigate("/use-cases");
+  };
+
   const onClickService = () => {
+    window.scrollTo(0, 0);
     navigate("/services");
   };
 
   const onClickResource = () => {
+    window.scrollTo(0, 0);
     navigate("/resource");
   };
   const onPrivacyPolicyClick = () => {
+    window.scrollTo(0, 0);
     navigate("/privacy-policy");
   };
 
   const onCookiePolicyTextClick = () => {
+    window.scrollTo(0, 0);
     navigate("/cookie-policy");
   };
 
@@ -62,17 +76,29 @@ const UseCases = () => {
         </div>
       </div>
       <div className="group-div">
-        <div className="experiment-to-parent">
-          <div className="experiment-to">Experiment to</div>
-          <div className="auto-typing">
-            <div className="component-7">
-              <div className="mask-group">
-                <div className="learn">learn</div>
-              </div>
-              <div className="component-7-child" />
-            </div>
-          </div>
-        </div>
+        <h4 className="experiment-to">
+          Experiment to{" "}
+          <span style={{ color: "#F1C232" }}>
+            <Typewriter
+              words={[
+                "learn",
+                "decide",
+                "innovate",
+                "launch",
+                "optimize",
+                "save",
+                "market",
+                "sell",
+                "engage",
+                "solve",
+              ]}
+              loop={0}
+              cursor
+              typeSpeed={120}
+              deleteSpeed={60}
+            />
+          </span>
+        </h4>
         <div className="component-9">
           <div className="frame-parent23">
             <div className="discover-innovate-wrapper">
@@ -176,7 +202,7 @@ const UseCases = () => {
               </div>
             </div>
             <div className="button-hover-line15">
-            <div
+              <div
                 className="digital-experimentation"
                 style={{
                   cursor: "pointer",
@@ -240,7 +266,7 @@ const UseCases = () => {
               <div className="home-wrapper1" onClick={onClickPlatform}>
                 <div className="button27">Platforms</div>
               </div>
-              <div className="home-wrapper1">
+              <div className="home-wrapper1" onClick={onClickUsecase}>
                 <div className="button27">Use Cases</div>
               </div>
               <div className="home-wrapper1" onClick={onClickIndustries}>
@@ -260,11 +286,6 @@ const UseCases = () => {
             </div>
             <div className="twinmo-wrapper1">
               <div className="button27">Contact us</div>
-            </div>
-            <div className="twinmo-wrapper1">
-              <div className="twinmo-ay-1103">
-                Twinmo ,ay 110 Plaza WestSan Jose, CA 95128 USA
-              </div>
             </div>
           </div>
           <div className="image-19-parent1">

@@ -4,34 +4,42 @@ const PrivacyAndPolicy = () => {
   const navigate = useNavigate();
 
   const onClickHome = () => {
+    window.scrollTo(0, 0);
     navigate("/");
   };
 
   const onClickPlatform = () => {
+    window.scrollTo(0, 0);
     navigate("/platforms");
   };
 
   const onClickUsecase = () => {
+    window.scrollTo(0, 0);
     navigate("/use-cases");
   };
 
   const onClickIndustries = () => {
+    window.scrollTo(0, 0);
     navigate("/industries");
   };
 
   const onClickServices = () => {
+    window.scrollTo(0, 0);
     navigate("/services");
   };
 
   const onClickResource = () => {
+    window.scrollTo(0, 0);
     navigate("/resource");
   };
 
   const onPrivacyPolicyClick = () => {
+    window.scrollTo(0, 0);
     navigate("/privacy-policy");
   };
 
   const onCookiePolicyTextClick = () => {
+    window.scrollTo(0, 0);
     navigate("/cookie-policy");
   };
 

@@ -4,30 +4,41 @@ const Resource = () => {
   const navigate = useNavigate();
 
   const onClickHome = () => {
+    window.scrollTo(0, 0);
     navigate("/");
   };
 
   const onClickPlatform = () => {
+    window.scrollTo(0, 0);
     navigate("/platforms");
   };
 
   const onClickUsecase = () => {
+    window.scrollTo(0, 0);
     navigate("/use-cases");
   };
 
   const onClickIndustries = () => {
+    window.scrollTo(0, 0);
     navigate("/industries");
   };
 
   const onClickServices = () => {
+    window.scrollTo(0, 0);
     navigate("/services");
+  };
+  const onClickResource = () => {
+    window.scrollTo(0, 0);
+    navigate("/resource");
   };
 
   const onPrivacyPolicyClick = () => {
+    window.scrollTo(0, 0);
     navigate("/privacy-policy");
   };
 
   const onCookiePolicyTextClick = () => {
+    window.scrollTo(0, 0);
     navigate("/cookie-policy");
   };
 
@@ -217,7 +228,7 @@ const Resource = () => {
               <div className="home-wrapper" onClick={onClickServices}>
                 <div className="twinmo">Services</div>
               </div>
-              <div className="home-wrapper">
+              <div className="home-wrapper" onClick={ onClickResource }>
                 <div className="twinmo">Resource</div>
               </div>
             </div>
@@ -229,11 +240,11 @@ const Resource = () => {
             <div className="twinmo-wrapper">
               <div className="twinmo">Contact us</div>
             </div>
-            <div className="twinmo-wrapper">
+            {/* <div className="twinmo-wrapper">
               <div className="twinmo-ay-110">
                 Twinmo ,ay 110 Plaza WestSan Jose, CA 95128 USA
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="image-19-parent">
             <img className="image-19-icon" alt="" src="/image-19@2x.png" />

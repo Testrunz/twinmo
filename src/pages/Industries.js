@@ -4,29 +4,41 @@ const Industries = () => {
   const navigate = useNavigate();
 
   const onClickHome = () => {
+    window.scrollTo(0, 0);
     navigate("/");
   };
 
   const onClickPlatform = () => {
+    window.scrollTo(0, 0);
     navigate("/platforms");
   };
 
+  const onClickIndustries = () => {
+    window.scrollTo(0, 0);
+    navigate("/industries");
+  };
+
   const onClickUsecase = () => {
+    window.scrollTo(0, 0);
     navigate("/use-cases");
   };
 
   const onClickServices = () => {
+    window.scrollTo(0, 0);
     navigate("/services");
   };
 
   const onClickResource = () => {
+    window.scrollTo(0, 0);
     navigate("/resource");
   };
   const onPrivacyPolicyClick = () => {
+    window.scrollTo(0, 0);
     navigate("/privacy-policy");
   };
 
   const onCookiePolicyTextClick = () => {
+    window.scrollTo(0, 0);
     navigate("/cookie-policy");
   };
 
@@ -132,7 +144,7 @@ const Industries = () => {
               <div className="home-frame" onClick={onClickUsecase}>
                 <div className="twinmo2">Use Cases</div>
               </div>
-              <div className="home-frame">
+              <div className="home-frame" onClick={onClickIndustries}>
                 <div className="twinmo2">Industries</div>
               </div>
               <div className="home-frame" onClick={onClickServices}>
@@ -150,11 +162,11 @@ const Industries = () => {
             <div className="twinmo-frame">
               <div className="twinmo2">Contact us</div>
             </div>
-            <div className="twinmo-frame">
+            {/* <div className="twinmo-frame">
               <div className="twinmo-ay-1102">
                 Twinmo ,ay 110 Plaza WestSan Jose, CA 95128 USA
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="image-19-container">
             <img className="image-19-icon2" alt="" src="/image-19@2x.png" />
@@ -169,10 +181,9 @@ const Industries = () => {
           </div>
         </div>
         <div className="privacy-policy-container">
-          <div
-            className="privacy-policy2"
-            onClick={onPrivacyPolicyClick}
-          >Privacy Policy | </div>
+          <div className="privacy-policy2" onClick={onPrivacyPolicyClick}>
+            Privacy Policy |{" "}
+          </div>
           <div className="terms-of-service2">Terms of Service |</div>
           <div className="cookie-policy2" onClick={onCookiePolicyTextClick}>
             Cookie Policy
@@ -208,7 +219,7 @@ const Industries = () => {
               </div>
             </div>
             <div className="button-hover-line10">
-            <div
+              <div
                 className="digital-experimentation"
                 style={{
                   cursor: "pointer",
