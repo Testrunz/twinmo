@@ -70,7 +70,7 @@ const Services = () => {
           <img className="group-icon" alt="" src="/group-181@2x.png" />
         </div>
       </div>
-      <div className="services-inner">
+      {/* <div className="services-inner">
         <div className="frame-parent10">
           <div className="interested-to-talk-wrapper">
             <b className="interested-to-talk">Interested to talk?</b>
@@ -80,7 +80,7 @@ const Services = () => {
             Talent Network. Let’s get ready to rock!
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="contact-form">
         <div className="form">
           <div className="input-group">
