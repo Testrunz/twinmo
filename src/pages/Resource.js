@@ -150,23 +150,23 @@ const Resource = () => {
           </div>
         </div>
       </div>
-      <div className="frame-group">
-        <div className="rectangle-parent">
-          <div className="rectangle-div" />
-          <div className="group-parent">
-            <div className="testrunz-provides-a-single-pla-parent">
-              <div className="testrunz-provides-a">
+      {/* <div className="frame-group">
+         <div className="rectangle-parent">
+           <div className="rectangle-div" />
+         <div className="group-parent">
+              <div className="testrunz-provides-a-single-pla-parent">
+             <div className="testrunz-provides-a">
                 Testrunz provides a single platform to track, analyze, and
                 report experiments throughout all phases of product development
                 - discovery, compliance testing, and manufacturing testing.
               </div>
-              <div className="unified-experimentation-platfo">
+             <div className="unified-experimentation-platfo">
                 Unified Experimentation Platform
-              </div>
+              </div> 
             </div>
-            {/* <div className="button-type-21">
+             <div className="button-type-21">
               <div className="button">Get Started</div>
-            </div> */}
+            </div> 
           </div>
         </div>
         <div className="rectangle-parent">
@@ -184,7 +184,7 @@ const Resource = () => {
             </div>
             {/* <div className="button-type-21">
               <div className="button">Get Started</div>
-            </div> */}
+            </div> 
           </div>
         </div>
         <div className="rectangle-parent">
@@ -202,10 +202,10 @@ const Resource = () => {
             </div>
             {/* <div className="button-type-21">
               <div className="button">Get Started</div>
-            </div> */}
+            </div> 
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="footerdefault">
         <div className="footer">
           <div className="frame-container">
@@ -331,7 +331,7 @@ const Resource = () => {
       <b className="methods-and-tools">
         Methods and Tools for Experimentation and Analysis
       </b>
-      <b className="some-captions">Some Captions</b>
+      {/* <b className="some-captions">Some Captions</b> */}
     </div>
   );
 };

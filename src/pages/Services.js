@@ -135,7 +135,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="input3">
+            {/* <div className="input3">
               <div className="input-title-section">
                 <div className="input-section">
                   <input
@@ -173,8 +173,8 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="input-title-section">
+            </div> */}
+            {/* <div className="input-title-section">
               <div className="input-title-section">
                 <div className="input-section">
                   <div className="base-input-rounded-not-sel2" />
@@ -195,7 +195,7 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="input5">
               <div className="input-title-section">
                 <div className="input-section">
