@@ -72,13 +72,16 @@
   font-weight: 600;
 }
 .industries-frame {
-  position: absolute;
   top: 799.5px;
-  left: 621px;
+  left: calc(50% - 60px);
   width: 198px;
   height: 60px;
   font-size: 39px;
   color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 .frame-icon {
   position: relative;
@@ -107,7 +110,7 @@
 .frame-parent18 {
   position: absolute;
   top: 938px;
-  left: 120px;
+  left: calc(50% - 600px);
   display: flex;
   flex-direction: row;
   align-items: center;

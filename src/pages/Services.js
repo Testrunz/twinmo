@@ -63,9 +63,9 @@ const Services = () => {
                 schedule a consultation.
               </p>
             </div>
-            <div className="button-type-24">
+            {/* <div className="button-type-24">
               <div className="button9">Get Started</div>
-            </div>
+            </div> */}
           </div>
           <img className="group-icon" alt="" src="/group-181@2x.png" />
         </div>
@@ -293,9 +293,9 @@ const Services = () => {
       <div className="footerdefault1">
         <div className="footer1">
           <div className="frame-parent11">
-            <div className="twinmo-container">
+            {/* <div className="twinmo-container">
               <b className="interested-to-talk">Twinmo</b>
-            </div>
+            </div> */}
             <div className="frame-parent12">
               <div className="home-container" onClick={onClickHome}>
                 <div className="interested-to-talk">Home</div>
@@ -318,9 +318,9 @@ const Services = () => {
             </div>
           </div>
           <div className="frame-parent13">
-            <div className="contact-container">
+            {/* <div className="contact-container">
               <b className="interested-to-talk">Contact</b>
-            </div>
+            </div> */}
             <div className="twinmo-container">
               <div className="interested-to-talk">Contact us</div>
             </div>

@@ -135,6 +135,7 @@
 .discover-innovate {
   position: relative;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .discover-innovate-wrapper,

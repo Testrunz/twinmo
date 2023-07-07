@@ -77,9 +77,9 @@ const LandingPage = () => {
               Revolutionize your product testing with Twinmo's innovative
               all-in-one solution, Testrunz.
             </div>
-            <div className="button-type-216">
+            {/* <div className="button-type-216">
               <div className="predefined-test-procedure">Get Started</div>
-            </div>
+            </div> */}
           </div>
           <img className="frame-child29" alt="" src="/group-185@2x.png" />
         </div>
@@ -94,9 +94,9 @@ const LandingPage = () => {
             decisions quickly. Plan and execute experiments with ease, without
             ever beating around the bush.
           </div>
-          <div className="button-type-216">
+          {/* <div className="button-type-216">
             <div className="predefined-test-procedure">Get Started</div>
-          </div>
+          </div> */}
         </div>
         <div className="confident-teacher-explaining-l-wrapper">
           <img
@@ -111,7 +111,7 @@ const LandingPage = () => {
           <img
             className="confident-teacher-explaining-l-icon"
             alt=""
-            src="/confidentteacherexplaininglessonpupils-11@2x.png"
+            src="/home.png"
           />
         </div>
         <div className="the-power-of-rapid-experimenta-parent">
@@ -124,9 +124,9 @@ const LandingPage = () => {
             Streamline every type of experiment or test, and manage all units
             under test, from components to subsystems to the full product.
           </div>
-          <div className="button-type-216">
+          {/* <div className="button-type-216">
             <div className="predefined-test-procedure">Get Started</div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="frame-parent41">
@@ -154,9 +154,9 @@ const LandingPage = () => {
             solution, eliminating setup time and enhancing your productivity.
             Our platform streamlines experiment execution like never before.
           </div>
-          <div className="button-type-216">
+          {/* <div className="button-type-216">
             <div className="predefined-test-procedure">Get Started</div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="frame-parent42">
@@ -266,9 +266,9 @@ const LandingPage = () => {
       <div className="footerdefault5">
         <div className="footer5">
           <div className="frame-parent45">
-            <div className="twinmo-wrapper3">
+            {/* <div className="twinmo-wrapper3">
               <b className="vertically-integrated-solution">Twinmo</b>
-            </div>
+            </div> */}
             <div className="frame-parent46">
               <div className="home-wrapper3" onClick={onClickHome}>
                 <div className="vertically-integrated-solution">Home</div>
@@ -291,9 +291,9 @@ const LandingPage = () => {
             </div>
           </div>
           <div className="frame-parent47">
-            <div className="contact-wrapper3">
+            {/* <div className="contact-wrapper3">
               <b className="vertically-integrated-solution">Contact</b>
-            </div>
+            </div> */}
             <div className="twinmo-wrapper3">
               <div className="vertically-integrated-solution">Contact us</div>
             </div>

@@ -108,9 +108,9 @@ const CookiePolicy = () => {
       <div className={styles.footerdefault}>
         <div className={styles.footer}>
           <div className={styles.frameParent}>
-            <div className={styles.twinmoWrapper}>
+            {/* <div className={styles.twinmoWrapper}>
               <b className={styles.buttonhead}>Twinmo</b>
-            </div>
+            </div> */}
             <div className={styles.frameGroup}>
               <div className={styles.homeWrapper} onClick={onClickHome}>
                 <div className={styles.button}>Home</div>
@@ -133,9 +133,9 @@ const CookiePolicy = () => {
             </div>
           </div>
           <div className={styles.frameContainer}>
-            <div className={styles.contactWrapper}>
+            {/* <div className={styles.contactWrapper}>
               <b className={styles.buttonhead}>Contact</b>
-            </div>
+            </div> */}
             <div className={styles.twinmoWrapper}>
               <div className={styles.button}>Contact us</div>
             </div>

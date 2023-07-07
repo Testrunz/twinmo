@@ -70,9 +70,9 @@ const Resource = () => {
                 content more engaging and visually appealing.
               </p>
             </div>
-            <div className="button-type-2">
+            {/* <div className="button-type-2">
               <div className="button">Get Started</div>
-            </div>
+            </div> */}
           </div>
           <img className="frame-inner" alt="" src="/group-18@2x.png" />
         </div>
@@ -164,9 +164,9 @@ const Resource = () => {
                 Unified Experimentation Platform
               </div>
             </div>
-            <div className="button-type-21">
+            {/* <div className="button-type-21">
               <div className="button">Get Started</div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="rectangle-parent">
@@ -182,9 +182,9 @@ const Resource = () => {
                 Data-Driven Experimentation
               </div>
             </div>
-            <div className="button-type-21">
+            {/* <div className="button-type-21">
               <div className="button">Get Started</div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="rectangle-parent">
@@ -200,18 +200,18 @@ const Resource = () => {
                 Accelerated Innovation
               </div>
             </div>
-            <div className="button-type-21">
+            {/* <div className="button-type-21">
               <div className="button">Get Started</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
       <div className="footerdefault">
         <div className="footer">
           <div className="frame-container">
-            <div className="twinmo-wrapper">
+            {/* <div className="twinmo-wrapper">
               <b className="twinmo">Twinmo</b>
-            </div>
+            </div> */}
             <div className="frame-parent1">
               <div className="home-wrapper" onClick={onClickHome}>
                 <div className="twinmo">Home</div>
@@ -234,9 +234,9 @@ const Resource = () => {
             </div>
           </div>
           <div className="frame-parent2">
-            <div className="contact-wrapper">
+            {/* <div className="contact-wrapper">
               <b className="twinmo">Contact</b>
-            </div>
+            </div> */}
             <div className="twinmo-wrapper">
               <div className="twinmo">Contact us</div>
             </div>

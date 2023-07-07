@@ -53,87 +53,88 @@ const Industries = () => {
               Bringing the Power of Experimentation to All Industries
             </h1>
             <div className="whether-youre-creating">
-              Whether you're developing kitchen appliances, personal care
+              Whether you're creating kitchen appliances, personal care
               appliances, or home furniture, Twinmo is here to ensure your
               product innovation, testing, and quality control processes are
               efficient, accurate, and compliant.
             </div>
-            <div className="button-type-25">
+            {/* <div className="button-type-25">
               <div className="button16">Get Started</div>
-            </div>
+            </div> */}
           </div>
           <img className="frame-child6" alt="" src="/group-182@2x.png" />
         </div>
       </div>
       <div className="industries-frame">
-        <div className="industries3">Industries</div>
+        <h3 className="industries3">Industries</h3>
       </div>
       <div className="frame-parent15">
-        <img className="frame-icon" alt="" src="/frame-137.svg" />
+        <img className="frame-icon" alt="" src="/personal.png" />
         <div className="personal-care-appliances-parent">
           <b className="personal-care-appliances">Personal care appliances</b>
           <div className="testrunz-helps-prepare">
-            Testrunz helps prepare the scientists of tomorrow by enabling users
-            to carry out their laboratory experiments using predefined test
-            procedures and experiment libraries, thereby allowing them to gain
-            practical experience and industry exposure.
+            Our world class testing facility ensures that your personal care
+            products are safe, effective, and up to code. We use the latest
+            equipment and testing methods to ensure that your products meet all
+            applicable international standards.
           </div>
-          <div className="button-type-25">
+          {/* <div className="button-type-25">
             <div className="button16">Get Started</div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="frame-parent16">
         <div className="personal-care-appliances-parent">
           <b className="personal-care-appliances">Kitchen appliances</b>
           <div className="testrunz-helps-prepare">
-            Testrunz helps prepare the scientists of tomorrow by enabling users
-            to carry out their laboratory experiments using predefined test
-            procedures and experiment libraries, thereby allowing them to gain
-            practical experience and industry exposure.
+            Our kitchen appliance testing facility is equipped to test for a
+            variety of safety hazards, including electrical safety, heat output,
+            mechanical strength tests, environmental testing, and functional
+            tests to ensure that your products perform as expected.
           </div>
-          <div className="button-type-25">
+          {/* <div className="button-type-25">
             <div className="button16">Get Started</div>
-          </div>
+          </div> */}
         </div>
-        <img className="frame-icon" alt="" src="/frame-138.svg" />
+        <img className="frame-icon" alt="" src="/kitchen.png" />
       </div>
       <div className="frame-parent17">
-        <img className="frame-icon" alt="" src="/frame-139.svg" />
+        <img className="frame-icon" alt="" src="/furniture.png" />
         <div className="personal-care-appliances-parent">
           <b className="personal-care-appliances">Home furnitures</b>
           <div className="testrunz-helps-prepare">
-            Testrunz helps prepare the scientists of tomorrow by enabling users
-            to carry out their laboratory experiments using predefined test
-            procedures and experiment libraries, thereby allowing them to gain
-            practical experience and industry exposure.
+            We follow the highest safety and quality testing standards to give
+            all your customers peace of mind, knowing that your furniture is
+            safe and will last for years to come.
           </div>
-          <div className="button-type-25">
+          {/* <div className="button-type-25">
             <div className="button16">Get Started</div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="frame-parent18">
         <div className="personal-care-appliances-parent">
-          <b className="personal-care-appliances">{`Research & Education`}</b>
+          <b className="personal-care-appliances">Research & Education</b>
           <div className="testrunz-helps-prepare">
-            Testrunz helps prepare the scientists of tomorrow by enabling users
-            to carry out their laboratory experiments using predefined test
-            procedures and experiment libraries, thereby allowing them to gain
-            practical experience and industry exposure.
+            Testrunz could be used by researchers and students from different
+            institutions to collaborate on experiments. This could help to break
+            down barriers between different disciplines and to foster new ideas.
+            Testrunz has the potential to be a valuable tool for both research
+            and education. It could help to make scientific research more
+            accessible and to prepare the next generation of scientists.
           </div>
-          <div className="button-type-25">
+          {/* <div className="button-type-25">
             <div className="button16">Get Started</div>
-          </div>
+          </div> */}
         </div>
-        <img className="frame-icon" alt="" src="/frame-140.svg" />
+        <img className="frame-icon" alt="" src="/research.png" />
       </div>
       <div className="footerdefault2">
         <div className="footer2">
           <div className="frame-parent19">
-            <div className="twinmo-frame">
+            {/* <div className="twinmo-frame">
               <b className="twinmo2">Twinmo</b>
-            </div>
+            </div> */}
             <div className="frame-parent20">
               <div className="home-frame" onClick={onClickHome}>
                 <div className="twinmo2">Home</div>
@@ -156,9 +157,9 @@ const Industries = () => {
             </div>
           </div>
           <div className="frame-parent21">
-            <div className="contact-frame">
+            {/* <div className="contact-frame">
               <b className="twinmo2">Contact</b>
-            </div>
+            </div> */}
             <div className="twinmo-frame">
               <div className="twinmo2">Contact us</div>
             </div>

@@ -63,7 +63,7 @@ const UseCases = () => {
                 All-in-One Solution, Testrunz
               </h1>
             </div>
-            <div className="twinmos-testrunz-brings">
+            <p className="twinmos-testrunz-brings">
               Twinmo's Testrunz brings the power of AI and structured
               experimentation to product development, transforming the processes
               of discovery, compliance testing, and manufacturing. It employs AI
@@ -73,10 +73,10 @@ const UseCases = () => {
               product development stages, resulting in rapid time-to-market and
               superior product quality. Experience the future of product
               development with Twinmo's Testrunz.
-            </div>
-            <div className="button-type-210">
+            </p>
+            {/* <div className="button-type-210">
               <div className="discover-innovate">Get Started</div>
-            </div>
+            </div> */}
           </div>
           <img className="frame-child12" alt="" src="/group-183@2x.png" />
         </div>
@@ -425,9 +425,9 @@ const UseCases = () => {
       <div className="footerdefault3">
         <div className="footer3">
           <div className="frame-parent25">
-            <div className="twinmo-wrapper1">
+            {/* <div className="twinmo-wrapper1">
               <b className="button27">Twinmo</b>
-            </div>
+            </div> */}
             <div className="frame-parent26">
               <div className="home-wrapper1" onClick={onClickHome}>
                 <div className="button27">Home</div>
@@ -450,9 +450,9 @@ const UseCases = () => {
             </div>
           </div>
           <div className="frame-parent27">
-            <div className="contact-wrapper1">
+            {/* <div className="contact-wrapper1">
               <b className="button27">Contact</b>
-            </div>
+            </div> */}
             <div className="twinmo-wrapper1">
               <div className="button27">Contact us</div>
             </div>

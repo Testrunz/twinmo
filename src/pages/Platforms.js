@@ -51,16 +51,16 @@ const Platforms = () => {
             <h1 className="your-all-in-one-experimentatio">
               Your All-in-One Experimentation Platform for Data-Driven Decisions
             </h1>
-            <div className="we-provide-a">
+            <p className="we-provide-a">
               We provide a unified platform, Testrunz, for tracking, analyzing,
               and reporting your product experiments throughout the entire
               development lifecycle. Paired with our state-of-the-art hardware
               module, Unity, you're now equipped to make data-driven decisions
               with confidence and precision.
-            </div>
-            <div className="button-type-211">
+            </p>
+            {/* <div className="button-type-211">
               <div className="button32">Get Started</div>
-            </div>
+            </div> */}
           </div>
           <img className="frame-child17" alt="" src="/group-184@2x.png" />
         </div>
@@ -68,9 +68,9 @@ const Platforms = () => {
       <div className="footerdefault4">
         <div className="footer4">
           <div className="frame-parent29">
-            <div className="twinmo-wrapper2">
+            {/* <div className="twinmo-wrapper2">
               <b className="digital-experimentation">Twinmo</b>
-            </div>
+            </div> */}
             <div className="frame-parent30">
               <div className="home-wrapper2" onClick={onClickHome}>
                 <div className="digital-experimentation">Home</div>
@@ -93,9 +93,9 @@ const Platforms = () => {
             </div>
           </div>
           <div className="frame-parent31">
-            <div className="contact-wrapper2">
+            {/* <div className="contact-wrapper2">
               <b className="digital-experimentation">Contact</b>
-            </div>
+            </div> */}
             <div className="twinmo-wrapper2">
               <div className="digital-experimentation">Contact us</div>
             </div>
@@ -137,9 +137,9 @@ const Platforms = () => {
             workflow by digitizing test steps, processing the test data
             post-experimentation, and automatically generating reports.
           </div>
-          <div className="button-type-211">
+          {/* <div className="button-type-211">
             <div className="button32">Get Started</div>
-          </div>
+          </div> */}
         </div>
         <div className="my-page-4-1-wrapper">
           <img className="my-page-4-1" alt="" src="/my-page-4-1@2x.png" />
@@ -255,9 +255,9 @@ const Platforms = () => {
                   analyzing results, and generating reports.
                 </div>
               </div>
-              <div className="button-type-213">
+              {/* <div className="button-type-213">
                 <div className="button32">Get Started</div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="rectangle-parent7">
@@ -276,9 +276,9 @@ const Platforms = () => {
                   DI, DO measurements and power product measurement features.
                 </div>
               </div>
-              <div className="button-type-213">
+              {/* <div className="button-type-213">
                 <div className="button32">Get Started</div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -300,9 +300,9 @@ const Platforms = () => {
             experimentation and learning process. Additionally, Testrunz
             provides the capability for individuals to collaborate in real-time.
           </div>
-          <div className="button-type-211">
+          {/* <div className="button-type-211">
             <div className="button32">Get Started</div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="header4">
