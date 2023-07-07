@@ -50,9 +50,9 @@ const Services = () => {
         <img className="rectangle-icon" alt="" src="/rectangle-34.svg" />
         <div className="frame-parent9">
           <div className="customized-support-for-your-pr-parent">
-            <div className="customized-support-for">
+            <h1 className="customized-support-for">
               Customized Support for Your Product Needs
-            </div>
+            </h1>
             <div className="we-understand-the-container">
               <p className="blank-line">&nbsp;</p>
               <p className="blank-line">
@@ -324,11 +324,11 @@ const Services = () => {
             <div className="twinmo-container">
               <div className="interested-to-talk">Contact us</div>
             </div>
-            <div className="twinmo-container">
+            {/* <div className="twinmo-container">
               <div className="twinmo-ay-1101">
               No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="image-19-group">
             <img className="image-19-icon1" alt="" src="/image-19@2x.png" />

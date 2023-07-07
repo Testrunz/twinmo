@@ -48,9 +48,9 @@ const Platforms = () => {
         <img className="frame-child15" alt="" src="/rectangle-341.svg" />
         <div className="frame-parent28">
           <div className="your-all-in-one-experimentatio-parent">
-            <div className="your-all-in-one-experimentatio">
+            <h1 className="your-all-in-one-experimentatio">
               Your All-in-One Experimentation Platform for Data-Driven Decisions
-            </div>
+            </h1>
             <div className="we-provide-a">
               We provide a unified platform, Testrunz, for tracking, analyzing,
               and reporting your product experiments throughout the entire
@@ -99,11 +99,11 @@ const Platforms = () => {
             <div className="twinmo-wrapper2">
               <div className="digital-experimentation">Contact us</div>
             </div>
-            <div className="twinmo-wrapper2">
+            {/* <div className="twinmo-wrapper2">
               <div className="twinmo-ay-1104">
                 No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="image-19-parent2">
             <img className="image-19-icon4" alt="" src="/image-19@2x.png" />

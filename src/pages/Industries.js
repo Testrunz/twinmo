@@ -49,11 +49,11 @@ const Industries = () => {
         <img className="frame-child4" alt="" src="/rectangle-34.svg" />
         <div className="frame-parent14">
           <div className="bringing-the-power-of-experime-parent">
-            <div className="bringing-the-power">
+            <h1 className="bringing-the-power">
               Bringing the Power of Experimentation to All Industries
-            </div>
+            </h1>
             <div className="whether-youre-creating">
-              Whether you're creating kitchen appliances, personal care
+              Whether you're developing kitchen appliances, personal care
               appliances, or home furniture, Twinmo is here to ensure your
               product innovation, testing, and quality control processes are
               efficient, accurate, and compliant.
@@ -162,11 +162,11 @@ const Industries = () => {
             <div className="twinmo-frame">
               <div className="twinmo2">Contact us</div>
             </div>
-            <div className="twinmo-frame">
+            {/* <div className="twinmo-frame">
               <div className="twinmo-ay-1102">
                 No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="image-19-container">
             <img className="image-19-icon2" alt="" src="/image-19@2x.png" />

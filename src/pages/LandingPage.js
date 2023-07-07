@@ -51,10 +51,10 @@ const LandingPage = () => {
         <div className="frame-parent38">
           <div className="unleash-the-power-of-ai-based-parent">
             <div className="unleash-the-power-container">
-              <p className="unleash-the-power">
+              <h1 className="unleash-the-power">
                 Unleash the Power of AI based Experimentation in Product
                 Decisions
-              </p>
+              </h1>
             </div>
             <div className="twinmo-is-revolutionizing">
               Twinmo is revolutionizing the way companies develop products. With
@@ -252,7 +252,7 @@ const LandingPage = () => {
         </div>
         <div className="embrace-the-future-container">
           <p className="unleash-the-power">&nbsp;</p>
-          <p className="unleash-the-power">
+          <p>
             Embrace the Future of Experimentation Access your test runs from
             anywhere, on any device. Our AI-powered platform extracts critical
             insights, eliminating the need for traditional tools like Excel.
@@ -297,11 +297,11 @@ const LandingPage = () => {
             <div className="twinmo-wrapper3">
               <div className="vertically-integrated-solution">Contact us</div>
             </div>
-            <div className="twinmo-wrapper3">
+            {/* <div className="twinmo-wrapper3">
               <div className="twinmo-ay-1105">
                 No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="image-19-parent3">
             <img className="image-19-icon5" alt="" src="/image-19@2x.png" />

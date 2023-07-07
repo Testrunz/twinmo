@@ -8,6 +8,10 @@
 .revolutionize-your-product {
   margin: 0;
 }
+.revolutionize-your-products {
+  font-size: 48px;
+  margin: 0;
+}
 .revolutionize-your-product-container {
   position: relative;
   font-size: var(--h1-size);
@@ -132,9 +136,7 @@
   position: relative;
   font-weight: 500;
 }
-.discover-innovate-wrapper {
-  border-bottom: 2.3px solid var(--primar-yellow);
-}
+
 .discover-innovate-wrapper,
 .verify-comply-wrapper {
   display: flex;
@@ -216,15 +218,23 @@
   align-items: center;
   gap: var(--gap-11xl);
 }
-.rectangle-parent1 {
-  position: absolute;
-  height: 90.68%;
-  width: 96.25%;
-  top: 9.32%;
-  right: 1.91%;
-  bottom: 0;
-  left: 1.84%;
-  color: var(--primar-yellow);
+.content {
+  display: none;
+}
+.show-content{
+    position: absolute;
+    height: 90.68%;
+    width: 96.25%;
+    top: 9.32%;
+    right: 1.91%;
+    bottom: 0;
+    left: 1.84%;
+    color: var(--primar-yellow);
+    display: block;
+}
+.discover-innovate.active {
+  border-bottom: 3px solid #F1c232;
+  text-decoration: none;
 }
 .component-9,
 .group-div {

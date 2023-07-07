@@ -11,6 +11,7 @@
   font-weight: 600;
   display: inline-block;
   width: 611px;
+  font-size: 48px;
 }
 .we-provide-a {
   font-size: var(--paragraph-style-1-size);

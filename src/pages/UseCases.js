@@ -2,7 +2,13 @@ import { useNavigate } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
 
 import "./UseCases.css";
+import { useState } from "react";
+
 const UseCases = () => {
+  const [toggle, setToggle] = useState(1);
+  function updateToggle(id) {
+    setToggle(id);
+  }
   const navigate = useNavigate();
 
   const onClickHome = () => {
@@ -52,10 +58,10 @@ const UseCases = () => {
         <div className="frame-parent22">
           <div className="revolutionize-your-product-tes-parent">
             <div className="revolutionize-your-product-container">
-              <p className="revolutionize-your-product">
+              <h1 className="revolutionize-your-products">
                 Revolutionize your Product Testing with Twinmo's Innovative
                 All-in-One Solution, Testrunz
-              </p>
+              </h1>
             </div>
             <div className="twinmos-testrunz-brings">
               Twinmo's Testrunz brings the power of AI and structured
@@ -102,21 +108,48 @@ const UseCases = () => {
         <div className="component-9">
           <div className="frame-parent23">
             <div className="discover-innovate-wrapper">
-              <div className="discover-innovate">Discover /Innovate</div>
+              <div
+                className={
+                  toggle === 1
+                    ? "discover-innovate active"
+                    : "discover-innovate"
+                }
+                onClick={() => updateToggle(1)}
+              >
+                Discover/Innovate
+              </div>
             </div>
             <div className="verify-comply-wrapper">
-              <div className="discover-innovate">Verify-Comply</div>
+              <div
+                className={
+                  toggle === 2
+                    ? "discover-innovate active"
+                    : "discover-innovate"
+                }
+                onClick={() => updateToggle(2)}
+              >
+                Verify/Comply
+              </div>
             </div>
             <div className="verify-comply-wrapper">
-              <div className="discover-innovate">Manufacture/QC</div>
+              <div
+                className={
+                  toggle === 3
+                    ? "discover-innovate active"
+                    : "discover-innovate"
+                }
+                onClick={() => updateToggle(3)}
+              >
+                Manufacture/QC
+              </div>
             </div>
           </div>
-          <div className="rectangle-parent1">
+          <div className={toggle === 1 ? "show-content" : "content"}>
             <div className="frame-child13" />
             <div className="frame-parent24">
               <div className="discover-innovate-accelerate-parent">
                 <div className="discover-innovate-accelerate">
-                  Discover-Innovate: Accelerate Innovation with DOE and AI
+                  Discover/Innovate: Accelerate Innovation with DOE and AI
                 </div>
                 <div className="when-it-comes-container">
                   <p className="revolutionize-your-product">
@@ -142,9 +175,11 @@ const UseCases = () => {
                   </p>
                 </div>
               </div>
-              <img className="frame-child14" alt="" src="/group-24.svg" />
+              <img className="frame-child14" alt="" src="/discover.png" />
               <div className="smart-experiment-planning-parent">
-                <div className="discover-innovate">{`Smart Experiment Planning `}</div>
+                <div className="discover-innovate">
+                  Smart Experiment Planning{" "}
+                </div>
                 <div className="the-ai-engine">
                   The AI engine takes into account the factors, levels, and
                   responses you've identified for your experiment, and generates
@@ -170,11 +205,145 @@ const UseCases = () => {
                 </div>
               </div>
               <div className="smart-experiment-planning-parent">
-                <div className="discover-innovate">{`Smart Experiment Planning `}</div>
+                <div className="discover-innovate">
+                  Smart Experiment Planning
+                </div>
                 <div className="the-ai-engine">
                   Learning from each experiment, the AI engine continually
                   refines your DOE matrix, promoting an iterative learning
                   process that supports faster, more effective innovation.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={toggle === 2 ? "show-content" : "content"}>
+            <div className="frame-child13" />
+            <div className="frame-parent24">
+              <div className="discover-innovate-accelerate-parent">
+                <div className="discover-innovate-accelerate">
+                  Verify-Comply: Streamline Compliance with AI and Testrunz
+                </div>
+                <div className="when-it-comes-container">
+                  <p className="revolutionize-your-product">
+                    The next crucial phase in your product journey is
+                    verification and compliance. Regulatory requirements are
+                    often complex and multi-faceted, and meeting these
+                    requirements is mandatory to ensure market access. At
+                    Twinmo, we've combined the power of artificial intelligence
+                    with the capabilities of Testrunz to simplify and streamline
+                    this process for you.
+                  </p>
+                  <p className="revolutionize-your-product">
+                    Utilizing AI, Testrunz can automatically generate a
+                    comprehensive test plan based on your product specifications
+                    and regulatory requirements of your target markets. This
+                    eliminates the time-consuming task of manually translating
+                    regulations into testable parameters and ensures all
+                    necessary tests are planned and executed. Here's how
+                    Testrunz supports you during the Verify-Comply phase:
+                  </p>
+                </div>
+              </div>
+              <img className="frame-child14" alt="" src="/verifyy.png" />
+              <div className="smart-experiment-planning-parent">
+                <div className="discover-innovate">
+                  Automated Test Plan Generation
+                </div>
+                <div className="the-ai-engine">
+                  Our AI engine reviews your product specifications and pairs
+                  them with relevant regulatory requirements, creating a
+                  detailed and comprehensive test plan. This ensures that no
+                  compliance aspect is overlooked.
+                </div>
+              </div>
+              <div className="smart-experiment-planning-parent">
+                <div className="discover-innovate">Compliance Tracking</div>
+                <div className="the-ai-engine">
+                  Testrunz helps you track the progress of your compliance
+                  tests, providing real-time updates and detailed insights. It
+                  creates a clear visual path to see how close you are to
+                  achieving full compliance.
+                </div>
+              </div>
+              <div className="smart-experiment-planning-parent">
+                <div className="discover-innovate">Regulation Updates</div>
+                <div className="the-ai-engine">
+                  As regulations change, Testrunz's AI engine keeps up, updating
+                  your test plan to reflect new or altered requirements. This
+                  ensures your product stays compliant even as market
+                  regulations evolve.
+                </div>
+              </div>
+              <div className="smart-experiment-planning-parent">
+                <div className="discover-innovate">
+                  Regulation-Specific Templates
+                </div>
+                <div className="the-ai-engine">
+                  Testrunz has a library of predefined templates for various
+                  regulatory standards, such as IS 4250 for mixer grinders,
+                  saving you the time of creating test protocols from scratch.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={toggle === 3 ? "show-content" : "content"}>
+            <div className="frame-child13" />
+            <div className="frame-parent24">
+              <div className="discover-innovate-accelerate-parent">
+                <div className="discover-innovate-accelerate">
+                  Manufacture/Quality Control: Elevate Standards with Testrunz
+                </div>
+                <div className="when-it-comes-container">
+                  <p className="revolutionize-your-product">
+                    Manufacturing and quality control form the bedrock of your
+                    product's reputation in the market. It's here that the
+                    consistency, reliability, and integrity of your product are
+                    truly tested. With Testrunz, you can enhance these critical
+                    phases to meet and exceed industry standards.
+                  </p>
+                  <p className="revolutionize-your-product">
+                    Testrunz equips you with data-driven tools that can:
+                  </p>
+                </div>
+              </div>
+              <img className="frame-child14" alt="" src="/manufacture.png" />
+              <div className="smart-experiment-planning-parent">
+                <div className="discover-innovate">
+                  Monitor Manufacturing Process
+                </div>
+                <div className="the-ai-engine">
+                  Track the manufacturing process in real-time with Testrunz,
+                  and ensure that every product leaving the line meets the
+                  defined standards.
+                </div>
+              </div>
+              <div className="smart-experiment-planning-parent">
+                <div className="discover-innovate">
+                  Automated Quality Control
+                </div>
+                <div className="the-ai-engine">
+                  Use Testrunz to automate routine quality checks, allowing for
+                  greater consistency and significantly reducing the likelihood
+                  of human error.
+                </div>
+              </div>
+              <div className="smart-experiment-planning-parent">
+                <div className="discover-innovate">Analyze and Improve</div>
+                <div className="the-ai-engine">
+                  Our platform’s advanced analysis tools enable you to identify
+                  patterns, anomalies, or areas of improvement in your
+                  manufacturing process.
+                </div>
+              </div>
+              <div className="smart-experiment-planning-parent">
+                <div className="discover-innovate">
+                  Smart Experiment Planning{" "}
+                </div>
+                <div className="the-ai-engine">
+                  The AI engine takes into account the factors, levels, and
+                  responses you've identified for your experiment, and generates
+                  an optimized DOE matrix that captures all interactions in the
+                  least number of runs.
                 </div>
               </div>
             </div>
@@ -287,11 +456,11 @@ const UseCases = () => {
             <div className="twinmo-wrapper1">
               <div className="button27">Contact us</div>
             </div>
-            <div className="twinmo-container">
+            {/* <div className="twinmo-container">
               <div className="twinmo-ay-1101">
                 No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="image-19-parent1">
             <img className="image-19-icon3" alt="" src="/image-19@2x.png" />

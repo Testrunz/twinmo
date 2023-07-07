@@ -139,11 +139,11 @@ const PrivacyAndPolicy = () => {
             <div className={styles.twinmoWrapper}>
               <div className={styles.button}>Contact us</div>
             </div>
-            <div className={styles.twinmoWrapper}>
+            {/* <div className={styles.twinmoWrapper}>
               <div className={styles.twinmoAy110}>
               No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div>
+            </div> */}
           </div>
           <div className={styles.image19Parent}>
             <img className={styles.image19Icon} alt="" src="/image-19@2x.png" />

@@ -49,10 +49,10 @@ const Resource = () => {
         <img className="frame-child" alt="" src="/rectangle-34.svg" />
         <div className="frame-parent">
           <div className="experimentation-and-beyond-tw-parent">
-            <div className="experimentation-and-beyond">
+            <h1 className="experimentation-and-beyond">
               Experimentation and Beyond: Twinmo's Resource Collection for
               Next-Level Product Development
-            </div>
+            </h1>
             <div className="explore-our-resources-container">
               <p className="explore-our-resources">
                 Explore our resources to dive deeper into topics such as
@@ -240,11 +240,11 @@ const Resource = () => {
             <div className="twinmo-wrapper">
               <div className="twinmo">Contact us</div>
             </div>
-            <div className="twinmo-wrapper">
+            {/* <div className="twinmo-wrapper">
               <div className="twinmo-ay-110">
               No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="image-19-parent">
             <img className="image-19-icon" alt="" src="/image-19@2x.png" />
