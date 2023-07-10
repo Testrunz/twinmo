@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./Platforms.css";
+import { Helmet } from "react-helmet";
+
 const Platforms = () => {
   const navigate = useNavigate();
 
@@ -43,6 +45,19 @@ const Platforms = () => {
 
   return (
     <div className="platforms4">
+      <Helmet>
+        <title>
+          Testrunz: Unified Platform for Product Experiments | Twinmo
+        </title>
+        <meta
+          name="keywords"
+          content="Unified platform for product experiments"
+        />
+        <meta
+          name="description"
+          content="Explore Testrunz, our AI-powered platform designed to streamline product experiments. Accelerate your product development with real-time data analysis."
+        />
+      </Helmet>
       <div className="vector-parent2">
         <img className="frame-child15" alt="" src="/rectangle-331.svg" />
         <img className="frame-child15" alt="" src="/rectangle-341.svg" />

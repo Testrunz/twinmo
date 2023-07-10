@@ -1,9 +1,12 @@
 .frame-child15 {
   position: absolute;
+  background-size: cover;
   top: 0;
   left: 0;
-  width: 1440px;
+  width: fit-content;
   height: 704.25px;
+  background-size: cover;
+  background-position: center;
 }
 .your-all-in-one-experimentatio {
   position: relative;
@@ -46,28 +49,30 @@
 }
 .frame-child17 {
   position: relative;
-  width: 590.32px;
-  height: 519.75px;
+  width: 590px;
+  height: 480px;
   object-fit: cover;
 }
 .frame-parent28 {
   position: absolute;
-  top: calc(50% - 259.5px);
-  left: calc(50% - 601px);
+  /* top: calc(50% - 259.5px);
+  left: calc(50% - 601px); */
+  top: 75.75px;
+  /* left: 101.63px; */
   width: 1157.25px;
   display: flex;
   flex-direction: row;
   padding: 0 var(--padding-11xl);
   box-sizing: border-box;
-  align-items: center;
+  /* align-items: center; */
   justify-content: flex-start;
   gap: var(--gap-21xl);
 }
 .vector-parent2 {
   position: absolute;
   top: 89.5px;
-  left: calc(50% - 670px);
-  width: 1440px;
+  /* left: calc(50% - 670px); */
+  width: 100vw;
   height: 704.25px;
   font-size: var(--h1-size);
   color: var(--primar-yellow);
@@ -524,10 +529,8 @@
   gap: var(--gap-51xl);
 }
 .header-child2 {
-  position: absolute;
   top: 0px;
   left: 0;
-  background-color: var(--mini-title-bg);
   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.15);
   width: 1440px;
   height: 89px;
@@ -563,17 +566,17 @@
 }
 .header4 {
   position: absolute;
-  left: calc(50% - 670px);
+  /* left: calc(50% - 670px); */
+  display: flex;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 89px;
   font-size: var(--font-size-mini);
-  color: var(--color-black);
 }
 .platforms4 {
   position: relative;
   background-color: var(--mini-title-bg);
-  width: 100%;
+  width: 100vw;
   height: 3930px;
   overflow: hidden;
   text-align: left;

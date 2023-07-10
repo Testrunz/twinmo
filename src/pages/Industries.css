@@ -1,9 +1,12 @@
 .frame-child4 {
   position: absolute;
+  background-size: cover;
   top: 0;
   left: 0;
-  width: 1440px;
+  width: fit-content;
   height: 704.25px;
+  background-size: cover;
+  background-position: center;
 }
 .bringing-the-power {
   position: relative;
@@ -17,6 +20,7 @@
   color: var(--color-gray-200);
   display: inline-block;
   width: 616.5px;
+  font-size: var(--paragraph-style-1-size);
 }
 .button16,
 .whether-youre-creating {
@@ -37,31 +41,37 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  gap: var(--gap-5xs-5);
+  /* justify-content: center; */
+  /* gap: var(--gap-5xs-5); */
 }
 .frame-child6 {
   position: relative;
-  width: 652.5px;
-  height: 574.5px;
+  width: 590px;
+  height: 460px;
   object-fit: cover;
 }
 .frame-parent14 {
   position: absolute;
+  /* top: calc(50% - 259.5px);
+  left: calc(50% - 601px); */
   top: 75.75px;
-  left: 127.13px;
+  /* left: 101.63px; */
+  width: 1157.25px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+  /* align-items: center; */
   justify-content: flex-start;
-  gap: var(--gap-4xs);
+  gap: var(--gap-21xl);
 }
 .vector-container {
   position: absolute;
-  left: calc(50% - 670px);
-  top: 65.25px;
-  width: 1440px;
+  top: 89.5px;
+  /* left: calc(50% - 670px); */
+  width: 100vw;
   height: 704.25px;
+  font-size: var(--h1-size);
   color: var(--primar-yellow);
 }
 .industries3 {
@@ -337,16 +347,17 @@
 }
 .header2 {
   position: absolute;
-  left: calc(50% - 670px);
-  top: -1px;
-  width: 1440px;
+  /* left: calc(50% - 670px); */
+  display: flex;
+  top: 0;
+  width: 100vw;
   height: 89px;
-  color: var(--color-black);
+  font-size: var(--font-size-mini);
 }
 .industries2 {
   position: relative;
   background-color: var(--mini-title-bg);
-  width: 100%;
+  width: 100vw;
   height: 3256px;
   overflow: hidden;
   text-align: left;

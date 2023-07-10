@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./LandingPage.css";
+import { Helmet } from "react-helmet";
+
 const LandingPage = () => {
   const navigate = useNavigate();
 
@@ -45,6 +47,13 @@ const LandingPage = () => {
 
   return (
     <div className="landing-page">
+      <Helmet>
+        <title>Twinmo - AI-powered Experimentation Platform | Home</title>
+        <meta
+          name="keywords"
+          content="AI-powered experimentation platform"
+        />
+      </Helmet>
       <div className="vector-parent3">
         <img className="frame-child27" alt="" src="/rectangle-331.svg" />
         <img className="frame-child27" alt="" src="/rectangle-341.svg" />
@@ -251,7 +260,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="embrace-the-future-container">
-          <p className="unleash-the-power">&nbsp;</p>
+          {/* <p className="unleash-the-power">&nbsp;</p> */}
           <p>
             Embrace the Future of Experimentation Access your test runs from
             anywhere, on any device. Our AI-powered platform extracts critical

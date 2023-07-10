@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./Resource.css";
+import {Helmet} from "react-helmet"
+
 const Resource = () => {
   const navigate = useNavigate();
 
@@ -44,6 +46,16 @@ const Resource = () => {
 
   return (
     <div className="resource">
+      <Helmet>
+        <title>
+        Resources for Advanced DOE and Systems Thinking | Twinmo
+        </title>
+        <meta name="keywords" content="Resources for advanced DOE and systems thinking" />
+        <meta
+          name="description"
+          content="Explore our resources to learn more about advanced DOE and systems thinking. Dive into our case studies, methods, and tools for experimentation and analysis."
+        />
+      </Helmet>
       <div className="vector-parent">
         <img className="frame-child" alt="" src="/rectangle-33.svg" />
         <img className="frame-child" alt="" src="/rectangle-34.svg" />
@@ -268,6 +280,9 @@ const Resource = () => {
           </div>
         </div>
       </div>
+      <b className="methods-and-tools">
+        Methods and Tools for Experimentation and Analysis
+      </b>
       <div className="frame-parent3">
         <div className="huge-iconinterfacebulkshiel-wrapper">
           <img
@@ -278,6 +293,7 @@ const Resource = () => {
         </div>
         <div className="button">Experimentation Quotes</div>
       </div>
+
       <div className="frame-parent4">
         <div className="huge-iconinterfacebulkshiel-wrapper">
           <img
@@ -328,9 +344,7 @@ const Resource = () => {
         </div>
         <div className="button">DOE advanced</div>
       </div>
-      <b className="methods-and-tools">
-        Methods and Tools for Experimentation and Analysis
-      </b>
+
       {/* <b className="some-captions">Some Captions</b> */}
     </div>
   );

@@ -1,9 +1,12 @@
 .frame-child10 {
   position: absolute;
+  background-size: cover;
   top: 0;
   left: 0;
-  width: 1440px;
+  width: fit-content;
   height: 704.25px;
+  background-size: cover;
+  background-position: center;
 }
 .revolutionize-your-product {
   margin: 0;
@@ -28,6 +31,7 @@
   color: var(--color-gray-200);
   display: inline-block;
   width: 587.25px;
+  font-size: var(--paragraph-style-1-size);
 }
 .button-type-210 {
   border-radius: 3.75px;
@@ -48,26 +52,32 @@
 }
 .frame-child12 {
   position: relative;
-  width: 652.5px;
-  height: 574.5px;
+  width: 590px;
+  height: 460px;
   object-fit: cover;
 }
 .frame-parent22 {
   position: absolute;
+  /* top: calc(50% - 259.5px);
+  left: calc(50% - 601px); */
   top: 75.75px;
-  left: 123.38px;
+  /* left: 101.63px; */
+  width: 1130px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  /* align-items: center; */
   justify-content: flex-start;
-  gap: 2.25px;
+  gap: var(--gap-21xl);
 }
 .vector-parent1 {
   position: absolute;
-  left: calc(50% - 670px);
-  top: 89.25px;
-  width: 1440px;
+  top: 89.5px;
+  /* left: calc(50% - 670px); */
+  width: 100vw;
   height: 704.25px;
+  font-size: var(--h1-size);
   color: var(--primar-yellow);
 }
 .experiment-to {
@@ -255,7 +265,12 @@
   font-size: 33px;
 }
 .header-child1 {
-  position: absolute;
+   /* position: absolute; */
+   top: 0px;
+   /* left: 0; */
+   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.15);
+   width: 100vw;
+   height: 89px;position: absolute;
   top: 0px;
   left: 0;
   background-color: var(--mini-title-bg);
@@ -297,11 +312,12 @@
 }
 .header3 {
   position: absolute;
-  left: calc(50% - 670px);
+  /* left: calc(50% - 670px); */
   display: flex;
-  top: -1px;
-  width: 1440px;
+  top: 0;
+  width: 100vw;
   height: 89px;
+  font-size: var(--font-size-mini);
 }
 .home-wrapper1,
 .twinmo-wrapper1 {
@@ -470,7 +486,7 @@
 }
 .use-cases3 {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 3116.25px;
   overflow: hidden;
   text-align: left;

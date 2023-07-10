@@ -1,9 +1,12 @@
 .rectangle-icon {
   position: absolute;
+  background-size: cover;
   top: 0;
   left: 0;
-  width: 1440px;
+  width: fit-content;
   height: 704.25px;
+  background-size: cover;
+  background-position: center;
 }
 .customized-support-for {
   position: relative;
@@ -45,26 +48,32 @@
 }
 .group-icon {
   position: relative;
-  width: 652.5px;
-  height: 574.5px;
+  width: 590px;
+  height: 480px;
   object-fit: cover;
 }
 .frame-parent9 {
   position: absolute;
+  /* top: calc(50% - 259.5px);
+  left: calc(50% - 601px); */
   top: 75.75px;
-  left: 127.13px;
+  /* left: 101.63px; */
+  width: 1157.25px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  padding: 0 var(--padding-11xl);
+  box-sizing: border-box;
+  /* align-items: center; */
   justify-content: flex-start;
-  gap: var(--gap-4xs);
+  gap: var(--gap-xl);
 }
 .vector-group {
   position: absolute;
-  left: calc(50% - 670px);
-  top: 65.25px;
-  width: 1440px;
+  top: 89.5px;
+  /* left: calc(50% - 670px); */
+  width: 100vw;
   height: 704.25px;
+  /* font-size: var(--h1-size); */
   color: var(--primar-yellow);
 }
 /* .interested-to-talk {
@@ -470,10 +479,12 @@
 }
 .header1 {
   position: absolute;
-  left: calc(50% - 670px);
-  top: -1px;
-  width: 1440px;
+  /* left: calc(50% - 670px); */
+  display: flex;
+  top: 0;
+  width: 100vw;
   height: 89px;
+  font-size: var(--font-size-mini);
 }
 .home-container,
 .twinmo-container {
@@ -642,7 +653,7 @@
 }
 .services1 {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 2110px;
   overflow: hidden;
   text-align: left;

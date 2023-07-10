@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./Industries.css";
+import { Helmet } from "react-helmet";
+
 const Industries = () => {
   const navigate = useNavigate();
 
@@ -44,6 +46,14 @@ const Industries = () => {
 
   return (
     <div className="industries2">
+      <Helmet>
+        <title>Industries Benefiting from Testrunz | Twinmo</title>
+        <meta name="keywords" content="Testing for personal care appliances" />
+        <meta
+          name="description"
+          content="From personal care appliances to home furniture quality, see how various industries are leveraging Testrunz for their product testing and development needs."
+        />
+      </Helmet>
       <div className="vector-container">
         <img className="frame-child4" alt="" src="/rectangle-33.svg" />
         <img className="frame-child4" alt="" src="/rectangle-34.svg" />

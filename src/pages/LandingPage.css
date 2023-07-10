@@ -1,9 +1,12 @@
 .frame-child27 {
   position: absolute;
+  background-size: cover;
   top: 0;
   left: 0;
-  width: 1440px;
+  width: fit-content;
   height: 704.25px;
+  background-size: cover;
+  background-position: center;
 }
 .unleash-the-power {
   margin: 0;
@@ -11,19 +14,18 @@
 }
 .unleash-the-power-container {
   position: relative;
-  /* font-size: var(--h1-size); */
   line-height: 60px;
   font-weight: 600;
   color: var(--primar-yellow);
-  display: inline-block;
+  display: flex;
   width: 621.75px;
-  height: 170.25px;
+  height: auto;
   flex-shrink: 0;
 }
 .twinmo-is-revolutionizing {
   position: relative;
   font-weight: 500;
-  display: inline-block;
+  display: flex;
   width: 587.25px;
 }
 .button-type-216 {
@@ -46,24 +48,29 @@
 }
 .frame-child29 {
   position: relative;
-  width: 590.32px;
-  height: 519.75px;
+  width: 590px;
+  height: 480px;
   object-fit: cover;
 }
 .frame-parent38 {
   position: absolute;
+  /* top: calc(50% - 259.5px);
+  left: calc(50% - 601px); */
   top: 75.75px;
-  left: 101.63px;
+  width: 1157.25px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  /* align-items: center; */
   justify-content: flex-start;
+  gap: var(--gap-21xl);
 }
 .vector-parent3 {
   position: absolute;
   top: 83.5px;
-  left: calc(50% - 670px);
-  width: 1440px;
+  /* left: calc(50% - 670px); */
+  width: 100vw;
   height: 704.25px;
   font-size: var(--paragraph-style-1-size);
 }
@@ -248,7 +255,7 @@
   font-weight: 500;
   color: var(--paragraph-color);
   display: inline-block;
-  width: 1271px;
+  width: f;
 }
 .frame-parent42 {
   position: absolute;
@@ -466,24 +473,45 @@
 }
 .header5 {
   position: absolute;
-  left: calc(50% - 670px);
+  /* left: calc(50% - 670px); */
+  display: flex;
   top: 0;
-  width: 1440px;
+  width: 100vw;
   height: 89px;
   font-size: var(--font-size-mini);
-  color: var(--color-black);
 }
 .landing-page {
   position: relative;
   background-color: var(--mini-title-bg);
-  width: 100%;
+  width: 100vw;
   height: 3551px;
   overflow: hidden;
   text-align: left;
   font-size: var(--h3-size);
   color: var(--heading-color);
   font-family: var(--h3);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .active {
   text-decoration: underline;
+}
+@media (max-width: 700px) {
+  .frame-child29 {
+    display: none;
+  }
+  .frame-parent38 {
+    left: 10px;
+    width: 100vw;
+  }
+  .unleash-the-power{
+    position: absolute;
+    width: 100vw;
+  }
+  .twinmo-is-revolutionizing {
+    font-weight: 500;
+    top: 220px;
+    position: relative;
+    width: 100vw;
+  }
 }

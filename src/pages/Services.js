@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./Services.css";
+import {Helmet} from "react-helmet";
+
 const Services = () => {
   const navigate = useNavigate();
 
@@ -45,6 +47,16 @@ const Services = () => {
 
   return (
     <div className="services1">
+      <Helmet>
+        <title>
+          Tailored Support for Product Development | Twinmo Services
+        </title>
+        <meta name="keywords" content="Consultation for Innovation" />
+        <meta
+          name="description"
+          content="At Twinmo, we offer tailored support for your product development journey. From consultation to quality control, discover our range of services."
+        />
+      </Helmet>
       <div className="vector-group">
         <img className="rectangle-icon" alt="" src="/rectangle-33.svg" />
         <img className="rectangle-icon" alt="" src="/rectangle-34.svg" />
@@ -54,7 +66,7 @@ const Services = () => {
               Customized Support for Your Product Needs
             </h1>
             <div className="we-understand-the-container">
-              <p className="blank-line">&nbsp;</p>
+              {/* <p className="blank-line">&nbsp;</p> */}
               <p className="blank-line">
                 We understand the uniqueness of every product, and we're ready
                 to provide tailored support. Fill in our contact form and let us
@@ -70,17 +82,17 @@ const Services = () => {
           <img className="group-icon" alt="" src="/group-181@2x.png" />
         </div>
       </div>
-      {/* <div className="services-inner">
+      <div className="services-inner">
         <div className="frame-parent10">
           <div className="interested-to-talk-wrapper">
-            <b className="interested-to-talk">Interested to talk?</b>
+            <b className="interested-to-talk">Contact form</b>
           </div>
-          <div className="achieve-your-most">
+          {/*    <div className="achieve-your-most">
             Achieve your most ambitious content goals with Rock Content’s Global
             Talent Network. Let’s get ready to rock!
-          </div>
+          </div>*/}
         </div>
-      </div> */}
+      </div>
       <div className="contact-form">
         <div className="form">
           <div className="input-group">
