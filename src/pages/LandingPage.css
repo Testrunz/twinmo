@@ -2,9 +2,9 @@
   position: absolute;
   background-size: cover;
   top: 0;
-  left: 0;
-  width: fit-content;
-  height: 704.25px;
+  left: calc(50% - 650px);
+  width: 1300px;
+  height: 634.25px;
   background-size: cover;
   background-position: center;
 }
@@ -54,15 +54,15 @@
 }
 .frame-parent38 {
   position: absolute;
-  /* top: calc(50% - 259.5px);
-  left: calc(50% - 601px); */
+  top: calc(50% - 259.5px);
+  left: calc(50% - 601px);
   top: 75.75px;
   width: 1157.25px;
   display: flex;
   flex-direction: row;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
-  /* align-items: center; */
+  align-items: center;
   justify-content: flex-start;
   gap: var(--gap-21xl);
 }
@@ -141,30 +141,10 @@
   width: 529px;
   height: 353px;
 }
-.screenshot-2023-06-27-at-447-icon {
+.twinmoimg {
   position: absolute;
-  top: calc(50% - 108.65px);
-  left: calc(50% - 83.07px);
-  width: 194.77px;
-  height: 261.42px;
-  object-fit: cover;
 }
-.mockup-screen-removebg-preview-icon {
-  position: absolute;
-  top: calc(50% + 41.5px);
-  left: calc(50% - 252.5px);
-  width: 154px;
-  height: 111px;
-  object-fit: cover;
-}
-.pngwing-1-icon {
-  position: absolute;
-  top: 167px;
-  left: 378px;
-  width: 151px;
-  height: 168px;
-  object-fit: cover;
-}
+
 .rectangle-parent9 {
   position: relative;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
@@ -359,7 +339,7 @@
 .image-19-parent3 {
   position: absolute;
   top: 66px;
-  left: 1100px;
+  left: 1050px;
   width: 185.28px;
   height: 19.5px;
 }
@@ -369,7 +349,7 @@
   left: calc(50% - 703.83px);
   border-top: 0.8px solid var(--color-black);
   box-sizing: border-box;
-  width: 1407.66px;
+  width: 1270px;
   height: 0.81px;
 }
 .image-9-icon10 {
@@ -389,8 +369,8 @@
 .footer5 {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 1406.85px;
+  /* left: 40px; */
+  width: 1470.6px;
   height: 380px;
 }
 .privacy-policy5 {
@@ -427,7 +407,7 @@
   position: absolute;
   background-color: var(--mini-title-bg);
 }
-.footerdefault5 { 
+.footerdefault5 {
   bottom: -0.32px;
   left: calc(50% - 670px);
   width: 1407.49px;
@@ -439,7 +419,7 @@
   top: 0px;
   left: 0;
   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.15);
-  width: 1440px;
+  width: 1300px;
   height: 89px;
 }
 .image-9-icon11 {
@@ -473,7 +453,7 @@
 }
 .header5 {
   position: absolute;
-  /* left: calc(50% - 670px); */
+  left: calc(50% - 650px);
   display: flex;
   top: 0;
   width: 100vw;
@@ -496,6 +476,36 @@
 .active {
   text-decoration: underline;
 }
+.toggle-btn {
+  display: none;
+}
+.header-list {
+  display: none;
+}
+ /* .header-list {
+
+  top: 80px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  
+  height: 0;  
+  
+} */
+.header-list li {
+  overflow: hidden;
+  right: 2rem;
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  display: flex;
+  position: relative;
+  top: 74px;
+  display: flex;
+  flex-direction: row-reverse;
+}
 @media (max-width: 700px) {
   .frame-child29 {
     display: none;
@@ -504,14 +514,26 @@
     left: 10px;
     width: 100vw;
   }
-  .unleash-the-power{
+  .unleash-the-power {
     position: absolute;
-    width: 100vw;
+    width: 90vw;
   }
   .twinmo-is-revolutionizing {
     font-weight: 500;
-    top: 220px;
+    top: 320px;
     position: relative;
-    width: 100vw;
+    width: 90vw;
+  }
+  /* .button-hover-line-parent3 {
+    display: none;
+  } */
+  .toggle-btn {
+    width: 30;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: large;
+  }
+  .header-list {
+    display: block;
   }
 }

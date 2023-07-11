@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import "./LandingPage.css";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { useState } from "react";
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -44,15 +46,18 @@ const LandingPage = () => {
     window.scrollTo(0, 0);
     navigate("/cookie-policy");
   };
+  const [open, setOpen] = useState(false);
+
+  const clickMenu = () => {
+    setOpen(!open);
+  };
 
   return (
     <div className="landing-page">
       <Helmet>
         <title>Twinmo - AI-powered Experimentation Platform | Home</title>
-        <meta
-          name="keywords"
-          content="AI-powered experimentation platform"
-        />
+        <meta name="keyword" content="AI-powered experimentation platform" />
+        <link rel="canonical" href="/" />
       </Helmet>
       <div className="vector-parent3">
         <img className="frame-child27" alt="" src="/rectangle-331.svg" />
@@ -80,7 +85,7 @@ const LandingPage = () => {
             </div>
             <div className="twinmo-is-revolutionizing">
               Experience the future of product development with Testrunz by
-              Twinmo. Because great products start with great experiments."
+              Twinmo. Because great products start with great experiments.
             </div>
             <div className="twinmo-is-revolutionizing">
               Revolutionize your product testing with Twinmo's innovative
@@ -111,7 +116,7 @@ const LandingPage = () => {
           <img
             className="confident-teacher-explaining-l-icon"
             alt=""
-            src="/confidentteacherexplaininglessonpupils-1@2x.png"
+            src="/car.png"
           />
         </div>
       </div>
@@ -141,7 +146,8 @@ const LandingPage = () => {
       <div className="frame-parent41">
         <div className="rectangle-parent9">
           <div className="frame-child30" />
-          <img
+          <img className="twinmoimg" src="Twinmo_Hardware.png"></img>
+          {/* <img
             className="screenshot-2023-06-27-at-447-icon"
             alt=""
             src="/screenshot-20230627-at-447-1@2x.png"
@@ -151,7 +157,7 @@ const LandingPage = () => {
             alt=""
             src="/mockup-screenremovebgpreview-1@2x.png"
           />
-          <img className="pngwing-1-icon" alt="" src="/pngwing-1@2x.png" />
+          <img className="pngwing-1-icon" alt="" src="/pngwing-1@2x.png" /> */}
         </div>
         <div className="vertically-integrated-solution-parent">
           <b className="vertically-integrated-solution">
@@ -326,7 +332,7 @@ const LandingPage = () => {
         </div>
         <div className="privacy-policy-parent3">
           <div className="privacy-policy5" onClick={onPrivacyPolicyClick}>
-            Privacy Policy |{" "}
+            Privacy Policy |
           </div>
           <div className="terms-of-service5">Terms of Service | </div>
           <div className="cookie-policy5" onClick={onCookiePolicyTextClick}>
@@ -334,6 +340,7 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+
       <div className="header5">
         <div className="header-child3" />
         <div className="image-9-parent3">
@@ -391,7 +398,23 @@ const LandingPage = () => {
               </div>
             </div>
           </div>
+          {/* <div className="button-hover-line25">
+            <div className="vertically-integrated-solution">
+              <div className="toggle-btn" onClick={clickMenu}>
+                {open ? <AiOutlineClose /> : <AiOutlineMenu />}
+              </div>
+            </div>
+          </div> */}
         </div>
+        {/* {open && (
+          <ul className="header-list">
+            <li>Platforms</li>
+            <li>Use Cases</li>
+            <li>Industries</li>
+            <li>Service</li>
+            <li>Resource</li>
+          </ul>
+        )} */}
       </div>
     </div>
   );

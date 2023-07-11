@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./Platforms.css";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 const Platforms = () => {
   const navigate = useNavigate();
@@ -50,13 +50,14 @@ const Platforms = () => {
           Testrunz: Unified Platform for Product Experiments | Twinmo
         </title>
         <meta
-          name="keywords"
+          name="keyword"
           content="Unified platform for product experiments"
         />
         <meta
           name="description"
           content="Explore Testrunz, our AI-powered platform designed to streamline product experiments. Accelerate your product development with real-time data analysis."
         />
+        <link rel="canonical" href="/platforms" />
       </Helmet>
       <div className="vector-parent2">
         <img className="frame-child15" alt="" src="/rectangle-331.svg" />
@@ -257,7 +258,7 @@ const Platforms = () => {
           <div className="rectangle-parent7">
             <div className="frame-child23" />
             <div className="frame-parent36">
-              <img className="frame-child24" alt="" src="/frame-33352.svg" />
+              <img className="frame-child24" alt="" src="/Testrunz.png" />
               <div className="testrunz-parent">
                 <div className="testrunz">Testrunz</div>
                 <div className="software">Software</div>
@@ -278,7 +279,7 @@ const Platforms = () => {
           <div className="rectangle-parent7">
             <div className="frame-child23" />
             <div className="frame-parent36">
-              <img className="frame-child24" alt="" src="/frame-33351.svg" />
+              <img className="frame-child24" alt="" src="/Unity.png" />
               <div className="unity-parent">
                 <div className="testrunz">Unity</div>
                 <div className="software">Hardware</div>

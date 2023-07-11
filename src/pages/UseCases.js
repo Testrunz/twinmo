@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
-import {Helmet} from "react-helmet"
+import {Helmet} from "react-helmet-async"
 import "./UseCases.css";
 import { useState } from "react";
 
@@ -59,6 +59,7 @@ const UseCases = () => {
           name="description"
           content="Discover how Testrunz can transform your product development process. Learn about our smart experiment planning, real-time analysis, and predictive insights."
         />
+        <link rel="canonical" href="/use-cases" />
       </Helmet>
       <div className="vector-parent1">
         <img className="frame-child10" alt="" src="/rectangle-33.svg" />

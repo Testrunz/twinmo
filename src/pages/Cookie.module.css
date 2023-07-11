@@ -132,7 +132,7 @@
 }
 .image19Parent {
   top: 66px;
-  left: 1100px;
+  left: 1050px;
   width: 185.28px;
 }
 .footerChild {
@@ -141,7 +141,7 @@
   left: calc(50% - 703.83px);
   border-top: 0.8px solid var(--color-black);
   box-sizing: border-box;
-  width: 1407.66px;
+  width: 1270px;
   height: 0.81px;
 }
 .image9Icon {
@@ -161,8 +161,8 @@
 .footer {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 1406.85px;
+  left: 40px;
+  width: 1470.6px;
   height: 380px;
 }
 .cookiePolicy1,

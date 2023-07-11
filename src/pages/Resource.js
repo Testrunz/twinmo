@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./Resource.css";
-import {Helmet} from "react-helmet"
+import {Helmet} from "react-helmet-async"
 
 const Resource = () => {
   const navigate = useNavigate();
@@ -55,6 +55,7 @@ const Resource = () => {
           name="description"
           content="Explore our resources to learn more about advanced DOE and systems thinking. Dive into our case studies, methods, and tools for experimentation and analysis."
         />
+        <link rel="canonical" href="/resource" />
       </Helmet>
       <div className="vector-parent">
         <img className="frame-child" alt="" src="/rectangle-33.svg" />

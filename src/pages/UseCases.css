@@ -2,9 +2,9 @@
   position: absolute;
   background-size: cover;
   top: 0;
-  left: 0;
-  width: fit-content;
-  height: 704.25px;
+  left: calc(50% - 650px);
+  width: 1300px;
+  height: 634.25px;
   background-size: cover;
   background-position: center;
 }
@@ -58,16 +58,15 @@
 }
 .frame-parent22 {
   position: absolute;
-  /* top: calc(50% - 259.5px);
-  left: calc(50% - 601px); */
+  top: calc(50% - 259.5px);
+  left: calc(50% - 601px);
   top: 75.75px;
-  /* left: 101.63px; */
   width: 1130px;
   display: flex;
   flex-direction: row;
   padding: 0 var(--padding-base);
   box-sizing: border-box;
-  /* align-items: center; */
+  align-items: center;
   justify-content: flex-start;
   gap: var(--gap-21xl);
 }
@@ -232,19 +231,19 @@
 .content {
   display: none;
 }
-.show-content{
-    position: absolute;
-    height: 90.68%;
-    width: 96.25%;
-    top: 9.32%;
-    right: 1.91%;
-    bottom: 0;
-    left: 1.84%;
-    color: var(--primar-yellow);
-    display: block;
+.show-content {
+  position: absolute;
+  height: 90.68%;
+  width: 96.25%;
+  top: 9.32%;
+  right: 1.91%;
+  bottom: 0;
+  left: 1.84%;
+  color: var(--primar-yellow);
+  display: block;
 }
 .discover-innovate.active {
-  border-bottom: 3px solid #F1c232;
+  border-bottom: 3px solid #f1c232;
   text-decoration: none;
 }
 .component-9,
@@ -265,17 +264,10 @@
   font-size: 33px;
 }
 .header-child1 {
-   /* position: absolute; */
-   top: 0px;
-   /* left: 0; */
-   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.15);
-   width: 100vw;
-   height: 89px;position: absolute;
   top: 0px;
   left: 0;
-  background-color: var(--mini-title-bg);
   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.15);
-  width: 1440px;
+  width: 1300px;
   height: 89px;
 }
 .image-9-icon6 {
@@ -312,7 +304,7 @@
 }
 .header3 {
   position: absolute;
-  /* left: calc(50% - 670px); */
+  left: calc(50% - 650px);
   display: flex;
   top: 0;
   width: 100vw;
@@ -409,7 +401,7 @@
 .image-19-parent1 {
   position: absolute;
   top: 66px;
-  left: 1100px;
+  left: 1050px;
   width: 185.28px;
   height: 19.5px;
 }
@@ -419,7 +411,7 @@
   left: calc(50% - 703.83px);
   border-top: 0.8px solid var(--color-black);
   box-sizing: border-box;
-  width: 1407.66px;
+  width: 1270px;
   height: 0.81px;
 }
 .image-9-icon7 {
@@ -439,8 +431,8 @@
 .footer3 {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 1406.85px;
+  /* left: 40px; */
+  width: 1470.6px;
   height: 380px;
 }
 .privacy-policy3 {

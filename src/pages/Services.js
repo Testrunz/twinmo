@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./Services.css";
-import {Helmet} from "react-helmet";
+import {Helmet} from "react-helmet-async";
 
 const Services = () => {
   const navigate = useNavigate();
@@ -56,6 +56,7 @@ const Services = () => {
           name="description"
           content="At Twinmo, we offer tailored support for your product development journey. From consultation to quality control, discover our range of services."
         />
+        <link rel="canonical" href="/services" />
       </Helmet>
       <div className="vector-group">
         <img className="rectangle-icon" alt="" src="/rectangle-33.svg" />
