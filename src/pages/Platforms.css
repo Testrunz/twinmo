@@ -563,7 +563,7 @@
   height: 48px;
   /* position: absolute; */
   top: 0;
-  left: 150px;
+  /* left: 150px; */
   border-radius: var(--br-8xs-5);
   background-color: var(--primar-yellow);
   align-items: center;
