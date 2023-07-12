@@ -50,7 +50,7 @@ const Resource = () => {
         <title>
         Resources for Advanced DOE and Systems Thinking | Twinmo
         </title>
-        <meta name="keywords" content="Resources for advanced DOE and systems thinking" />
+        <meta name="keyword" content="Resources for advanced DOE and systems thinking" />
         <meta
           name="description"
           content="Explore our resources to learn more about advanced DOE and systems thinking. Dive into our case studies, methods, and tools for experimentation and analysis."

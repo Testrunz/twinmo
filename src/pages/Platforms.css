@@ -389,8 +389,11 @@
   top: 2929.75px;
   font-size: var(--font-size-lg);
   /* left: calc(50% - 628px); */
-  margin: 10px auto;
   gap: var(--gap-12xs);
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .slider_title {
   font-size: var(--font-size-lg);
@@ -405,11 +408,7 @@
   max-width: 80%;
   height: 200px;
   padding: var(--padding-11xl);
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 10px auto;
 }
 .slide_box p {
   font-size: var(--paragraph-style-1-size);
@@ -562,17 +561,17 @@
   position: relative;
   width: 48px;
   height: 48px;
-}
-.frame-child12 {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
-  left: 0;
+  left: 150px;
   border-radius: var(--br-8xs-5);
   background-color: var(--primar-yellow);
-  width: 48px;
-  height: 48px;
   align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .edit-24-outline1 {
   position: absolute;
   top: 15px;

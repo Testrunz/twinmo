@@ -52,8 +52,8 @@ const Platforms = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4000,
+    // autoplay: true,
+    // autoplaySpeed: 4000,
     responsive: [
       {
         breakpoint: 1024,
@@ -207,143 +207,140 @@ No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
 
       {/* <div className="frame-parent33"> */}
 
-   
-        <Slider className="slider_list" {...settings}>
-          <div className="slide_box">
-            <div className="rectangle-parent9">
-              <div className="frame-child12" />
-              <img
-                className="edit-24-outline1"
-                alt=""
-                src="/edit--24--outline1.svg"
-              />
-            </div>
-            <br/>
-            <b className="slider_title">Predefined Test Procedure Library</b>
-            <p>
-              Unleash efficiency with our expansive, predefined procedure
-              library, tailored for a seamless testing experience.
-            </p>
+      <Slider className="slider_list" {...settings}>
+        <div className="slide_box">
+          <div className="rectangle-parent9">
+            {/* <div className="frame-child12" /> */}
+            <img
+              className="edit-24-outline1"
+              alt=""
+              src="/edit--24--outline1.svg"
+            />
           </div>
-          <div className="slide_box">
-            <div className="rectangle-parent9">
-              <div className="frame-child12" />
-              <img
-                className="edit-24-outline1"
-                alt=""
-                src="/messages--24--outline1.svg"
-              />
-            </div>
-             <br/>
-            <b className="slider_title">
-              Comprehensive Test Input and Inventory Management
-            </b>
-            <p>
-              Optimize your workflows with our holistic test input and inventory
-              management system.
-            </p>
+          <br />
+          <b className="slider_title">Predefined Test Procedure Library</b>
+          <p>
+            Unleash efficiency with our expansive, predefined procedure library,
+            tailored for a seamless testing experience.
+          </p>
+        </div>
+        <div className="slide_box">
+          <div className="rectangle-parent9">
+            {/* <div className="frame-child12" /> */}
+            <img
+              className="edit-24-outline1"
+              alt=""
+              src="/messages--24--outline1.svg"
+            />
           </div>
-          <div className="slide_box">
-            <img className="rectangle-parent9" alt="" src="/frame-181.svg" />
-             <br/>
-            <b className="slider_title">
-              Step-by-step Digital Work Instructions
-            </b>
-            <p>
-              Navigate your experiments with ease, courtesy of our detailed
-              digital work instructions
-            </p>
+          <br />
+          <b className="slider_title">
+            Comprehensive Test Input and Inventory Management
+          </b>
+          <p>
+            Optimize your workflows with our holistic test input and inventory
+            management system.
+          </p>
+        </div>
+        <div className="slide_box">
+          <img className="rectangle-parent9" alt="" src="/frame-181.svg" />
+          <br />
+          <b className="slider_title">Step-by-step Digital Work Instructions</b>
+          <p>
+            Navigate your experiments with ease, courtesy of our detailed
+            digital work instructions
+          </p>
+        </div>
+        <div className="slide_box">
+          <div className="rectangle-parent9">
+            {/* <div className="frame-child12" /> */}
+            <img
+              className="edit-24-outline1"
+              alt=""
+              src="/grid--24--outline1.svg"
+            />
           </div>
-          <div className="slide_box">
-            <div className="rectangle-parent9">
-              <div className="frame-child12" />
-              <img
-                className="edit-24-outline1"
-                alt=""
-                src="/grid--24--outline1.svg"
-              />
-            </div>
-            <br/>
-            <b className="slider_title">
-              Integrated Test Instruments for Time-Efficient Data Collection
-            </b>
-            <p>
-              Simplify data collection with our integrated testing instruments,
-              designed for speedy and accurate results.
-            </p>
+          <br />
+          <b className="slider_title">
+            Integrated Test Instruments for Time-Efficient Data Collection
+          </b>
+          <p>
+            Simplify data collection with our integrated testing instruments,
+            designed for speedy and accurate results.
+          </p>
+        </div>
+        <div className="slide_box">
+          <div className="rectangle-parent9">
+            {/* <div className="frame-child12" /> */}
+            <img
+              className="edit-24-outline1"
+              alt=""
+              src="/users--24--outline1.svg"
+            />
           </div>
-          <div className="slide_box">
-            <div className="rectangle-parent9">
-              <div className="frame-child12" />
-              <img
-                className="edit-24-outline1"
-                alt=""
-                src="/users--24--outline1.svg"
-              />
-            </div>
-            <br/>
-            <b className="slider_title">
-              Interactive Charts for Real-time Test Progress Tracking
-            </b>
-            <p>
-              Track your tests' progress in real-time with our interactive and
-              dynamic charts.
-            </p>
+          <br />
+          <b className="slider_title">
+            Interactive Charts for Real-time Test Progress Tracking
+          </b>
+          <p>
+            Track your tests' progress in real-time with our interactive and
+            dynamic charts.
+          </p>
+        </div>
+        <div className="slide_box">
+          <div className="rectangle-parent9">
+            {/* <div className="frame-child12" /> */}
+            <img
+              className="edit-24-outline1"
+              alt=""
+              src="/setting--24--outline1.svg"
+            />
           </div>
-          <div className="slide_box">
-            <div className="rectangle-parent9">
-              <div className="frame-child12" />
-              <img
-                className="edit-24-outline1"
-                alt=""
-                src="/setting--24--outline1.svg"
-              />
-            </div>
-            <br/>
-            <b className="slider_title">
-              Advanced AI Engine for Automatic Calculations and Results Analysis
-            </b>
-            <p>
-              Leave the heavy lifting to our advanced AI engine, taking care of
-              calculations and providing insightful results analysis.
-            </p>
+          <br />
+          <b className="slider_title">
+            Advanced AI Engine for Automatic Calculations and Results Analysis
+          </b>
+          <p>
+            Leave the heavy lifting to our advanced AI engine, taking care of
+            calculations and providing insightful results analysis.
+          </p>
+        </div>
+        <div className="slide_box">
+          <div className="rectangle-parent9">
+            {/* <div className="frame-child12" /> */}
+            <img
+              className="mdireport-bell-curve-cumulati-icon1"
+              alt=""
+              src="/mdi_report-bell-curve-cumulative.png"
+            />
           </div>
-          <div className="slide_box">
-            <div className="rectangle-parent9">
-              <div className="frame-child12" />
-              <img
-                className="mdireport-bell-curve-cumulati-icon1"
-                alt=""
-                src="/mdi_report-bell-curve-cumulative.png"
-              />
-            </div>
-             <br/>
-            <b className="slider_title">Simplified Test Report Generation</b>
-            <p>
-              Easily generate comprehensive test reports with our streamlined
-              reporting tool.
-            </p>
+          <br />
+          <b className="slider_title">Simplified Test Report Generation</b>
+          <p>
+            Easily generate comprehensive test reports with our streamlined
+            reporting tool.
+          </p>
+        </div>
+        <div className="slide_box">
+          <div className="rectangle-parent9">
+            {/* <div className="frame-child12" /> */}
+            <img
+              className="iconoirreports1"
+              alt=""
+              src="/iconoirreports1.svg"
+            />
           </div>
-          <div className="slide_box">
-            <div className="rectangle-parent9">
-              <div className="frame-child12" />
-              <img
-                className="iconoirreports1"
-                alt=""
-                src="/iconoirreports1.svg"
-              />
-            </div>
-             <br/>
-            <b className="slider_title">
-              Advanced Analytics for Further Data Analysis
-            </b>
-            <p>
-              Dive deep into your data with our advanced analytics capabilities,
-              for insightful and detailed data examination.
-            </p>
-          </div>
-        </Slider>
-      
+          <br />
+          <b className="slider_title">
+            Advanced Analytics for Further Data Analysis
+          </b>
+          <p>
+            Dive deep into your data with our advanced analytics capabilities,
+            for insightful and detailed data examination.
+          </p>
+        </div>
+      </Slider>
+
       {/* </div> */}
       {/* <div className="section-parent">
 <div className="section">

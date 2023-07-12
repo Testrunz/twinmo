@@ -78,7 +78,7 @@ const Services = () => {
         <title>
           Tailored Support for Product Development | Twinmo Services
         </title>
-        <meta name="keywords" content="Consultation for Innovation" />
+        <meta name="keyword" content="Consultation for Innovation" />
         <meta
           name="description"
           content="At Twinmo, we offer tailored support for your product development journey. From consultation to quality control, discover our range of services."
