@@ -57,6 +57,7 @@ const LandingPage = () => {
       <Helmet>
         <title>Twinmo - AI-powered Experimentation Platform | Home</title>
         <meta name="keyword" content="AI-powered experimentation platform" />
+        <meta name="description" content="Welcome to Twinmo, the AI-powered experimentation platform revolutionizing product development" />
         <link rel="canonical" href="/" />
       </Helmet>
       <div className="vector-parent3">

@@ -87,7 +87,7 @@ const UseCases = () => {
               <div className="discover-innovate">Get Started</div>
             </div> */}
           </div>
-          <img className="frame-child12" alt="" src="/group-183@2x.png" />
+          <img className="frame-child123" alt="" src="/group-183@2x.png" />
         </div>
       </div>
       <div className="group-div">

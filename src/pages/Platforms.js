@@ -1,6 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import "./Platforms.css";
 import { Helmet } from "react-helmet-async";
+import Slider from "react-slick";
+import "./Slick.css";
+import "./Slick-theme.css";
 
 const Platforms = () => {
   const navigate = useNavigate();
@@ -43,6 +46,42 @@ const Platforms = () => {
     navigate("/cookie-policy");
   };
 
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <div className="platforms4">
       <Helmet>
@@ -75,8 +114,8 @@ const Platforms = () => {
               with confidence and precision.
             </p>
             {/* <div className="button-type-211">
-              <div className="button32">Get Started</div>
-            </div> */}
+<div className="button32">Get Started</div>
+</div> */}
           </div>
           <img className="frame-child17" alt="" src="/group-184@2x.png" />
         </div>
@@ -85,8 +124,8 @@ const Platforms = () => {
         <div className="footer4">
           <div className="frame-parent29">
             {/* <div className="twinmo-wrapper2">
-              <b className="digital-experimentation">Twinmo</b>
-            </div> */}
+<b className="digital-experimentation">Twinmo</b>
+</div> */}
             <div className="frame-parent30">
               <div className="home-wrapper2" onClick={onClickHome}>
                 <div className="digital-experimentation">Home</div>
@@ -110,16 +149,16 @@ const Platforms = () => {
           </div>
           <div className="frame-parent31">
             {/* <div className="contact-wrapper2">
-              <b className="digital-experimentation">Contact</b>
-            </div> */}
+<b className="digital-experimentation">Contact</b>
+</div> */}
             <div className="twinmo-wrapper2">
               <div className="digital-experimentation">Contact us</div>
             </div>
             {/* <div className="twinmo-wrapper2">
-              <div className="twinmo-ay-1104">
-                No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
-              </div>
-            </div> */}
+<div className="twinmo-ay-1104">
+No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
+</div>
+</div> */}
           </div>
           <div className="image-19-parent2">
             <img className="image-19-icon4" alt="" src="/image-19@2x.png" />
@@ -144,7 +183,7 @@ const Platforms = () => {
           </div>
         </div>
       </div>
-      <b className="our-products">Our Products</b>
+      {/* <b className="our-products">Our Products</b> */}
       <div className="frame-parent32">
         <div className="digital-experimentation-parent">
           <b className="digital-experimentation">Digital Experimentation</b>
@@ -154,102 +193,242 @@ const Platforms = () => {
             post-experimentation, and automatically generating reports.
           </div>
           {/* <div className="button-type-211">
-            <div className="button32">Get Started</div>
-          </div> */}
+<div className="button32">Get Started</div>
+</div> */}
         </div>
         <div className="my-page-4-1-wrapper">
           <img className="my-page-4-1" alt="" src="/my-page-4-1@2x.png" />
         </div>
       </div>
+
       <div class="key-features">
         <b>Key Features</b>
       </div>
-      <div className="frame-parent33">
-        <div className="section-parent">
-          <div className="section">
-            <b className="procedures">Procedures</b>
-            <div className="over-1000-experimentation">
-              Over 1,000 experimentation procedures have been digitized.
-            </div>
-            <div className="section-child">
-              <div className="frame-child18" />
+
+      {/* <div className="frame-parent33"> */}
+
+   
+        <Slider className="slider_list" {...settings}>
+          <div className="slide_box">
+            <div className="rectangle-parent9">
+              <div className="frame-child12" />
               <img
-                className="edit-24-outline"
+                className="edit-24-outline1"
                 alt=""
-                src="/edit--24--outline.svg"
+                src="/edit--24--outline1.svg"
               />
             </div>
+            <br/>
+            <b className="slider_title">Predefined Test Procedure Library</b>
+            <p>
+              Unleash efficiency with our expansive, predefined procedure
+              library, tailored for a seamless testing experience.
+            </p>
           </div>
-          <div className="section">
-            <b className="procedures">Notification</b>
-            <div className="over-1000-experimentation">
-              Once users submit their Runz, other users will be notified.
-            </div>
-            <div className="section-child">
-              <div className="frame-child18" />
+          <div className="slide_box">
+            <div className="rectangle-parent9">
+              <div className="frame-child12" />
               <img
-                className="edit-24-outline"
+                className="edit-24-outline1"
                 alt=""
-                src="/messages--24--outline.svg"
+                src="/messages--24--outline1.svg"
               />
             </div>
+             <br/>
+            <b className="slider_title">
+              Comprehensive Test Input and Inventory Management
+            </b>
+            <p>
+              Optimize your workflows with our holistic test input and inventory
+              management system.
+            </p>
           </div>
-          <div className="section">
-            <b className="runz-report">Runz report</b>
-            <div className="over-1000-experimentation">
-              The experimentation workflow is streamlined through the
-              digitization of test steps and automatic report generation.
-            </div>
-            <img className="section-child" alt="" src="/frame-18.svg" />
+          <div className="slide_box">
+            <img className="rectangle-parent9" alt="" src="/frame-181.svg" />
+             <br/>
+            <b className="slider_title">
+              Step-by-step Digital Work Instructions
+            </b>
+            <p>
+              Navigate your experiments with ease, courtesy of our detailed
+              digital work instructions
+            </p>
           </div>
-        </div>
-        <div className="section-parent">
-          <div className="section">
-            <b className="runz-report">Monitoring</b>
-            <div className="over-1000-experimentation">
-              Users can easily identify calculation mistakes.
-            </div>
-            <div className="section-child">
-              <div className="frame-child18" />
+          <div className="slide_box">
+            <div className="rectangle-parent9">
+              <div className="frame-child12" />
               <img
-                className="edit-24-outline"
+                className="edit-24-outline1"
                 alt=""
-                src="/grid--24--outline.svg"
+                src="/grid--24--outline1.svg"
               />
             </div>
+            <br/>
+            <b className="slider_title">
+              Integrated Test Instruments for Time-Efficient Data Collection
+            </b>
+            <p>
+              Simplify data collection with our integrated testing instruments,
+              designed for speedy and accurate results.
+            </p>
           </div>
-          <div className="section">
-            <b className="runz-report">{`Teams & Collaboration`}</b>
-            <div className="there-is-no">
-              There is no need to manually calculate the result as submitted
-              Runz display the actual result.
-            </div>
-            <div className="section-child">
-              <div className="frame-child18" />
+          <div className="slide_box">
+            <div className="rectangle-parent9">
+              <div className="frame-child12" />
               <img
-                className="edit-24-outline"
+                className="edit-24-outline1"
                 alt=""
-                src="/users--24--outline.svg"
+                src="/users--24--outline1.svg"
               />
             </div>
+            <br/>
+            <b className="slider_title">
+              Interactive Charts for Real-time Test Progress Tracking
+            </b>
+            <p>
+              Track your tests' progress in real-time with our interactive and
+              dynamic charts.
+            </p>
           </div>
-          <div className="section">
-            <b className="runz-report">Saves time</b>
-            <div className="over-1000-experimentation">
-              No need to calculate the result. Submitted runz shows the actual
-              result.
-            </div>
-            <div className="section-child">
-              <div className="frame-child18" />
+          <div className="slide_box">
+            <div className="rectangle-parent9">
+              <div className="frame-child12" />
               <img
-                className="edit-24-outline"
+                className="edit-24-outline1"
                 alt=""
-                src="/setting--24--outline.svg"
+                src="/setting--24--outline1.svg"
               />
             </div>
+            <br/>
+            <b className="slider_title">
+              Advanced AI Engine for Automatic Calculations and Results Analysis
+            </b>
+            <p>
+              Leave the heavy lifting to our advanced AI engine, taking care of
+              calculations and providing insightful results analysis.
+            </p>
           </div>
-        </div>
-      </div>
+          <div className="slide_box">
+            <div className="rectangle-parent9">
+              <div className="frame-child12" />
+              <img
+                className="mdireport-bell-curve-cumulati-icon1"
+                alt=""
+                src="/mdi_report-bell-curve-cumulative.png"
+              />
+            </div>
+             <br/>
+            <b className="slider_title">Simplified Test Report Generation</b>
+            <p>
+              Easily generate comprehensive test reports with our streamlined
+              reporting tool.
+            </p>
+          </div>
+          <div className="slide_box">
+            <div className="rectangle-parent9">
+              <div className="frame-child12" />
+              <img
+                className="iconoirreports1"
+                alt=""
+                src="/iconoirreports1.svg"
+              />
+            </div>
+             <br/>
+            <b className="slider_title">
+              Advanced Analytics for Further Data Analysis
+            </b>
+            <p>
+              Dive deep into your data with our advanced analytics capabilities,
+              for insightful and detailed data examination.
+            </p>
+          </div>
+        </Slider>
+      
+      {/* </div> */}
+      {/* <div className="section-parent">
+<div className="section">
+<b className="procedures">Procedures</b>
+<div className="over-1000-experimentation">
+Over 1,000 experimentation procedures have been digitized.
+</div>
+<div className="section-child">
+<div className="frame-child18" />
+<img
+className="edit-24-outline"
+alt=""
+src="/edit--24--outline.svg"
+/>
+</div>
+</div>
+<div className="section">
+<b className="procedures">Notification</b>
+<div className="over-1000-experimentation">
+Once users submit their Runz, other users will be notified.
+</div>
+<div className="section-child">
+<div className="frame-child18" />
+<img
+className="edit-24-outline"
+alt=""
+src="/messages--24--outline.svg"
+/>
+</div>
+</div>
+<div className="section">
+<b className="runz-report">Runz report</b>
+<div className="over-1000-experimentation">
+The experimentation workflow is streamlined through the
+digitization of test steps and automatic report generation.
+</div>
+<img className="section-child" alt="" src="/frame-18.svg" />
+</div>
+</div>
+<div className="section-parent">
+<div className="section">
+<b className="runz-report">Monitoring</b>
+<div className="over-1000-experimentation">
+Users can easily identify calculation mistakes.
+</div>
+<div className="section-child">
+<div className="frame-child18" />
+<img
+className="edit-24-outline"
+alt=""
+src="/grid--24--outline.svg"
+/>
+</div>
+</div>
+<div className="section">
+<b className="runz-report">{`Teams & Collaboration`}</b>
+<div className="there-is-no">
+There is no need to manually calculate the result as submitted
+Runz display the actual result.
+</div>
+<div className="section-child">
+<div className="frame-child18" />
+<img
+className="edit-24-outline"
+alt=""
+src="/users--24--outline.svg"
+/>
+</div>
+</div>
+<div className="section">
+<b className="runz-report">Saves time</b>
+<div className="over-1000-experimentation">
+No need to calculate the result. Submitted runz shows the actual
+result.
+</div>
+<div className="section-child">
+<div className="frame-child18" />
+<img
+className="edit-24-outline"
+alt=""
+src="/setting--24--outline.svg"
+/>
+</div>
+</div>
+</div> */}
       <div className="frame-parent34">
         <div className="digital-experimentation">
           <b>Platforms</b>
@@ -272,8 +451,8 @@ const Platforms = () => {
                 </div>
               </div>
               {/* <div className="button-type-213">
-                <div className="button32">Get Started</div>
-              </div> */}
+<div className="button32">Get Started</div>
+</div> */}
             </div>
           </div>
           <div className="rectangle-parent7">
@@ -293,8 +472,8 @@ const Platforms = () => {
                 </div>
               </div>
               {/* <div className="button-type-213">
-                <div className="button32">Get Started</div>
-              </div> */}
+<div className="button32">Get Started</div>
+</div> */}
             </div>
           </div>
         </div>
@@ -317,8 +496,8 @@ const Platforms = () => {
             provides the capability for individuals to collaborate in real-time.
           </div>
           {/* <div className="button-type-211">
-            <div className="button32">Get Started</div>
-          </div> */}
+<div className="button32">Get Started</div>
+</div> */}
         </div>
       </div>
       <div className="header4">

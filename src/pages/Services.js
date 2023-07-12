@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import "./Services.css";
-import {Helmet} from "react-helmet-async";
+import { Helmet } from "react-helmet-async";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Services = () => {
   const navigate = useNavigate();
@@ -43,6 +45,31 @@ const Services = () => {
   const onCookiePolicyTextClick = () => {
     window.scrollTo(0, 0);
     navigate("/cookie-policy");
+  };
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault("");
+
+    emailjs
+      .sendForm(
+        "service_zgvwjpe",
+        "template_wstbxgm",
+        form.current,
+        "PpCBYhF138ELTjh3o"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("Message sent!");
+          alert("Message sent!!!");
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
@@ -94,7 +121,7 @@ const Services = () => {
           </div>*/}
         </div>
       </div>
-      <div className="contact-form">
+      <form className="contact-form" ref={form} onSubmit={sendEmail}>
         <div className="form">
           <div className="input-group">
             <div className="input-parent">
@@ -104,6 +131,9 @@ const Services = () => {
                     <input
                       className="base-input-rounded-not-sel"
                       placeholder="Name"
+                      type="text"
+                      name="user_name"
+                      required
                     ></input>
                     <div className="mini-title-contaier">
                       <div className="title">First name</div>
@@ -118,6 +148,7 @@ const Services = () => {
                     <input
                       className="base-input-rounded-not-sel"
                       placeholder="Lastname"
+                      required
                     ></input>
                     <div className="mini-title-contaier">
                       <div className="title">Last name</div>
@@ -133,6 +164,9 @@ const Services = () => {
                   <input
                     className="base-input-rounded-not-sel"
                     placeholder="yourmail@gmail.com"
+                    type="email"
+                    name="user_email"
+                    required
                   ></input>
                   <div className="mini-title-contaier">
                     <div className="title">E-mail</div>
@@ -215,6 +249,8 @@ const Services = () => {
                   <textarea
                     className="base-input-rounded-not-sel"
                     placeholder="Your Message"
+                    name="message"
+                    required
                     style={{ height: "150px", fontFamily: "Poppins" }}
                   ></textarea>
                   <div className="mini-title-contaier1">
@@ -226,10 +262,10 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <button className="button10">
-          <div className="enter">Enter</div>
+        <button className="button10" type="submit">
+          <div className="enter">Submit</div>
         </button>
-      </div>
+      </form>
       <div className="header1">
         <div className="header-item" />
         <div className="image-9-group">
