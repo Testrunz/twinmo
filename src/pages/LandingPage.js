@@ -145,7 +145,7 @@ const LandingPage = () => {
         </div>
       </div>
       <div className="frame-parent41">
-        <div className="rectangle-parent9">
+        <div className="rectangle-parent91">
           <div className="frame-child30" />
           <img className="twinmoimg" src="Twinmo_Hardware.png"></img>
           {/* <img
