@@ -184,7 +184,7 @@ const UseCases = () => {
                   </p>
                 </div>
               </div>
-              <img className="frame-child14" alt="" src="/discover.png" />
+              <img className="frame-child14" alt="" src="/Discover04.png" />
               <div className="smart-experiment-planning-parent">
                 <div className="discover-innovate">
                   Smart Experiment Planning{" "}
@@ -253,7 +253,7 @@ const UseCases = () => {
                   </p>
                 </div>
               </div>
-              <img className="frame-child14" alt="" src="/verifyy.png" />
+              <img className="frame-child14" alt="" src="/graph02.png" />
               <div className="smart-experiment-planning-parent">
                 <div className="discover-innovate">
                   Automated Test Plan Generation
@@ -315,7 +315,7 @@ const UseCases = () => {
                   </p>
                 </div>
               </div>
-              <img className="frame-child14" alt="" src="/manufacture.png" />
+              <img className="frame-child14" alt="" src="/Quality01.png" />
               <div className="smart-experiment-planning-parent">
                 <div className="discover-innovate">
                   Monitor Manufacturing Process
@@ -381,7 +381,7 @@ const UseCases = () => {
             </div>
             <div className="button-hover-line15">
               <div
-                className="digital-experimentation"
+                className="header-options"
                 style={{
                   cursor: "pointer",
                   position: "relative",
@@ -391,7 +391,7 @@ const UseCases = () => {
               >
                 Use Cases
                 <div
-                  className="underline"
+                  className="header-option"
                   style={{
                     position: "absolute",
                     left: 0,

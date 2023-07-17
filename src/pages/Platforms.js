@@ -104,7 +104,7 @@ const Platforms = () => {
         <div className="frame-parent28">
           <div className="your-all-in-one-experimentatio-parent">
             <h1 className="your-all-in-one-experimentatio">
-              Your All-in-One Experimentation Platform for Data-Driven Decisions
+              Your All-in-One Experimentation Platform for Data Driven Decisions
             </h1>
             <p className="we-provide-a">
               We provide a unified platform, Testrunz, for tracking, analyzing,
@@ -128,22 +128,22 @@ const Platforms = () => {
 </div> */}
             <div className="frame-parent30">
               <div className="home-wrapper2" onClick={onClickHome}>
-                <div className="digital-experimentation">Home</div>
+                <div className="footer-options">Home</div>
               </div>
               <div className="home-wrapper2" onClick={onClickPlatform}>
-                <div className="digital-experimentation">Platforms</div>
+                <div className="footer-options">Platforms</div>
               </div>
               <div className="home-wrapper2" onClick={onClickUsecase}>
-                <div className="digital-experimentation">Use Cases</div>
+                <div className="footer-options">Use Cases</div>
               </div>
               <div className="home-wrapper2" onClick={onClickIndustries}>
-                <div className="digital-experimentation">Industries</div>
+                <div className="footer-options">Industries</div>
               </div>
               <div className="home-wrapper2" onClick={onClickService}>
-                <div className="digital-experimentation">Services</div>
+                <div className="footer-options">Services</div>
               </div>
               <div className="home-wrapper2" onClick={onClickResource}>
-                <div className="digital-experimentation">Resource</div>
+                <div className="footer-options">Resource</div>
               </div>
             </div>
           </div>
@@ -152,7 +152,7 @@ const Platforms = () => {
 <b className="digital-experimentation">Contact</b>
 </div> */}
             <div className="twinmo-wrapper2">
-              <div className="digital-experimentation">Contact us</div>
+              <div className="footer-options">Contact us</div>
             </div>
             {/* <div className="twinmo-wrapper2">
 <div className="twinmo-ay-1104">
@@ -428,7 +428,7 @@ src="/setting--24--outline.svg"
 </div> */}
       <div className="frame-parent34">
         <div className="digital-experimentation">
-          <b>Platforms</b>
+          Platforms
         </div>
         <div className="frame-parent35">
           <div className="rectangle-parent7">
@@ -509,7 +509,7 @@ src="/setting--24--outline.svg"
           <div className="button-hover-line-parent2">
             <div className="button-hover-line20">
               <div
-                className="digital-experimentation"
+                className="Header-options"
                 style={{
                   cursor: "pointer",
                   position: "relative",
@@ -533,7 +533,7 @@ src="/setting--24--outline.svg"
             </div>
             <div className="button-hover-line20">
               <div
-                className="digital-experimentation"
+                className="Header-options"
                 onClick={onClickUsecase}
                 style={{ cursor: "pointer" }}
               >
@@ -542,7 +542,7 @@ src="/setting--24--outline.svg"
             </div>
             <div className="button-hover-line20">
               <div
-                className="digital-experimentation"
+                className="Header-options"
                 onClick={onClickIndustries}
                 style={{ cursor: "pointer" }}
               >
@@ -551,7 +551,7 @@ src="/setting--24--outline.svg"
             </div>
             <div className="button-hover-line20">
               <div
-                className="digital-experimentation"
+                className="Header-options"
                 onClick={onClickService}
                 style={{ cursor: "pointer" }}
               >
@@ -560,7 +560,7 @@ src="/setting--24--outline.svg"
             </div>
             <div className="button-hover-line20">
               <div
-                className="digital-experimentation"
+                className="Header-options"
                 onClick={onClickResource}
                 style={{ cursor: "pointer" }}
               >

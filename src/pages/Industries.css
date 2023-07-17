@@ -12,15 +12,22 @@
   position: relative;
   font-size: var(--h1-size);
   line-height: 60px;
-  font-weight: 600;
+  font-weight: 500;
   display: inline-block;
-  width: 587.25px;
+  width: 500;
 }
 .whether-youre-creating {
-  color: var(--color-gray-200);
+  
   display: inline-block;
   width: 616.5px;
-  font-size: var(--paragraph-style-1-size);
+  color: var(--text-shade-1, #181818);
+/* WEB/Body text/Large Bold */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.24px;
 }
 .button16,
 .whether-youre-creating {
@@ -75,10 +82,11 @@
 }
 .industries3 {
   position: absolute;
-  top: 0;
+  top: -34px;;
   left: 0;
   line-height: 59.25px;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 34px;
 }
 .industries-frame {
   top: 799.5px;
@@ -99,9 +107,23 @@
 }
 .personal-care-appliances {
   position: relative;
-  font-size: var(--h3-size);
+  color: var(--text-shade-1, #181818);
+/* WEB/Title/T1 */
+font-family: Poppins;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 .testrunz-helps-prepare {
+  color: var(--text-shade-1, #181818);
+/* WEB/Body text/Large medium */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.24px;
   position: relative;
   display: inline-block;
   width: 486.75px;

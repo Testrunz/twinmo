@@ -9,8 +9,15 @@
   background-position: center;
 }
 .unleash-the-power {
+  color: var(--primar-yellow);
+/* WEB/Heading/H1 */
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+/* line-height: normal; */
+letter-spacing: -1.92px;
   margin: 0;
-  font-size: 48px;
+  font-size: 50px;
 }
 .unleash-the-power-container {
   position: relative;
@@ -76,15 +83,24 @@
 }
 .the-power-of,
 .transform-the-way {
-  position: relative;
-  display: inline-block;
-  width: 423px;
+  color: var(--text-shade-1, #181818);
+/* WEB/Heading/H4 */
+font-family: Poppins;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.68px;
 }
 .transform-the-way {
-  font-size: var(--paragraph-style-1-size);
-  font-weight: 500;
-  color: var(--paragraph-color);
-  width: 419px;
+  color: var(--text-shade-1, #181818);
+/* WEB/Body text/Large medium */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.24px;
 }
 .the-power-of-rapid-experimenta-parent {
   width: 423px;
@@ -101,7 +117,7 @@
   border-radius: var(--br-mini);
   width: 603.75px;
   height: 428.31px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 .confident-teacher-explaining-l-wrapper {
   position: relative;
@@ -142,6 +158,9 @@
   height: 353px;
 }
 .twinmoimg {
+  top: 40px;
+  height: 294px;
+  width: 500;
   position: absolute;
 }
 
@@ -153,23 +172,48 @@
 }
 .vertically-integrated-solution,
 .weve-taken-the {
-  position: relative;
+  
+  color: var(--text-shade-1, #181818);
+  /* WEB/Heading/H4 */
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.68px;
 }
 .weve-taken-the {
-  font-size: var(--paragraph-style-1-size);
-  font-weight: 500;
-  color: var(--paragraph-color);
-  display: inline-block;
-  width: 426px;
+  color: var(--text-shade-1, #181818);
+/* WEB/Body text/Large medium */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.24px;
 }
 .frame-parent41,
 .vertically-integrated-solution-parent {
+  
   width: 426px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-mini);
+  
+}
+.footers
+{
+  color: var(--text-shade-1, #181818);
+  /* WEB/Body text/Large Regular */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.24px;
+
 }
 .frame-parent41 {
   position: absolute;
@@ -182,8 +226,14 @@
   gap: var(--gap-84xl-5);
 }
 .key-features1 {
-  position: relative;
-  font-weight: 600;
+  color: var(--text-shade-1, #181818);
+  /* WEB/Heading/H4 */
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.68px;
 }
 .key-features-wrapper {
   display: flex;
@@ -212,8 +262,14 @@
 .frame-parent44 {
   flex-direction: column;
   gap: var(--gap-3xs);
-  font-size: var(--paragraph-style-1-size);
-  color: var(--paragraph-color);
+  color: var(--text-shade-1, #181818);
+/* WEB/Body text/Large Bold */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.24px;
 }
 .frame-parent43,
 .frame-parent44,
@@ -236,6 +292,14 @@
   color: var(--paragraph-color);
   display: inline-block;
   width: f;
+  color: var(--text-shade-1, #181818);
+/* WEB/Body text/Large medium */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.24px;
 }
 .frame-parent42 {
   position: absolute;
@@ -273,8 +337,14 @@
 .frame-parent46 {
   flex-direction: column;
   gap: 3.25px;
-  font-size: var(--paragraph-style-1-size);
-  color: var(--paragraph-color);
+  color: var(--text-shade-1, #181818);
+/* WEB/Body text/Large medium */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.24px;
 }
 .contact-wrapper3,
 .frame-parent45 {

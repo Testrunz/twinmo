@@ -96,7 +96,7 @@ const LandingPage = () => {
               <div className="predefined-test-procedure">Get Started</div>
             </div> */}
           </div>
-          <img className="frame-child29" alt="" src="/group-185@2x.png" />
+          <img className="frame-child29" alt="" src="/Group 18.png" />
         </div>
       </div>
       <div className="frame-parent39">
@@ -126,7 +126,7 @@ const LandingPage = () => {
           <img
             className="confident-teacher-explaining-l-icon"
             alt=""
-            src="/home.png"
+            src="/home01.png"
           />
         </div>
         <div className="the-power-of-rapid-experimenta-parent">
@@ -147,7 +147,7 @@ const LandingPage = () => {
       <div className="frame-parent41">
         <div className="rectangle-parent91">
           <div className="frame-child30" />
-          <img className="twinmoimg" src="Twinmo_Hardware.png"></img>
+          <img className="twinmoimg" src="Image Twinmo 01.png"></img>
           {/* <img
             className="screenshot-2023-06-27-at-447-icon"
             alt=""
@@ -287,22 +287,22 @@ const LandingPage = () => {
             </div> */}
             <div className="frame-parent46">
               <div className="home-wrapper3" onClick={onClickHome}>
-                <div className="vertically-integrated-solution">Home</div>
+                <div className="footers">Home</div>
               </div>
               <div className="home-wrapper3" onClick={onClickPlatform}>
-                <div className="vertically-integrated-solution">Platforms</div>
+                <div className="footers">Platforms</div>
               </div>
               <div className="home-wrapper3" onClick={onClickUsecase}>
-                <div className="vertically-integrated-solution">Use Cases</div>
+                <div className="footers">Use Cases</div>
               </div>
               <div className="home-wrapper3" onClick={onClickIndustries}>
-                <div className="vertically-integrated-solution">Industries</div>
+                <div className="footers">Industries</div>
               </div>
               <div className="home-wrapper3" onClick={onClickServices}>
-                <div className="vertically-integrated-solution">Services</div>
+                <div className="footers">Services</div>
               </div>
               <div className="home-wrapper3" onClick={onClickResource}>
-                <div className="vertically-integrated-solution">Resource</div>
+                <div className="footers">Resource</div>
               </div>
             </div>
           </div>
@@ -311,7 +311,7 @@ const LandingPage = () => {
               <b className="vertically-integrated-solution">Contact</b>
             </div> */}
             <div className="twinmo-wrapper3">
-              <div className="vertically-integrated-solution">Contact us</div>
+              <div className="footers">Contact us</div>
             </div>
             {/* <div className="twinmo-wrapper3">
               <div className="twinmo-ay-1105">
@@ -355,7 +355,7 @@ const LandingPage = () => {
           <div className="button-hover-line-parent3">
             <div className="button-hover-line25">
               <div
-                className="vertically-integrated-solution"
+                className="header-options"
                 onClick={onClickPlatform}
                 style={{ cursor: "pointer" }}
               >
@@ -364,7 +364,7 @@ const LandingPage = () => {
             </div>
             <div className="button-hover-line25">
               <div
-                className="vertically-integrated-solution"
+                className="header-options"
                 onClick={onClickUsecase}
                 style={{ cursor: "pointer" }}
               >
@@ -373,7 +373,7 @@ const LandingPage = () => {
             </div>
             <div className="button-hover-line25">
               <div
-                className="vertically-integrated-solution"
+                className="header-options"
                 onClick={onClickIndustries}
                 style={{ cursor: "pointer" }}
               >
@@ -382,7 +382,7 @@ const LandingPage = () => {
             </div>
             <div className="button-hover-line25">
               <div
-                className="vertically-integrated-solution"
+                className="header-options"
                 onClick={onClickServices}
                 style={{ cursor: "pointer" }}
               >
@@ -391,7 +391,7 @@ const LandingPage = () => {
             </div>
             <div className="button-hover-line25">
               <div
-                className="vertically-integrated-solution"
+                className="header-options"
                 onClick={onClickResource}
                 style={{ cursor: "pointer" }}
               >

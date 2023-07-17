@@ -278,7 +278,7 @@ const Services = () => {
           <div className="button-hover-line-group">
             <div className="button-hover-line5">
               <div
-                className="interested-to-talk"
+                className="#"
                 onClick={onClickPlatform}
                 style={{ cursor: "pointer" }}
               >
@@ -287,7 +287,7 @@ const Services = () => {
             </div>
             <div className="button-hover-line5">
               <div
-                className="interested-to-talk"
+                className="#"
                 onClick={onClickUsecase}
                 style={{ cursor: "pointer" }}
               >
@@ -296,7 +296,7 @@ const Services = () => {
             </div>
             <div className="button-hover-line5">
               <div
-                className="interested-to-talk"
+                className="#"
                 onClick={onClickIndustries}
                 style={{ cursor: "pointer" }}
               >
@@ -305,7 +305,7 @@ const Services = () => {
             </div>
             <div className="button-hover-line5">
               <div
-                className="digital-experimentation"
+                className="header-options"
                 style={{
                   cursor: "pointer",
                   position: "relative",
@@ -329,7 +329,7 @@ const Services = () => {
             </div>
             <div className="button-hover-line5">
               <div
-                className="interested-to-talk"
+                className="#"
                 onClick={onClickResource}
                 style={{ cursor: "pointer" }}
               >
@@ -347,22 +347,22 @@ const Services = () => {
             </div> */}
             <div className="frame-parent12">
               <div className="home-container" onClick={onClickHome}>
-                <div className="interested-to-talk">Home</div>
+                <div className="footer-options">Home</div>
               </div>
               <div className="home-container" onClick={onClickPlatform}>
-                <div className="interested-to-talk">Platforms</div>
+                <div className="footer-options">Platforms</div>
               </div>
               <div className="home-container" onClick={onClickUsecase}>
-                <div className="interested-to-talk">Use Cases</div>
+                <div className="footer-options">Use Cases</div>
               </div>
               <div className="home-container" onClick={onClickIndustries}>
-                <div className="interested-to-talk">Industries</div>
+                <div className="footer-options">Industries</div>
               </div>
               <div className="home-container" onClick={onClickServices}>
-                <div className="interested-to-talk">Services</div>
+                <div className="footer-options">Services</div>
               </div>
               <div className="home-container" onClick={onClickResource}>
-                <div className="interested-to-talk">{`Resource `}</div>
+                <div className="footer-options">{`Resource `}</div>
               </div>
             </div>
           </div>
@@ -371,7 +371,7 @@ const Services = () => {
               <b className="interested-to-talk">Contact</b>
             </div> */}
             <div className="twinmo-container">
-              <div className="interested-to-talk">Contact us</div>
+              <div className="footer-options">Contact us</div>
             </div>
             {/* <div className="twinmo-container">
               <div className="twinmo-ay-1101">

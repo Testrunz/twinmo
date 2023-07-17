@@ -9,13 +9,14 @@
   background-position: center;
 }
 .your-all-in-one-experimentatio {
+  color: (var--primar-yellow, #ffc60b);
   position: relative;
+  font-size: var(--h1-size);
   line-height: 60px;
-  font-weight: 600;
+  font-weight: 500;
   display: inline-block;
-  width: 611px;
-  font-size: 48px;
 }
+
 .we-provide-a {
   font-size: var(--paragraph-style-1-size);
   color: var(--color-gray-200);
@@ -255,6 +256,14 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  
+/* WEB/Heading/H4 */
+font-family: Poppins;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.68px;
 }
 .a-web-based-application {
   position: relative;
@@ -263,6 +272,15 @@
   color: var(--paragraph-color);
   display: inline-block;
   width: 486.75px;
+  color: var(--text-shade-1, #181818);
+/* WEB/Body text/Large medium */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.24px;
+  
 }
 .digital-experimentation-parent {
   display: flex;
@@ -270,6 +288,7 @@
   align-items: flex-start;
   justify-content: center;
   gap: var(--gap-base);
+  
 }
 .my-page-4-1 {
   position: absolute;
@@ -296,12 +315,23 @@
   justify-content: flex-start;
   gap: var(--gap-51xl);
 }
-.key-features {
+.key-features b {
+  
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   top: 2831.75px;
+  color: var(--text-shade-1, #181818);
+/* WEB/Heading/H4 */
+font-family: Poppins;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.68px;
+  
+  
 }
 
 .over-1000-experimentation {
@@ -396,8 +426,15 @@
   justify-content: center;
 }
 .slider_title {
-  font-size: var(--font-size-lg);
-  align-items: center;
+  
+  color: var(--text-shade-1, #181818);
+/* WEB/Title/T1 */
+font-family: Poppins;
+font-size: var(--font-size-lg);
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align-last:center;
 }
 .slide_box {
   position: relative;
@@ -411,7 +448,14 @@
   margin: 10px auto;
 }
 .slide_box p {
-  font-size: var(--paragraph-style-1-size);
+  color: var(--text-shade-1, #181818);
+/* WEB/Body text/Large Regular */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+/* font-weight: 300; */
+line-height: normal;
+/* letter-spacing: 0.24px; */
 }
 .platforms-wrapper3 {
   width: 200px;
@@ -432,23 +476,30 @@
 }
 .frame-child24 {
   position: relative;
-  width: 474.24px;
+  width: 486.24px;
   height: 273px;
   right: 45px;
   border-radius: 15px;
 }
 .software,
 .testrunz {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-weight: 500;
+  color: var(--primar-yellow, #ffc60b);
+/* WEB/Heading/H4 */
+font-family: Poppins;
+font-size: 34px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.68px;
 }
 .software {
-  top: 43.83px;
-  left: 6.57px;
-  font-size: 14.61px;
-  color: var(--paragraph-color);
+  color: var(--text-shade-1, #181818);
+  /* WEB/Subtitle/S1 */
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .testrunz-parent {
   position: relative;
@@ -456,12 +507,14 @@
   height: 65.83px;
 }
 .introducing-testrunz-your {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-weight: 500;
-  display: inline-block;
-  width: 375px;
+  color: var(--text-shade-1, #181818);
+  /* WEB/Body text/Large medium */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.24px;
 }
 .introducing-testrunz-your-str-wrapper {
   position: relative;
@@ -524,9 +577,13 @@
   gap: var(--gap-31xl);
 }
 .testrunz1 {
-  position: relative;
-  line-height: 60px;
+  color: var(--text-shade-1, #181818);
+  /* WEB/Title/T1 */
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
   font-weight: 600;
+  line-height: normal;
 }
 .group-parent1,
 .testrunz-wrapper {

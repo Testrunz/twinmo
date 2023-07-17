@@ -9,11 +9,24 @@
   background-position: center;
 }
 .revolutionize-your-product {
+  color: var(--text-shade-1, #181818);
+/* WEB/Body text/Large medium */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.24px;
+  
   margin: 0;
 }
 .revolutionize-your-products {
-  font-size: 48px;
-  margin: 0;
+  color: (var--primar-yellow, #ffc60b);
+  position: relative;
+  font-size: var(--h1-size);
+  line-height: 60px;
+  font-weight: 500;
+  display: inline-block;
 }
 .revolutionize-your-product-container {
   position: relative;
@@ -21,17 +34,22 @@
   line-height: 60px;
   font-weight: 600;
   display: inline-block;
-  width: 630px;
-  height: 252px;
+ 
   flex-shrink: 0;
 }
 .twinmos-testrunz-brings {
   position: relative;
+  color: var(--text-shade-1, #181818);
+  /* WEB/Body text/Large Bold */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 500;
-  color: var(--color-gray-200);
+  line-height: normal;
+  letter-spacing: 0.24px;
+  
   display: inline-block;
-  width: 587.25px;
-  font-size: var(--paragraph-style-1-size);
+  
 }
 .button-type-210 {
   border-radius: 3.75px;
@@ -142,6 +160,13 @@
   width: 248.25px;
 }
 .discover-innovate {
+  color: var(--primary-brand-shade-1, #000000);
+/* WEB/Title/T1 */
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
   position: relative;
   font-weight: 500;
   cursor: pointer;
@@ -181,10 +206,19 @@
 }
 .discover-innovate-accelerate,
 .when-it-comes-container {
+  color: var(--text-shade-1, #181818);
+/* WEB/Heading/H4 */
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.68px;
   position: relative;
   font-weight: 500;
   display: inline-block;
   width: 872.25px;
+
 }
 .when-it-comes-container {
   font-size: var(--font-size-mini);
@@ -203,13 +237,20 @@
 .frame-child14 {
   position: relative;
   width: 535px;
-  height: 359px;
+  height: 320px;
 }
 .the-ai-engine {
   position: relative;
-  font-size: var(--font-size-mini);
-  font-weight: 500;
-  color: var(--heading-color);
+  color: var(--text-shade-1, #181818);
+/* WEB/Body text/Large Regular */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.24px;
+  
+  
   display: inline-block;
   width: 918.75px;
 }

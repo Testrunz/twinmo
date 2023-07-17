@@ -102,7 +102,7 @@ const Resource = () => {
           <div className="button-hover-line-parent">
             <div className="button-hover-line">
               <div
-                className="twinmo"
+                className="#"
                 onClick={onClickPlatform}
                 style={{ cursor: "pointer" }}
               >
@@ -111,7 +111,7 @@ const Resource = () => {
             </div>
             <div className="button-hover-line">
               <div
-                className="twinmo"
+                className="#"
                 onClick={onClickUsecase}
                 style={{ cursor: "pointer" }}
               >
@@ -120,7 +120,7 @@ const Resource = () => {
             </div>
             <div className="button-hover-line">
               <div
-                className="twinmo"
+                className="#"
                 onClick={onClickIndustries}
                 style={{ cursor: "pointer" }}
               >
@@ -129,7 +129,7 @@ const Resource = () => {
             </div>
             <div className="button-hover-line">
               <div
-                className="twinmo"
+                className="#"
                 onClick={onClickServices}
                 style={{ cursor: "pointer" }}
               >
@@ -138,7 +138,7 @@ const Resource = () => {
             </div>
             <div className="button-hover-line">
               <div
-                className="digital-experimentation"
+                className="header-options"
                 style={{
                   cursor: "pointer",
                   position: "relative",

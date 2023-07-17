@@ -232,7 +232,7 @@ const Industries = () => {
             </div>
             <div className="button-hover-line10">
               <div
-                className="digital-experimentation"
+                className="header-options"
                 style={{
                   cursor: "pointer",
                   position: "relative",
