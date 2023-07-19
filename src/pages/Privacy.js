@@ -1,8 +1,13 @@
+// Importing necessary modules and styles
 import { useNavigate } from "react-router-dom";
 import styles from "./Privacy.module.css";
+import { Helmet } from "react-helmet-async";
+
+// Defining the LandingPage component
 const PrivacyAndPolicy = () => {
   const navigate = useNavigate();
 
+  // Event handlers for navigating to different pages
   const onClickHome = () => {
     window.scrollTo(0, 0);
     navigate("/");
@@ -45,9 +50,24 @@ const PrivacyAndPolicy = () => {
 
   return (
     <div className={styles.privacyAndPolicy}>
-      <div className="header5">
-        <div className="header-child3" />
-        <div className="image-9-parent3">
+      {/* Helmet component for setting document metadata */}
+      <Helmet>
+        <title>Twinmo - Privacy Policy</title>
+        <meta
+          name="keyword"
+          content="privacy policy, data protection, personal information"
+        />
+        <meta
+          name="description"
+          content="Read our privacy policy to understand how we protect your data and handle personal information."
+        />
+        <link rel="canonical" href="/privacy-policy" />
+      </Helmet>
+      {/* Privacy policy content */}
+      {/* Main navigation */}
+      <nav className={styles.mainnav}>
+        <ul className={styles.mainnav__list}>
+          {/* Home button */}
           <img
             className="image-9-icon11"
             alt=""
@@ -55,62 +75,62 @@ const PrivacyAndPolicy = () => {
             onClick={onClickHome}
             style={{ cursor: "pointer" }}
           />
-          <div className="button-hover-line-parent3">
-            <div className="button-hover-line25">
+          <div className={styles.mainnav__box}>
+            {/* Navigation links */}
+            <li className={styles.mainnav__item}>
               <div
-                className={styles.verticallyintegratedsolution}
+                className={styles.mainnav__link}
                 onClick={onClickPlatform}
                 style={{ cursor: "pointer" }}
               >
                 Platforms
               </div>
-            </div>
-            <div className="button-hover-line25">
+            </li>
+            <li className={styles.mainnav__item}>
               <div
-                className={styles.verticallyintegratedsolution}
+                className={styles.mainnav__link}
                 onClick={onClickUsecase}
                 style={{ cursor: "pointer" }}
               >
                 Use Cases
               </div>
-            </div>
-            <div className="button-hover-line25">
+            </li>
+            <li className={styles.mainnav__item}>
               <div
-                className={styles.verticallyintegratedsolution}
+                className={styles.mainnav__link}
                 onClick={onClickIndustries}
                 style={{ cursor: "pointer" }}
               >
                 Industries
               </div>
-            </div>
-            <div className="button-hover-line25">
+            </li>
+            <li className={styles.mainnav__item}>
               <div
-                className={styles.verticallyintegratedsolution}
+                className={styles.mainnav__link}
                 onClick={onClickServices}
                 style={{ cursor: "pointer" }}
               >
                 Service
               </div>
-            </div>
-            <div className="button-hover-line25">
+            </li>
+            <li className={styles.mainnav__item}>
               <div
-                className={styles.verticallyintegratedsolution}
+                className={styles.mainnav__link}
                 onClick={onClickResource}
                 style={{ cursor: "pointer" }}
               >
                 Resource
               </div>
-            </div>
+            </li>
           </div>
-        </div>
-      </div>
+        </ul>
+      </nav>
 
+      {/* Footer */}
       <div className={styles.footerdefault}>
         <div className={styles.footer}>
           <div className={styles.frameParent}>
-            {/* <div className={styles.twinmoWrapper}>
-              <b className={styles.buttonhead}>Twinmo</b>
-            </div> */}
+            {/* Navigation links */}
             <div className={styles.frameGroup}>
               <div className={styles.homeWrapper} onClick={onClickHome}>
                 <div className={styles.button}>Home</div>

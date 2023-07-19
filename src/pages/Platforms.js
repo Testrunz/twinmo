@@ -1,3 +1,4 @@
+// Importing necessary modules and styles
 import { useNavigate } from "react-router-dom";
 import "./Platforms.css";
 import { Helmet } from "react-helmet-async";
@@ -5,9 +6,11 @@ import Slider from "react-slick";
 import "./Slick.css";
 import "./Slick-theme.css";
 
+// Defining the Platforms component
 const Platforms = () => {
   const navigate = useNavigate();
 
+  // Event handlers for navigating to different pages
   const onClickHome = () => {
     window.scrollTo(0, 0);
     navigate("/");
@@ -26,7 +29,7 @@ const Platforms = () => {
     navigate("/industries");
   };
 
-  const onClickService = () => {
+  const onClickServices = () => {
     window.scrollTo(0, 0);
     navigate("/services");
   };
@@ -46,6 +49,7 @@ const Platforms = () => {
     navigate("/cookie-policy");
   };
 
+  // Settings for the slider component
   var settings = {
     dots: true,
     infinite: true,
@@ -84,6 +88,7 @@ const Platforms = () => {
 
   return (
     <div className="platforms4">
+      {/* Helmet component for setting document metadata */}
       <Helmet>
         <title>
           Testrunz: Unified Platform for Product Experiments | Twinmo
@@ -98,6 +103,7 @@ const Platforms = () => {
         />
         <link rel="canonical" href="/platforms" />
       </Helmet>
+      {/* Platform page content */}
       <div className="vector-parent2">
         <img className="frame-child15" alt="" src="/rectangle-331.svg" />
         <img className="frame-child15" alt="" src="/rectangle-341.svg" />
@@ -120,12 +126,14 @@ const Platforms = () => {
           <img className="frame-child17" alt="" src="/group-184@2x.png" />
         </div>
       </div>
+      {/* Footer */}
       <div className="footerdefault4">
         <div className="footer4">
           <div className="frame-parent29">
             {/* <div className="twinmo-wrapper2">
 <b className="digital-experimentation">Twinmo</b>
 </div> */}
+            {/* Navigation links */}
             <div className="frame-parent30">
               <div className="home-wrapper2" onClick={onClickHome}>
                 <div className="footer-options">Home</div>
@@ -139,7 +147,7 @@ const Platforms = () => {
               <div className="home-wrapper2" onClick={onClickIndustries}>
                 <div className="footer-options">Industries</div>
               </div>
-              <div className="home-wrapper2" onClick={onClickService}>
+              <div className="home-wrapper2" onClick={onClickServices}>
                 <div className="footer-options">Services</div>
               </div>
               <div className="home-wrapper2" onClick={onClickResource}>
@@ -427,9 +435,7 @@ src="/setting--24--outline.svg"
 </div>
 </div> */}
       <div className="frame-parent34">
-        <div className="digital-experimentation">
-          Platforms
-        </div>
+        <div className="digital-experimentation">Platforms</div>
         <div className="frame-parent35">
           <div className="rectangle-parent7">
             <div className="frame-child23" />
@@ -497,19 +503,23 @@ src="/setting--24--outline.svg"
 </div> */}
         </div>
       </div>
-      <div className="header4">
-        <div className="header-child2" />
-        <div className="image-9-parent2">
+      {/* Main navigation */}
+      <nav className="main-nav">
+        <ul className="main-nav__list">
+          {/* Home button */}
           <img
-            className="image-9-icon9"
+            className="image-9-icon11"
             alt=""
             src="/image-9@2x.png"
             onClick={onClickHome}
+            style={{ cursor: "pointer" }}
           />
-          <div className="button-hover-line-parent2">
-            <div className="button-hover-line20">
+          <div className="main-nav__box">
+            {/* Navigation links */}
+            <li className="main-nav__item">
               <div
-                className="Header-options"
+                className="main-nav__link"
+                // onClick={onClickPlatform}
                 style={{
                   cursor: "pointer",
                   position: "relative",
@@ -530,46 +540,46 @@ src="/setting--24--outline.svg"
                   }}
                 ></div>
               </div>
-            </div>
-            <div className="button-hover-line20">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="Header-options"
+                className="main-nav__link"
                 onClick={onClickUsecase}
                 style={{ cursor: "pointer" }}
               >
                 Use Cases
               </div>
-            </div>
-            <div className="button-hover-line20">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="Header-options"
+                className="main-nav__link"
                 onClick={onClickIndustries}
                 style={{ cursor: "pointer" }}
               >
                 Industries
               </div>
-            </div>
-            <div className="button-hover-line20">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="Header-options"
-                onClick={onClickService}
+                className="main-nav__link"
+                onClick={onClickServices}
                 style={{ cursor: "pointer" }}
               >
                 Service
               </div>
-            </div>
-            <div className="button-hover-line20">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="Header-options"
+                className="main-nav__link"
                 onClick={onClickResource}
                 style={{ cursor: "pointer" }}
               >
                 Resource
               </div>
-            </div>
+            </li>
           </div>
-        </div>
-      </div>
+        </ul>
+      </nav>
     </div>
   );
 };

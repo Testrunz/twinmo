@@ -12,36 +12,40 @@
   position: relative;
   font-size: 16px;
 }
-.buttonHoverLine {
+.mainnav__item {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start; 
   padding: var(--padding-3xs);
-  align-items: flex-start;
-  justify-content: flex-start;
 }
-.buttonHoverLineParent {
-  background-color: var(--mini-title-bg);
-  width: 608px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+.mainnav__box {
   gap: var(--gap-21xl);
-}
-.headerNew {
-  position: absolute;
-  top: 0px;
-  left: calc(50% - 720px);
-  background-color: var(--mini-title-bg);
-  width: 1440px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  padding: var(--padding-xl) var(--padding-18xl);
-  box-sizing: border-box;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-152xl);
+}
+.mainnav__list {
+  position: relative;
+  align-items: center;
+  display: flex;
+  gap: var(--gap-81xl);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.mainnav {
+  position: absolute;
+  left: calc(50% - 650px);
+  display: flex;
+  top: 0;
+  width: 1330px;
+  height: 89px;
+  font-size: var(--font-size-mini);
+  background-color: var(--mini-title-bg);
+  /* left: 0; */
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.15);
+  font-family: "Poppins";
 }
 .verticallyintegratedsolution {
   font-family: Poppins;

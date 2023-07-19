@@ -8,33 +8,40 @@
 .image12Icon {
   position: relative;
 }
-.buttonHoverLine,
-.buttonHoverLineParent,
-.headerNew {
+.mainnav__item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start; 
+  padding: var(--padding-3xs);
+}
+.mainnav__box {
+  gap: var(--gap-21xl);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.buttonHoverLine {
-  padding: var(--padding-3xs);
+.mainnav__list {
+  position: relative;
+  align-items: center;
+  display: flex;
+  gap: var(--gap-81xl);
+  flex-direction: row;
+  justify-content: flex-start;
 }
-.buttonHoverLineParent,
-.headerNew {
-  background-color: var(--mini-title-bg);
-  width: 608px;
-  gap: var(--gap-21xl);
-}
-.headerNew {
+.mainnav {
   position: absolute;
-  top: -1px;
-  left: calc(50% - 719px);
-  width: 1440px;
-  flex-wrap: wrap;
-  padding: var(--padding-xl) var(--padding-18xl);
-  box-sizing: border-box;
-  align-items: flex-end;
-  gap: var(--gap-152xl);
+  left: calc(50% - 650px);
+  display: flex;
+  top: 0;
+  width: 1330px;
+  height: 89px;
+  font-size: var(--font-size-mini);
+  background-color: var(--mini-title-bg);
+  /* left: 0; */
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.15);
+  font-family: "Poppins";
 }
 .homeWrapper,
 .twinmoWrapper {

@@ -1,10 +1,13 @@
+// Importing necessary modules and styles
 import { useNavigate } from "react-router-dom";
 import "./Industries.css";
 import { Helmet } from "react-helmet-async";
 
+// Defining the Industries component
 const Industries = () => {
   const navigate = useNavigate();
 
+  // Event handlers for navigating to different pages
   const onClickHome = () => {
     window.scrollTo(0, 0);
     navigate("/");
@@ -46,6 +49,7 @@ const Industries = () => {
 
   return (
     <div className="industries2">
+      {/* Helmet component for setting document metadata */}
       <Helmet>
         <title>Industries Benefiting from Testrunz | Twinmo</title>
         <meta name="keyword" content="Testing for personal care appliances" />
@@ -55,6 +59,7 @@ const Industries = () => {
         />
         <link rel="canonical" href="/industries" />
       </Helmet>
+      {/* Industries page content */}
       <div className="vector-container">
         <img className="frame-child4" alt="" src="/rectangle-33.svg" />
         <img className="frame-child4" alt="" src="/rectangle-34.svg" />
@@ -140,12 +145,14 @@ const Industries = () => {
         </div>
         <img className="frame-icon" alt="" src="/research.png" />
       </div>
+      {/* Footer */}
       <div className="footerdefault2">
         <div className="footer2">
           <div className="frame-parent19">
             {/* <div className="twinmo-frame">
               <b className="twinmo2">Twinmo</b>
             </div> */}
+            {/* Navigation links */}
             <div className="frame-parent20">
               <div className="home-frame" onClick={onClickHome}>
                 <div className="twinmo2">Home</div>
@@ -202,37 +209,41 @@ const Industries = () => {
           </div>
         </div>
       </div>
-      <div className="header2">
-        <div className="header-inner" />
-        <div className="image-9-container">
+      {/* Main navigation */}
+      <nav className="main-nav">
+        <ul className="main-nav__list">
+          {/* Home button */}
           <img
-            className="image-9-icon5"
+            className="image-9-icon11"
             alt=""
             src="/image-9@2x.png"
             onClick={onClickHome}
+            style={{ cursor: "pointer" }}
           />
-          <div className="button-hover-line-container">
-            <div className="button-hover-line10">
+          <div className="main-nav__box">
+            {/* Navigation links */}
+            <li className="main-nav__item">
               <div
-                className="twinmo2"
+                className="main-nav__link"
                 onClick={onClickPlatform}
                 style={{ cursor: "pointer" }}
               >
                 Platforms
               </div>
-            </div>
-            <div className="button-hover-line10">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="twinmo2"
+                className="main-nav__link"
                 onClick={onClickUsecase}
                 style={{ cursor: "pointer" }}
               >
                 Use Cases
               </div>
-            </div>
-            <div className="button-hover-line10">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="header-options"
+                className="main-nav__link"
+                // onClick={onClickIndustries}
                 style={{
                   cursor: "pointer",
                   position: "relative",
@@ -253,26 +264,28 @@ const Industries = () => {
                   }}
                 ></div>
               </div>
-            </div>
-            <div className="button-hover-line10">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="twinmo2"
+                className="main-nav__link"
                 onClick={onClickServices}
                 style={{ cursor: "pointer" }}
-              >{`Service `}</div>
-            </div>
-            <div className="button-hover-line10">
+              >
+                Service
+              </div>
+            </li>
+            <li className="main-nav__item">
               <div
-                className="twinmo2"
+                className="main-nav__link"
                 onClick={onClickResource}
                 style={{ cursor: "pointer" }}
               >
                 Resource
               </div>
-            </div>
+            </li>
           </div>
-        </div>
-      </div>
+        </ul>
+      </nav>
     </div>
   );
 };

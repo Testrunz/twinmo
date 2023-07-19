@@ -1,12 +1,15 @@
+// Importing necessary modules and styles
 import { useNavigate } from "react-router-dom";
 import "./Services.css";
 import { Helmet } from "react-helmet-async";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
+// Defining the Service component
 const Services = () => {
   const navigate = useNavigate();
 
+  // Event handlers for navigating to different pages
   const onClickHome = () => {
     window.scrollTo(0, 0);
     navigate("/");
@@ -74,6 +77,7 @@ const Services = () => {
 
   return (
     <div className="services1">
+      {/* Helmet component for setting document metadata */}
       <Helmet>
         <title>
           Tailored Support for Product Development | Twinmo Services
@@ -85,6 +89,7 @@ const Services = () => {
         />
         <link rel="canonical" href="/services" />
       </Helmet>
+      {/* Service page content */}
       <div className="vector-group">
         <img className="rectangle-icon" alt="" src="/rectangle-33.svg" />
         <img className="rectangle-icon" alt="" src="/rectangle-34.svg" />
@@ -182,67 +187,6 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="input3">
-              <div className="input-title-section">
-                <div className="input-section">
-                  <input
-                    className="base-input-rounded-not-sel"
-                    style={{ paddingLeft: "130px" }}
-                    placeholder="XXXXXXXXXX"
-                  ></input>
-                  <div className="input-items-group-wrapper">
-                    <div className="input-items-group3">
-                      <div className="flag-container">
-                        <img
-                          className="image-37-icon"
-                          alt=""
-                          src="/image-37@2x.png"
-                        />
-                        <img
-                          className="icon-storke-caretdown"
-                          alt=""
-                          src="/icon--storke--caretdown.svg"
-                        />
-                        <div className="button9">+91</div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="mini-title-contaier3">
-                    <div className="title">Phone</div>
-                  </div>
-                  <div className="input-right-section">
-                    <img
-                      className="icon-duotone-envelope"
-                      alt=""
-                      src="/icon--duotone--phone.svg"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div> */}
-            {/* <div className="input-title-section">
-              <div className="input-title-section">
-                <div className="input-section">
-                  <div className="base-input-rounded-not-sel2" />
-                  <div className="input-items-group-wrapper">
-                    <div className="input-items-group3">
-                      <div className="flag-container1">
-                        <img
-                          className="icon-storke-caretdown"
-                          alt=""
-                          src="/icon--storke--caretdown1.svg"
-                        />
-                      </div>
-                      <div className="button9">Select Category</div>
-                    </div>
-                  </div>
-                  <div className="mini-title-contaier4">
-                    <div className="title">Category</div>
-                  </div>
-                </div>
-              </div>
-            </div> */}
             <div className="input5">
               <div className="input-title-section">
                 <div className="input-section">
@@ -266,46 +210,51 @@ const Services = () => {
           <div className="enter">Submit</div>
         </button>
       </form>
-      <div className="header1">
-        <div className="header-item" />
-        <div className="image-9-group">
+      {/* Main navigation */}
+      <nav className="main-nav">
+        <ul className="main-nav__list">
+          {/* Home button */}
           <img
-            className="image-9-icon2"
+            className="image-9-icon11"
             alt=""
             src="/image-9@2x.png"
             onClick={onClickHome}
+            style={{ cursor: "pointer" }}
           />
-          <div className="button-hover-line-group">
-            <div className="button-hover-line5">
+          <div className="main-nav__box">
+            {/* Navigation links */}
+            <li className="main-nav__item">
               <div
-                className="#"
+                className="main-nav__link"
                 onClick={onClickPlatform}
                 style={{ cursor: "pointer" }}
               >
                 Platforms
               </div>
-            </div>
-            <div className="button-hover-line5">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="#"
+                className="main-nav__link"
                 onClick={onClickUsecase}
                 style={{ cursor: "pointer" }}
               >
                 Use Cases
               </div>
-            </div>
-            <div className="button-hover-line5">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="#"
+                className="main-nav__link"
                 onClick={onClickIndustries}
                 style={{ cursor: "pointer" }}
               >
                 Industries
               </div>
-            </div>
-            <div className="button-hover-line5">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="header-options"
+                className="main-nav__link"
+                // onClick={onClickServices}
+
                 style={{
                   cursor: "pointer",
                   position: "relative",
@@ -326,25 +275,24 @@ const Services = () => {
                   }}
                 ></div>
               </div>
-            </div>
-            <div className="button-hover-line5">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="#"
+                className="main-nav__link"
                 onClick={onClickResource}
                 style={{ cursor: "pointer" }}
               >
                 Resource
               </div>
-            </div>
+            </li>
           </div>
-        </div>
-      </div>
+        </ul>
+      </nav>
+      {/* Footer */}
       <div className="footerdefault1">
         <div className="footer1">
           <div className="frame-parent11">
-            {/* <div className="twinmo-container">
-              <b className="interested-to-talk">Twinmo</b>
-            </div> */}
+            {/* Navigation links */}
             <div className="frame-parent12">
               <div className="home-container" onClick={onClickHome}>
                 <div className="footer-options">Home</div>

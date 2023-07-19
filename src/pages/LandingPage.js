@@ -1,12 +1,14 @@
+// Importing necessary modules and styles
 import { useNavigate } from "react-router-dom";
 import "./LandingPage.css";
 import { Helmet } from "react-helmet-async";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 
+// Defining the LandingPage component
 const LandingPage = () => {
   const navigate = useNavigate();
 
+  // Event handlers for navigating to different pages
   const onClickHome = () => {
     navigate("/");
     window.scrollTo(0, 0);
@@ -54,12 +56,17 @@ const LandingPage = () => {
 
   return (
     <div className="landing-page">
+      {/* Helmet component for setting document metadata */}
       <Helmet>
         <title>Twinmo - AI-powered Experimentation Platform | Home</title>
         <meta name="keyword" content="AI-powered experimentation platform" />
-        <meta name="description" content="Welcome to Twinmo, the AI-powered experimentation platform revolutionizing product development" />
+        <meta
+          name="description"
+          content="Welcome to Twinmo, the AI-powered experimentation platform revolutionizing product development"
+        />
         <link rel="canonical" href="/" />
       </Helmet>
+      {/* Landing page content */}
       <div className="vector-parent3">
         <img className="frame-child27" alt="" src="/rectangle-331.svg" />
         <img className="frame-child27" alt="" src="/rectangle-341.svg" />
@@ -279,12 +286,11 @@ const LandingPage = () => {
           </p>
         </div>
       </div>
+      {/* Footer */}
       <div className="footerdefault5">
         <div className="footer5">
           <div className="frame-parent45">
-            {/* <div className="twinmo-wrapper3">
-              <b className="vertically-integrated-solution">Twinmo</b>
-            </div> */}
+            {/* Navigation links */}
             <div className="frame-parent46">
               <div className="home-wrapper3" onClick={onClickHome}>
                 <div className="footers">Home</div>
@@ -341,10 +347,10 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-
-      <div className="header5">
-        <div className="header-child3" />
-        <div className="image-9-parent3">
+      {/* Main navigation */}
+      <nav className="main-nav">
+        <ul className="main-nav__list">
+          {/* Home button */}
           <img
             className="image-9-icon11"
             alt=""
@@ -352,71 +358,56 @@ const LandingPage = () => {
             onClick={onClickHome}
             style={{ cursor: "pointer" }}
           />
-          <div className="button-hover-line-parent3">
-            <div className="button-hover-line25">
+          <div className="main-nav__box">
+            {/* Navigation links */}
+            <li className="main-nav__item">
               <div
-                className="header-options"
+                className="main-nav__link"
                 onClick={onClickPlatform}
                 style={{ cursor: "pointer" }}
               >
                 Platforms
               </div>
-            </div>
-            <div className="button-hover-line25">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="header-options"
+                className="main-nav__link"
                 onClick={onClickUsecase}
                 style={{ cursor: "pointer" }}
               >
                 Use Cases
               </div>
-            </div>
-            <div className="button-hover-line25">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="header-options"
+                className="main-nav__link"
                 onClick={onClickIndustries}
                 style={{ cursor: "pointer" }}
               >
                 Industries
               </div>
-            </div>
-            <div className="button-hover-line25">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="header-options"
+                className="main-nav__link"
                 onClick={onClickServices}
                 style={{ cursor: "pointer" }}
               >
                 Service
               </div>
-            </div>
-            <div className="button-hover-line25">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="header-options"
+                className="main-nav__link"
                 onClick={onClickResource}
                 style={{ cursor: "pointer" }}
               >
                 Resource
               </div>
-            </div>
+            </li>
           </div>
-          {/* <div className="button-hover-line25">
-            <div className="vertically-integrated-solution">
-              <div className="toggle-btn" onClick={clickMenu}>
-                {open ? <AiOutlineClose /> : <AiOutlineMenu />}
-              </div>
-            </div>
-          </div> */}
-        </div>
-        {/* {open && (
-          <ul className="header-list">
-            <li>Platforms</li>
-            <li>Use Cases</li>
-            <li>Industries</li>
-            <li>Service</li>
-            <li>Resource</li>
-          </ul>
-        )} */}
-      </div>
+        </ul>
+      </nav>
     </div>
   );
 };

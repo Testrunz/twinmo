@@ -1,16 +1,20 @@
+// Importing necessary modules and styles
 import { useNavigate } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
-import {Helmet} from "react-helmet-async"
+import { Helmet } from "react-helmet-async";
 import "./UseCases.css";
 import { useState } from "react";
 
+// Defining the Usecase component
 const UseCases = () => {
+  // Event handlers for toggle to different slides
   const [toggle, setToggle] = useState(1);
   function updateToggle(id) {
     setToggle(id);
   }
   const navigate = useNavigate();
 
+  // Event handlers for navigating to different pages
   const onClickHome = () => {
     window.scrollTo(0, 0);
     navigate("/");
@@ -31,7 +35,7 @@ const UseCases = () => {
     navigate("/use-cases");
   };
 
-  const onClickService = () => {
+  const onClickServices = () => {
     window.scrollTo(0, 0);
     navigate("/services");
   };
@@ -52,6 +56,7 @@ const UseCases = () => {
 
   return (
     <div className="use-cases3">
+      {/* Helmet component for setting document metadata */}
       <Helmet>
         <title>Accelerate Innovation with Testrunz | Twinmo Use Cases</title>
         <meta name="keywords" content="Smart Experiment Planning" />
@@ -61,6 +66,7 @@ const UseCases = () => {
         />
         <link rel="canonical" href="/use-cases" />
       </Helmet>
+      {/* Usecase page content */}
       <div className="vector-parent1">
         <img className="frame-child10" alt="" src="/rectangle-33.svg" />
         <img className="frame-child10" alt="" src="/rectangle-34.svg" />
@@ -359,29 +365,33 @@ const UseCases = () => {
           </div>
         </div>
       </div>
-      <div className="header3">
-        <div className="header-child1" />
-        <div className="image-9-parent1">
+      {/* Main navigation */}
+      <nav className="main-nav">
+        <ul className="main-nav__list">
+          {/* Home button */}
           <img
-            className="image-9-icon6"
-            style={{ cursor: "pointer" }}
+            className="image-9-icon11"
             alt=""
             src="/image-9@2x.png"
             onClick={onClickHome}
+            style={{ cursor: "pointer" }}
           />
-          <div className="button-hover-line-parent1">
-            <div className="button-hover-line15">
+          <div className="main-nav__box">
+            {/* Navigation links */}
+            <li className="main-nav__item">
               <div
-                className="button27"
+                className="main-nav__link"
                 onClick={onClickPlatform}
                 style={{ cursor: "pointer" }}
               >
                 Platforms
               </div>
-            </div>
-            <div className="button-hover-line15">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="header-options"
+                className="main-nav__link"
+                // onClick={onClickUsecase}
+
                 style={{
                   cursor: "pointer",
                   position: "relative",
@@ -391,7 +401,7 @@ const UseCases = () => {
               >
                 Use Cases
                 <div
-                  className="header-option"
+                  className="underline"
                   style={{
                     position: "absolute",
                     left: 0,
@@ -402,41 +412,43 @@ const UseCases = () => {
                   }}
                 ></div>
               </div>
-            </div>
-            <div className="button-hover-line15">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="button27"
+                className="main-nav__link"
                 onClick={onClickIndustries}
                 style={{ cursor: "pointer" }}
               >
                 Industries
               </div>
-            </div>
-            <div className="button-hover-line15">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="button27"
-                onClick={onClickService}
+                className="main-nav__link"
+                onClick={onClickServices}
                 style={{ cursor: "pointer" }}
-              >{`Service `}</div>
-            </div>
-            <div className="button-hover-line15">
+              >
+                Service
+              </div>
+            </li>
+            <li className="main-nav__item">
               <div
-                className="button27"
+                className="main-nav__link"
                 onClick={onClickResource}
                 style={{ cursor: "pointer" }}
               >
                 Resource
               </div>
-            </div>
+            </li>
           </div>
-        </div>
-      </div>
+        </ul>
+      </nav>
+      {/* Footer */}
+
       <div className="footerdefault3">
         <div className="footer3">
           <div className="frame-parent25">
-            {/* <div className="twinmo-wrapper1">
-              <b className="button27">Twinmo</b>
-            </div> */}
+            {/* Navigation links */}
             <div className="frame-parent26">
               <div className="home-wrapper1" onClick={onClickHome}>
                 <div className="button27">Home</div>
@@ -450,7 +462,7 @@ const UseCases = () => {
               <div className="home-wrapper1" onClick={onClickIndustries}>
                 <div className="button27">Industries</div>
               </div>
-              <div className="home-wrapper1" onClick={onClickService}>
+              <div className="home-wrapper1" onClick={onClickServices}>
                 <div className="button27">Services</div>
               </div>
               <div className="home-wrapper1" onClick={onClickResource}>
@@ -459,17 +471,9 @@ const UseCases = () => {
             </div>
           </div>
           <div className="frame-parent27">
-            {/* <div className="contact-wrapper1">
-              <b className="button27">Contact</b>
-            </div> */}
             <div className="twinmo-wrapper1">
               <div className="button27">Contact us</div>
             </div>
-            {/* <div className="twinmo-container">
-              <div className="twinmo-ay-1101">
-                No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
-              </div>
-            </div> */}
           </div>
           <div className="image-19-parent1">
             <img className="image-19-icon3" alt="" src="/image-19@2x.png" />

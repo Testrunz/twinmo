@@ -1,10 +1,13 @@
+// Importing necessary modules and styles
 import { useNavigate } from "react-router-dom";
 import "./Resource.css";
-import {Helmet} from "react-helmet-async"
+import { Helmet } from "react-helmet-async";
 
+// Defining the Resource component
 const Resource = () => {
   const navigate = useNavigate();
 
+  // Defining the LandingPage component
   const onClickHome = () => {
     window.scrollTo(0, 0);
     navigate("/");
@@ -46,17 +49,20 @@ const Resource = () => {
 
   return (
     <div className="resource">
+      {/* Helmet component for setting document metadata */}
       <Helmet>
-        <title>
-        Resources for Advanced DOE and Systems Thinking | Twinmo
-        </title>
-        <meta name="keyword" content="Resources for advanced DOE and systems thinking" />
+        <title>Resources for Advanced DOE and Systems Thinking | Twinmo</title>
+        <meta
+          name="keyword"
+          content="Resources for advanced DOE and systems thinking"
+        />
         <meta
           name="description"
           content="Explore our resources to learn more about advanced DOE and systems thinking. Dive into our case studies, methods, and tools for experimentation and analysis."
         />
         <link rel="canonical" href="/resource" />
       </Helmet>
+      {/* Resource page content */}
       <div className="vector-parent">
         <img className="frame-child" alt="" src="/rectangle-33.svg" />
         <img className="frame-child" alt="" src="/rectangle-34.svg" />
@@ -83,62 +89,63 @@ const Resource = () => {
                 content more engaging and visually appealing.
               </p>
             </div>
-            {/* <div className="button-type-2">
-              <div className="button">Get Started</div>
-            </div> */}
           </div>
           <img className="frame-inner" alt="" src="/group-18@2x.png" />
         </div>
       </div>
-      <div className="header">
-        <div className="header-child" />
-        <div className="image-9-parent">
+      {/* Main navigation */}
+      <nav className="main-nav">
+        <ul className="main-nav__list">
+          {/* Home button */}
           <img
-            className="image-9-icon"
+            className="image-9-icon11"
             alt=""
             src="/image-9@2x.png"
             onClick={onClickHome}
+            style={{ cursor: "pointer" }}
           />
-          <div className="button-hover-line-parent">
-            <div className="button-hover-line">
+          <div className="main-nav__box">
+            {/* Navigation links */}
+            <li className="main-nav__item">
               <div
-                className="#"
+                className="main-nav__link"
                 onClick={onClickPlatform}
                 style={{ cursor: "pointer" }}
               >
                 Platforms
               </div>
-            </div>
-            <div className="button-hover-line">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="#"
+                className="main-nav__link"
                 onClick={onClickUsecase}
                 style={{ cursor: "pointer" }}
               >
                 Use Cases
               </div>
-            </div>
-            <div className="button-hover-line">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="#"
+                className="main-nav__link"
                 onClick={onClickIndustries}
                 style={{ cursor: "pointer" }}
               >
                 Industries
               </div>
-            </div>
-            <div className="button-hover-line">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="#"
+                className="main-nav__link"
                 onClick={onClickServices}
                 style={{ cursor: "pointer" }}
               >
                 Service
               </div>
-            </div>
-            <div className="button-hover-line">
+            </li>
+            <li className="main-nav__item">
               <div
-                className="header-options"
+                className="main-nav__link"
+                // onClick={onClickResource}
                 style={{
                   cursor: "pointer",
                   position: "relative",
@@ -159,72 +166,14 @@ const Resource = () => {
                   }}
                 ></div>
               </div>
-            </div>
+            </li>
           </div>
-        </div>
-      </div>
-      {/* <div className="frame-group">
-         <div className="rectangle-parent">
-           <div className="rectangle-div" />
-         <div className="group-parent">
-              <div className="testrunz-provides-a-single-pla-parent">
-             <div className="testrunz-provides-a">
-                Testrunz provides a single platform to track, analyze, and
-                report experiments throughout all phases of product development
-                - discovery, compliance testing, and manufacturing testing.
-              </div>
-             <div className="unified-experimentation-platfo">
-                Unified Experimentation Platform
-              </div> 
-            </div>
-             <div className="button-type-21">
-              <div className="button">Get Started</div>
-            </div> 
-          </div>
-        </div>
-        <div className="rectangle-parent">
-          <div className="rectangle-div" />
-          <div className="group-container">
-            <div className="testrunz-leverages-real-actio-parent">
-              <div className="testrunz-leverages-real">
-                Testrunz leverages real, actionable data for all your
-                experimentation needs, enabling you to perform precise and
-                efficient tests leading to informed decision-making.
-              </div>
-              <div className="data-driven-experimentation">
-                Data-Driven Experimentation
-              </div>
-            </div>
-            {/* <div className="button-type-21">
-              <div className="button">Get Started</div>
-            </div> 
-          </div>
-        </div>
-        <div className="rectangle-parent">
-          <div className="rectangle-div" />
-          <div className="group-container">
-            <div className="testrunz-leverages-real-actio-parent">
-              <div className="testrunz-leverages-real">
-                Using AI technology to generate efficient Design of Experiments
-                (DOE), Testrunz accelerates your innovation and discovery
-                cycles, aiding you in bringing products to market faster.
-              </div>
-              <div className="data-driven-experimentation">
-                Accelerated Innovation
-              </div>
-            </div>
-            {/* <div className="button-type-21">
-              <div className="button">Get Started</div>
-            </div> 
-          </div>
-        </div>
-      </div> */}
+        </ul>
+      </nav>
       <div className="footerdefault">
         <div className="footer">
           <div className="frame-container">
-            {/* <div className="twinmo-wrapper">
-              <b className="twinmo">Twinmo</b>
-            </div> */}
+            {/* Navigation links */}
             <div className="frame-parent1">
               <div className="home-wrapper" onClick={onClickHome}>
                 <div className="twinmo">Home</div>
@@ -247,17 +196,9 @@ const Resource = () => {
             </div>
           </div>
           <div className="frame-parent2">
-            {/* <div className="contact-wrapper">
-              <b className="twinmo">Contact</b>
-            </div> */}
             <div className="twinmo-wrapper">
               <div className="twinmo">Contact us</div>
             </div>
-            {/* <div className="twinmo-wrapper">
-              <div className="twinmo-ay-110">
-              No. 21, 1st Main Road, Ambal Nagar, Pondicherry 605009
-              </div>
-            </div> */}
           </div>
           <div className="image-19-parent">
             <img className="image-19-icon" alt="" src="/image-19@2x.png" />
@@ -345,8 +286,6 @@ const Resource = () => {
         </div>
         <div className="button">DOE advanced</div>
       </div>
-
-      {/* <b className="some-captions">Some Captions</b> */}
     </div>
   );
 };
