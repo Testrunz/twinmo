@@ -1,0 +1,11 @@
+.cookieAndPolicy{
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.cookie-title{
+  font-size: 38px;
+}

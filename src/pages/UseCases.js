@@ -1,9 +1,9 @@
 // Importing necessary modules and styles
-import { useNavigate } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
 import { Helmet } from "react-helmet-async";
 import "./UseCases.css";
 import { useState } from "react";
+import Footer from "../Component/Footer";
 
 // Defining the Usecase component
 const UseCases = () => {
@@ -12,50 +12,9 @@ const UseCases = () => {
   function updateToggle(id) {
     setToggle(id);
   }
-  const navigate = useNavigate();
-
-  // Event handlers for navigating to different pages
-  const onClickHome = () => {
-    window.scrollTo(0, 0);
-    navigate("/");
-  };
-
-  const onClickPlatform = () => {
-    window.scrollTo(0, 0);
-    navigate("/platforms");
-  };
-
-  const onClickIndustries = () => {
-    window.scrollTo(0, 0);
-    navigate("/industries");
-  };
-
-  const onClickUsecase = () => {
-    window.scrollTo(0, 0);
-    navigate("/use-cases");
-  };
-
-  const onClickServices = () => {
-    window.scrollTo(0, 0);
-    navigate("/services");
-  };
-
-  const onClickResource = () => {
-    window.scrollTo(0, 0);
-    navigate("/resource");
-  };
-  const onPrivacyPolicyClick = () => {
-    window.scrollTo(0, 0);
-    navigate("/privacy-policy");
-  };
-
-  const onCookiePolicyTextClick = () => {
-    window.scrollTo(0, 0);
-    navigate("/cookie-policy");
-  };
 
   return (
-    <div className="use-cases3">
+    <div className="usecasepage">
       {/* Helmet component for setting document metadata */}
       <Helmet>
         <title>Accelerate Innovation with Testrunz | Twinmo Use Cases</title>
@@ -67,38 +26,36 @@ const UseCases = () => {
         <link rel="canonical" href="/use-cases" />
       </Helmet>
       {/* Usecase page content */}
-      <div className="vector-parent1">
-        <img className="frame-child10" alt="" src="/rectangle-33.svg" />
-        <img className="frame-child10" alt="" src="/rectangle-34.svg" />
-        <div className="frame-parent22">
-          <div className="revolutionize-your-product-tes-parent">
-            <div className="revolutionize-your-product-container">
-              <h1 className="revolutionize-your-products">
-                Revolutionize your Product Testing with Twinmo's Innovative
-                All-in-One Solution, Testrunz
-              </h1>
-            </div>
-            <p className="twinmos-testrunz-brings">
-              Twinmo's Testrunz brings the power of AI and structured
-              experimentation to product development, transforming the processes
-              of discovery, compliance testing, and manufacturing. It employs AI
-              to accelerate idea generation, automate regulatory compliance, and
-              predict quality control issues. With its data-driven approach,
-              Testrunz ensures a seamless and efficient transition between
-              product development stages, resulting in rapid time-to-market and
-              superior product quality. Experience the future of product
-              development with Twinmo's Testrunz.
-            </p>
-            {/* <div className="button-type-210">
-              <div className="discover-innovate">Get Started</div>
-            </div> */}
-          </div>
-          <img className="frame-child123" alt="" src="/group-183@2x.png" />
+      <div className="row-31">
+        <div className="col-31">
+          {/* <img className="bg-img" alt="" src="/rectangle-331.svg" />
+          <img className="bg-img" alt="" src="/rectangle-341.svg" /> */}
+          <h1>
+            Revolutionize your Product Testing with Twinmo's Innovative
+            All-in-One Solution, Testrunz{" "}
+          </h1>
+          <h2>
+            Twinmo's Testrunz brings the power of AI and structured
+            experimentation to product development, transforming the processes
+            of discovery, compliance testing, and manufacturing. It employs AI
+            to accelerate idea generation, automate regulatory compliance, and
+            predict quality control issues. With its data-driven approach,
+            Testrunz ensures a seamless and efficient transition between product
+            development stages, resulting in rapid time-to-market and superior
+            product quality. Experience the future of product development with
+            Twinmo's Testrunz.
+          </h2>
+        </div>
+        <div className="col-32">
+          {" "}
+          <img className="product31" alt="" src="/group-183@2x.png" />
         </div>
       </div>
+
+
       <div className="group-div">
         <h4 className="experiment-to">
-          Experiment to{" "}
+          Experiment to 
           <span style={{ color: "#F1C232" }}>
             <Typewriter
               words={[
@@ -160,7 +117,7 @@ const UseCases = () => {
             </div>
           </div>
           <div className={toggle === 1 ? "show-content" : "content"}>
-            <div className="frame-child13" />
+            {/* <div className="frame-child13" /> */}
             <div className="frame-parent24">
               <div className="discover-innovate-accelerate-parent">
                 <div className="discover-innovate-accelerate">
@@ -232,7 +189,7 @@ const UseCases = () => {
             </div>
           </div>
           <div className={toggle === 2 ? "show-content" : "content"}>
-            <div className="frame-child13" />
+            {/* <div className="frame-child13" /> */}
             <div className="frame-parent24">
               <div className="discover-innovate-accelerate-parent">
                 <div className="discover-innovate-accelerate">
@@ -302,7 +259,7 @@ const UseCases = () => {
             </div>
           </div>
           <div className={toggle === 3 ? "show-content" : "content"}>
-            <div className="frame-child13" />
+            {/* <div className="frame-child13" /> */}
             <div className="frame-parent24">
               <div className="discover-innovate-accelerate-parent">
                 <div className="discover-innovate-accelerate">
@@ -365,139 +322,9 @@ const UseCases = () => {
           </div>
         </div>
       </div>
-      {/* Main navigation */}
-      <nav className="main-nav">
-        <ul className="main-nav__list">
-          {/* Home button */}
-          <img
-            className="image-9-icon11"
-            alt=""
-            src="/image-9@2x.png"
-            onClick={onClickHome}
-            style={{ cursor: "pointer" }}
-          />
-          <div className="main-nav__box">
-            {/* Navigation links */}
-            <li className="main-nav__item">
-              <div
-                className="main-nav__link"
-                onClick={onClickPlatform}
-                style={{ cursor: "pointer" }}
-              >
-                Platforms
-              </div>
-            </li>
-            <li className="main-nav__item">
-              <div
-                className="main-nav__link"
-                // onClick={onClickUsecase}
 
-                style={{
-                  cursor: "pointer",
-                  position: "relative",
-                  display: "inline-block",
-                  paddingBottom: "5px",
-                }}
-              >
-                Use Cases
-                <div
-                  className="underline"
-                  style={{
-                    position: "absolute",
-                    left: 0,
-                    bottom: 0,
-                    width: "100%",
-                    height: "3px",
-                    backgroundColor: "#F1C232",
-                  }}
-                ></div>
-              </div>
-            </li>
-            <li className="main-nav__item">
-              <div
-                className="main-nav__link"
-                onClick={onClickIndustries}
-                style={{ cursor: "pointer" }}
-              >
-                Industries
-              </div>
-            </li>
-            <li className="main-nav__item">
-              <div
-                className="main-nav__link"
-                onClick={onClickServices}
-                style={{ cursor: "pointer" }}
-              >
-                Service
-              </div>
-            </li>
-            <li className="main-nav__item">
-              <div
-                className="main-nav__link"
-                onClick={onClickResource}
-                style={{ cursor: "pointer" }}
-              >
-                Resource
-              </div>
-            </li>
-          </div>
-        </ul>
-      </nav>
       {/* Footer */}
-
-      <div className="footerdefault3">
-        <div className="footer3">
-          <div className="frame-parent25">
-            {/* Navigation links */}
-            <div className="frame-parent26">
-              <div className="home-wrapper1" onClick={onClickHome}>
-                <div className="button27">Home</div>
-              </div>
-              <div className="home-wrapper1" onClick={onClickPlatform}>
-                <div className="button27">Platforms</div>
-              </div>
-              <div className="home-wrapper1" onClick={onClickUsecase}>
-                <div className="button27">Use Cases</div>
-              </div>
-              <div className="home-wrapper1" onClick={onClickIndustries}>
-                <div className="button27">Industries</div>
-              </div>
-              <div className="home-wrapper1" onClick={onClickServices}>
-                <div className="button27">Services</div>
-              </div>
-              <div className="home-wrapper1" onClick={onClickResource}>
-                <div className="button27">Resource</div>
-              </div>
-            </div>
-          </div>
-          <div className="frame-parent27">
-            <div className="twinmo-wrapper1">
-              <div className="button27">Contact us</div>
-            </div>
-          </div>
-          <div className="image-19-parent1">
-            <img className="image-19-icon3" alt="" src="/image-19@2x.png" />
-            <img className="image-17-icon3" alt="" src="/image-17@2x.png" />
-            <img className="image-18-icon3" alt="" src="/image-18@2x.png" />
-            <img className="image-20-icon3" alt="" src="/image-20@2x.png" />
-          </div>
-          <div className="line-div" />
-          <img className="image-9-icon7" alt="" src="/image-91@2x.png" />
-          <div className="twinmo-inc-all3">
-            © 2023 Twinmo, Inc. All rights reserved
-          </div>
-        </div>
-        <div className="privacy-policy-parent1">
-          <div
-            className="privacy-policy3"
-            onClick={onPrivacyPolicyClick}
-          >{`Privacy Policy | `}</div>
-          <div className="terms-of-service3">{`Terms of Service | `}</div>
-          <div className="cookie-policy3" onClick={onCookiePolicyTextClick}>
-            Cookie Policy
-          </div>
-        </div>
-      </div>
+      <Footer />
     </div>
   );
 };

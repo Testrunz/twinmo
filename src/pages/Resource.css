@@ -1,36 +1,170 @@
-.frame-child {
-  position: absolute;
-  background-size: cover;
-  top: 0;
-  left: calc(50% - 650px);
-  width: 1300px;
-  height: 634.25px;
-  background-size: cover;
-  background-position: center;
+.resourcepage {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
-.experimentation-and-beyond {
+/* Row 1 col- 1 & 2*/
+.row-61 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: var(--gap-21xl);
+  margin-bottom: 100px;
+}
+.col-61 {
+  flex-basis: 10%;
   position: relative;
-  position: relative;
-  font-size: 48px;
-  line-height: 52.5px;
+  margin-left: 30px 0;
+}
+.col-61 h1 {
+  font-family: Poppins;
+  font-style: normal;
   font-weight: 500;
-  display: inline-block;
+  font-size: 50px;
+  color: #f1c232;
 }
-.explore-our-resources {
-  margin: 0;
-  
-}
-.explore-our-resources-container {
-  color: var(--color-gray-200);
-  display: inline-block;
-  width: 616.5px;
-  font-size: var(--paragraph-style-1-size);
-}
-.button,
-.explore-our-resources-container {
-  position: relative;
+.col-61 h2 {
+  /* position: relative; */
   font-weight: 500;
+  display: flex;
+  width: 590px;
+  font-size: 16px;
+  text-align: justify;
 }
+.col-62 {
+  position: relative;
+  flex-basis: 10%;
+  display: flex;
+  align-items: center;
+}
+.product61 {
+  width: 550px;
+}
+
+
+/* Row 2 col- 3 & 4*/
+.row-62 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: var(--gap-21xl);
+  margin-bottom: 100px;
+}
+.col-63 {
+  flex-basis: 10%;
+  position: relative;
+  margin-left: 30px 0;
+}
+.col-64 h4 {
+  font-weight: 100;
+  /* display: flex; */
+  /* width: 590px; */
+  font-size: 16px;
+}
+.col-63 h4 {
+  font-weight: 100;
+  /* display: flex; */
+  /* width: 590px; */
+  font-size: 16px;
+  text-align: justify;
+}
+.col-64 {
+  flex-basis: 10%;
+  position: relative;
+  margin-left: 30px 0;
+}
+.product62 {
+  width: 100px;
+  height: 23.72px;
+font-size: 24px;
+}
+.product63 {
+  width: 100px;
+  height: 23.72px;
+}
+
+
+.huge-iconinterfacebulkpaint {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.huge-iconinterfacebulkpaint-wrapper {
+  border-radius: var(--br-5xs-5);
+  background-color: var(--primar-yellow);
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Mobile view */
+@media only screen and (max-width: 780px) {
+  .row-61 {
+    flex-direction: column-reverse;
+    margin: 50px 0;
+  }
+  .col-62 {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+  }
+  .col-62 .product61 {
+    width: 100%;
+  }
+  .col-61 {
+    flex-basis: 100%;
+  }
+  .col-61 h1 {
+    font-weight: 100;
+    font-size: 34px;
+  }
+  .col-61 h2 {
+    font-weight: 200;
+    width: 100%;
+    font-size: 16px;
+  }
+  .row-62 {
+    flex-direction: column-reverse;
+    margin: 50px 0;
+  }
+  .col-64 {
+    flex-basis: 100%;
+    margin-bottom: 50px;
+  }
+  .col-64 .product63 {
+    width: 100%;
+  }
+  .col-63 .product62 {
+    width: 100%;
+  }
+  .col-63 {
+    flex-basis: 100%;
+  }
+  .col-63 h4 {
+    font-weight: 200;
+    width: 100%;
+    font-size: 16px;
+  }
+  .col-64 h4 {
+    font-weight: 200;
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 .button-type-2 {
   border-radius: 3.75px;
   background-color: var(--primar-yellow);
@@ -429,22 +563,7 @@
 .frame-parent4 {
   top: 1141px;
 }
-.huge-iconinterfacebulkpaint {
-  position: relative;
-  width: 23.72px;
-  height: 23.72px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.huge-iconinterfacebulkpaint-wrapper {
-  border-radius: var(--br-5xs-5);
-  background-color: var(--primar-yellow);
-  display: flex;
-  flex-direction: row;
-  padding: 19.766077041625977px;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
+
 .frame-parent5 {
   position: absolute;
   top: 1141px;
@@ -509,7 +628,6 @@
 }
 .methods-and-tools {
   color: var(--text-shade-1, #181818);
-/* WEB/Heading/H4 */
 font-family: Poppins;
 font-size: 34px;
 font-style: normal;
@@ -520,18 +638,4 @@ letter-spacing: -0.68px;
   top: 874px;
   left: calc(50% - 620px);
 }
-.some-captions {
-  top: 1483px;
-  left: 100px;
-}
-.resource {
-  position: relative;
-  background-color: var(--mini-title-bg);
-  width: 100%;
-  height: 290vh;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--h3-size);
-  color: var(--heading-color);
-  font-family: var(--h3);
-}
+

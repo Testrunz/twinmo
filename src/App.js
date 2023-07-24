@@ -10,21 +10,25 @@ import UseCases from "./pages/UseCases";
 import Platforms from "./pages/Platforms";
 import PrivacyAndPolicy from "./pages/Privacy";
 import CookiePolicy from "./pages/Cookie";
+import Navbar from "./Component/Navbar";
 
 // Defining the main App component
 function App() {
   return (
     // Defining the routing configuration using Routes component
-    <Routes>
-      <Route path="/" element={<LandingPage />} />
-      <Route path="/resource" element={<Resource />} />
-      <Route path="/services" element={<Services />} />
-      <Route path="/industries" element={<Industries />} />
-      <Route path="/use-cases" element={<UseCases />} />
-      <Route path="/platforms" element={<Platforms />} />
-      <Route path="/privacy-policy" element={<PrivacyAndPolicy />} />
-      <Route path="/cookie-policy" element={<CookiePolicy />} />
-    </Routes>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/resource" element={<Resource />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/industries" element={<Industries />} />
+        <Route path="/use-cases" element={<UseCases />} />
+        <Route path="/platforms" element={<Platforms />} />
+        <Route path="/privacy-policy" element={<PrivacyAndPolicy />} />
+        <Route path="/cookie-policy" element={<CookiePolicy />} />
+      </Routes>
+    </>
   );
 }
 export default App;
