@@ -81,13 +81,13 @@ const LandingPage = () => {
           </h3>
         </div>
         <div className="col-5">
-          <img className="product3" alt="" src="/car.png" />
+          <img className="product3" alt="" src="/Ironbox.png" />
         </div>
       </div>
 
       <div className="row-4">
         <div className="col-8">
-          <img className="product4" src="Image Twinmo 01.png" />
+          <img className="product4" src="ImageTwinmo.png" />
         </div>
         <div className="col-7">
           <h2>Vertically Integrated Solution</h2>
@@ -100,89 +100,86 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div>
-        <div class="key-feature">
-          <b>Key Features</b>
-        </div>
-        <ul>
-          <li className="feature-list">
-            <img
-              className="charmcircle-tick-icon"
-              alt=""
-              src="/charmcircletick.svg"
-            />
-            &nbsp; Predefined test procedure library
-          </li>
-          <li>
-            <img
-              className="charmcircle-tick-icon"
-              alt=""
-              src="/charmcircletick1.svg"
-            />
-            &nbsp; Comprehensive test input and inventory management
-          </li>
-          <li>
-            <img
-              className="charmcircle-tick-icon"
-              alt=""
-              src="/charmcircletick2.svg"
-            />
-            &nbsp; Step-by-step digital work instructions
-          </li>
-          <li>
-            <img
-              className="charmcircle-tick-icon"
-              alt=""
-              src="/charmcircletick.svg"
-            />
-            &nbsp;Integrated test instruments for time-efficient data collection
-          </li>
-          <li>
-            <img
-              className="charmcircle-tick-icon"
-              alt=""
-              src="/charmcircletick1.svg"
-            />
-            &nbsp;Interactive charts for real-time test progress tracking
-          </li>
-          <li>
-            <img
-              className="charmcircle-tick-icon"
-              alt=""
-              src="/charmcircletick.svg"
-            />
-            &nbsp;Advanced AI engine for automatic calculations and results
-            analysis
-          </li>
-          <li>
-            <img
-              className="charmcircle-tick-icon"
-              alt=""
-              src="/charmcircletick2.svg"
-            />
-            &nbsp;Simplified test report generation
-          </li>
-          <li>
-            <img
-              className="charmcircle-tick-icon"
-              alt=""
-              src="/charmcircletick1.svg"
-            />
-            &nbsp;Advanced analytics for further data analysis
-          </li>
-          <li>
-            <p style={{ textAlign: "justify" }}>
-              Embrace the Future of Experimentation Access your test runs from
-              anywhere, on any device. Our AI-powered platform extracts critical
-              insights, eliminating the need for traditional tools like Excel.
-              Generate compliant, ready-to-submit reports effortlessly, and
-              never worry about losing valuable data. Join us on this journey to
-              reshape the future of product testing. Welcome to Twinmo, where
-              experiments are transformed into insights!
-            </p>
-          </li>
-        </ul>
+      <div class="key-feature">
+        <b>Key Features</b>
       </div>
+      <ul>
+        <li className="feature-list">
+          <img
+            className="charmcircle-tick-icon"
+            alt=""
+            src="/charmcircletick.svg"
+          />
+          &nbsp; Predefined test procedure library
+        </li>
+        <li>
+          <img
+            className="charmcircle-tick-icon"
+            alt=""
+            src="/charmcircletick1.svg"
+          />
+          &nbsp; Comprehensive test input and inventory management
+        </li>
+        <li>
+          <img
+            className="charmcircle-tick-icon"
+            alt=""
+            src="/charmcircletick2.svg"
+          />
+          &nbsp; Step-by-step digital work instructions
+        </li>
+        <li>
+          <img
+            className="charmcircle-tick-icon"
+            alt=""
+            src="/charmcircletick.svg"
+          />
+          &nbsp;Integrated test instruments for time-efficient data collection
+        </li>
+        <li>
+          <img
+            className="charmcircle-tick-icon"
+            alt=""
+            src="/charmcircletick1.svg"
+          />
+          &nbsp;Interactive charts for real-time test progress tracking
+        </li>
+        <li>
+          <img
+            className="charmcircle-tick-icon"
+            alt=""
+            src="/charmcircletick.svg"
+          />
+          &nbsp;Advanced AI engine for automatic calculations and results
+          analysis
+        </li>
+        <li>
+          <img
+            className="charmcircle-tick-icon"
+            alt=""
+            src="/charmcircletick2.svg"
+          />
+          &nbsp;Simplified test report generation
+        </li>
+        <li>
+          <img
+            className="charmcircle-tick-icon"
+            alt=""
+            src="/charmcircletick1.svg"
+          />
+          &nbsp;Advanced analytics for further data analysis
+        </li>
+      </ul>
+      <p style={{ textAlign: "justify" }}>
+        Embrace the Future of Experimentation Access your test runs from
+        anywhere, on any device. Our AI-powered platform extracts critical
+        insights, eliminating the need for traditional tools like Excel.
+        Generate compliant, ready-to-submit reports effortlessly, and never
+        worry about losing valuable data. Join us on this journey to reshape the
+        future of product testing. Welcome to Twinmo, where experiments are
+        transformed into insights!
+      </p>
+
       {/* Footer */}
       <Footer />
     </div>

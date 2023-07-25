@@ -80,7 +80,7 @@ const Platforms = () => {
           </h2>
         </div>
         <div className="col-22">
-          <img className="product21" alt="" src="/group-184@2x.png" />
+          <img className="product21" alt="" src="/ImagePlatform.png" />
         </div>
       </div>
 
@@ -112,8 +112,8 @@ const Platforms = () => {
       </div>
       <h6 className="testrunz-title">TestRunZ</h6>
       {/* Row -3 */}
-      <div className="row-3">
-        <div className="col-6">
+      <div className="row-23">
+        <div className="col-26">
           <h2>Digital Experimentation</h2>
           <h3>
             A web-based application that streamlines the experimentation
@@ -121,16 +121,16 @@ const Platforms = () => {
             post-experimentation, and automatically generating reports.
           </h3>
         </div>
-        <div className="col-5">
-          <img className="product3" alt="" src="/Mypage.png" />
+        <div className="col-25">
+          <img className="product23" alt="" src="/Mypage.png" />
         </div>
       </div>
       {/* Row 4 */}
-      <div className="row-4">
-        <div className="col-8">
-          <img className="product4" alt="" src="/my-page-4-11@2x.png" />
+      <div className="row-24">
+        <div className="col-28">
+          <img className="product24" alt="" src="/my-page-4-11@2x.png" />
         </div>
-        <div className="col-7">
+        <div className="col-27">
           <h2>Detailed Statistics of your RunZ</h2>
           <h3>
             Users carry out their laboratory experiments using predefined test

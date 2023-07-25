@@ -37,15 +37,15 @@ const Industries = () => {
       <h3 className="industries-title">Industries</h3>
       <div className="row-42">
         <div className="col-44">
-          <img className="product42" alt="" src="/personal.png" />
+          <img className="product42" alt="" src="/Personal.png" />
         </div>
         <div className="col-3">
           <h2>Personal care appliances</h2>
           <h3>
-            Our world class testing facility ensures that your personal care
-            products are safe, effective, and up to code. We use the latest
-            equipment and testing methods to ensure that your products meet all
-            applicable international standards.
+          In  the realm of personal care appliances, where safety and effectiveness are paramount, Twinmo.ai shines. Whether you’re developing hair dryers, electric toothbrushes, curling irons, or any other appliances that play a key role in personal grooming and hygiene, our platform is designed to make your testing processes more efficient and reliable. With Twinmo.ai, you can seamlessly manage test procedures and data, ensuring every product you launch is a reflection of quality and care.
+          </h3>
+          <h3>
+          With Twinmo.ai, you’re not just testing better; you’re innovating for a brighter tomorrow.
           </h3>
         </div>
       </div>
@@ -54,20 +54,17 @@ const Industries = () => {
         <div className="col-46">
           <h2>Kitchen appliances</h2>
           <h3>
-            Our kitchen appliance testing facility is equipped to test for a
-            variety of safety hazards, including electrical safety, heat output,
-            mechanical strength tests, environmental testing, and functional
-            tests to ensure that your products perform as expected.
+          In a world where the kitchen is the heart of the home, and the appliances therein are integral to cooking efficiency and culinary creativity, Twinmo.ai steps in as the trusted companion for engineers. We help you ensure that your toasters, ovens, microwaves, and mixers not only meet the highest safety standards but also perform at their best, enhancing the cooking experience for your end users. Our platform streamlines the intricate process of experiment documentation, real-time data tracking, and insightful analytics, thereby accelerating your product development cycle.
           </h3>
         </div>
         <div className="col-45">
-          <img className="product43" alt="" src="/kitchen.png" />
+          <img className="product43" alt="" src="/Kitchen.png" />
         </div>
       </div>
 
       <div className="row-44">
         <div className="col-48">
-          <img className="product44" alt="" src="/furniture.png" />
+          <img className="product44" alt="" src="/Furniture.png" />
         </div>
         <div className="col-47">
           <h2>Home furnitures</h2>
@@ -92,7 +89,7 @@ const Industries = () => {
           </h3>
         </div>
         <div className="col-410">
-          <img className="product45" alt="" src="/research.png" />
+          <img className="product45" alt="" src="/Research.png" />
         </div>
       </div>
       {/* Footer */}

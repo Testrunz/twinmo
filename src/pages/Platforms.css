@@ -294,14 +294,14 @@
 
   /* Row -3  */
   .row-23 {
-    flex-direction: column-reverse;
+    flex-direction: column;
     margin: 50px 0;
   }
   .col-25 {
     flex-basis: 100%;
     margin-bottom: 50px;
   }
-  .col-25 .product3 {
+  .col-25 .product23 {
     width: 100%;
   }
   .col-26 {
@@ -326,7 +326,7 @@
     flex-basis: 100%;
     margin-bottom: 50px;
   }
-  .col-28 .product4 {
+  .col-28 .product24 {
     width: 100%;
   }
   .col-27 {

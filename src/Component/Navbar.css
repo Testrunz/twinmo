@@ -45,6 +45,9 @@ nav ul li:hover {
 }
 
 @media screen and (max-width: 780px) {
+  .navbar{
+    height: 70px;
+  }
 .Log{
   display: flex;
   position: absolute;
@@ -58,13 +61,13 @@ nav ul li:hover {
   position: absolute;
   display: block;
   list-style: none;
-  /* background-color: #f1c232; */
   background-color: white;
   left: 0;
-  top: 75px;
+  top: 60px;
   transition: all 0.5s ease-out;
   width: 100%;
   z-index: 2;
+  padding: 0;
 }
 nav ul li:hover {
   color: #f1c232;
@@ -84,7 +87,6 @@ nav ul li:hover {
   background-color: #f1c232;
   border: none;
   outline: none;
-  top: 35px;
   right: 35px;
   width: 40px;
   border-radius: 3px;
