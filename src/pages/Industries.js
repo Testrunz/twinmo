@@ -3,6 +3,11 @@ import "./Industries.css";
 import { Helmet } from "react-helmet-async";
 import Footer from "../Component/Footer";
 import Personal from "../Asset/Personal.png"
+import Kitchen from "../Asset/Kitchen.png"
+import Furniture from "../Asset/Furniture.png"
+import Research from "../Asset/Research.png"
+import IndustryHome from "../Asset/IndustryHome.png"
+
 // Defining the Industries component
 const Industries = () => {
   return (
@@ -29,7 +34,7 @@ const Industries = () => {
           </h2>
         </div>
         <div className="col-42">
-          <img className="product41" alt="" src="/group-182@2x.png" />
+          <img className="product41" alt="" src={IndustryHome}/>
         </div>
       </div>
       <h3 className="industries-title">Industries</h3>
@@ -56,13 +61,13 @@ const Industries = () => {
           </h3>
         </div>
         <div className="col-45">
-          <img className="product43" alt="" src="/Kitchen.png" />
+          <img className="product43" alt="" src={Kitchen} />
         </div>
       </div>
 
       <div className="row-44">
         <div className="col-48">
-          <img className="product44" alt="" src="/Furniture.png" />
+          <img className="product44" alt="" src={Furniture} />
         </div>
         <div className="col-47">
           <h2>Home furnitures</h2>
@@ -87,7 +92,7 @@ const Industries = () => {
           </h3>
         </div>
         <div className="col-410">
-          <img className="product45" alt="" src="/Research.png" />
+          <img className="product45" alt="" src={Research} />
         </div>
       </div>
       {/* Footer */}
