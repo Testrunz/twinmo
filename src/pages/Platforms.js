@@ -5,6 +5,15 @@ import Slider from "react-slick";
 import "./Slick.css";
 import "./Slick-theme.css";
 import Footer from "../Component/Footer";
+import PlatformHome from "../Asset/PlatformHome.png"
+import Testrunz from "../Asset/Testrunz.png"
+import Unity from "../Asset/Unity.png"
+import TestrunzMypage from "../Asset/TestrunzMypage.png"
+import Mypage from "../Asset/Mypage.png"
+import EditIcon from "../Asset/EditIcon.svg"
+import MessageIcon from "../Asset/MessageIcon.svg"
+
+
 
 // Defining the Platforms component
 const Platforms = () => {
@@ -66,8 +75,6 @@ const Platforms = () => {
       {/* Row 1 */}
       <div className="row-21">
         <div className="col-21">
-          {/* <img className="bg-img" alt="" src="/rectangle-331.svg" />
-          <img className="bg-img" alt="" src="/rectangle-341.svg" /> */}
           <h1>
             Your All-in-One Experimentation Platform for Data Driven Decisions
           </h1>
@@ -80,7 +87,7 @@ const Platforms = () => {
           </h2>
         </div>
         <div className="col-22">
-          <img className="product21" alt="" src="/ImagePlatform.png" />
+          <img className="product21" alt="" src={PlatformHome} />
         </div>
       </div>
 
@@ -88,7 +95,7 @@ const Platforms = () => {
       {/* Row -2 */}
       <div className="row-22">
         <div className="col-23">
-          <img className="testrunz-img" alt="" src="/Testrunz.png" />
+          <img className="testrunz-img" alt="" src={Testrunz} />
           <h3>Testrunz</h3>
           <h4>Software</h4>
           <h5>
@@ -99,7 +106,7 @@ const Platforms = () => {
           </h5>
         </div>
         <div className="col-24">
-          <img className="unity-img" alt="" src="/Unity.png" />
+          <img className="unity-img" alt="" src={Unity} />
           <h3>Unity</h3>
           <h4>Hardware</h4>
           <h5>
@@ -122,13 +129,13 @@ const Platforms = () => {
           </h3>
         </div>
         <div className="col-25">
-          <img className="product23" alt="" src="/Mypage.png" />
+          <img className="product23" alt=""  src={Mypage}/>
         </div>
       </div>
       {/* Row 4 */}
       <div className="row-24">
         <div className="col-28">
-          <img className="product24" alt="" src="/my-page-4-11@2x.png" />
+          <img className="product24" alt=""src={TestrunzMypage}  />
         </div>
         <div className="col-27">
           <h2>Detailed Statistics of your RunZ</h2>
@@ -151,23 +158,22 @@ const Platforms = () => {
             <img
               className="edit-24-outline1"
               alt=""
-              src="/edit--24--outline1.svg"
+              src={EditIcon}
             />
           </div>
           <br />
           <b className="slider_title">Predefined Test Procedure Library</b>
-          <p>
+          <p className="feature-list">
             Unleash efficiency with our expansive, predefined procedure library,
             tailored for a seamless testing experience.
           </p>
         </div>
         <div className="slide_box">
           <div className="rectangle-parent9">
-            {/* <div className="frame-child12" /> */}
             <img
               className="edit-24-outline1"
               alt=""
-              src="/messages--24--outline1.svg"
+              src={MessageIcon}
             />
           </div>
           <br />

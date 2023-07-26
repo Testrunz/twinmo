@@ -2,6 +2,12 @@
 import Footer from "../Component/Footer";
 import "./LandingPage.css";
 import { Helmet } from "react-helmet-async";
+import Landing from "../Asset/LandingHome.png"
+import Unified from "../Asset/Unified.png"
+import Rapid from "../Asset/Rapid.png"
+import ImageTwinmo from "../Asset/ImageTwinmo.png"
+import Tick from "../Asset/charmcircletick.svg"
+
 
 // Defining the LandingPage component
 const LandingPage = () => {
@@ -48,13 +54,13 @@ const LandingPage = () => {
           </h2>
         </div>
         <div className="col-2">
-          <img className="product1" alt="" src="/landing.png" />
+          <img className="product1" alt="" src={Landing} />
         </div>
       </div>
 
       <div className="row-2">
         <div className="col-4">
-          <img className="product2" alt="" src="/home01.png" />
+          <img className="product2" alt="" src={Unified} />
         </div>
         <div className="col-3">
           <h2>One Unified Platform</h2>
@@ -81,13 +87,13 @@ const LandingPage = () => {
           </h3>
         </div>
         <div className="col-5">
-          <img className="product3" alt="" src="/Ironbox.png" />
+          <img className="product3" alt="" src={Rapid} />
         </div>
       </div>
 
       <div className="row-4">
         <div className="col-8">
-          <img className="product4" src="ImageTwinmo.png" />
+          <img className="product4" src={ImageTwinmo} />
         </div>
         <div className="col-7">
           <h2>Vertically Integrated Solution</h2>
@@ -108,66 +114,66 @@ const LandingPage = () => {
           <img
             className="charmcircle-tick-icon"
             alt=""
-            src="/charmcircletick.svg"
+            src={Tick}
           />
-          &nbsp; Predefined test procedure library
+          &nbsp; Predefined test procedure library.
         </li>
         <li>
           <img
             className="charmcircle-tick-icon"
             alt=""
-            src="/charmcircletick1.svg"
+            src={Tick}
           />
-          &nbsp; Comprehensive test input and inventory management
+          &nbsp; Comprehensive test input and inventory management.
         </li>
         <li>
           <img
             className="charmcircle-tick-icon"
             alt=""
-            src="/charmcircletick2.svg"
+            src={Tick}
           />
-          &nbsp; Step-by-step digital work instructions
+          &nbsp; Step-by-step digital work instructions.
         </li>
         <li>
           <img
             className="charmcircle-tick-icon"
             alt=""
-            src="/charmcircletick.svg"
+            src={Tick}
           />
-          &nbsp;Integrated test instruments for time-efficient data collection
+          &nbsp;Integrated test instruments for time-efficient data collection.
         </li>
         <li>
           <img
             className="charmcircle-tick-icon"
             alt=""
-            src="/charmcircletick1.svg"
+            src={Tick}
           />
-          &nbsp;Interactive charts for real-time test progress tracking
+          &nbsp;Interactive charts for real-time test progress tracking.
         </li>
         <li>
           <img
             className="charmcircle-tick-icon"
             alt=""
-            src="/charmcircletick.svg"
+            src={Tick}
           />
           &nbsp;Advanced AI engine for automatic calculations and results
-          analysis
+          analysis.
         </li>
         <li>
           <img
             className="charmcircle-tick-icon"
             alt=""
-            src="/charmcircletick2.svg"
+            src={Tick}
           />
-          &nbsp;Simplified test report generation
+          &nbsp;Simplified test report generation.
         </li>
         <li>
           <img
             className="charmcircle-tick-icon"
             alt=""
-            src="/charmcircletick1.svg"
+            src={Tick}
           />
-          &nbsp;Advanced analytics for further data analysis
+          &nbsp;Advanced analytics for further data analysis.
         </li>
       </ul>
       <p style={{ textAlign: "justify" }}>

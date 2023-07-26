@@ -2,6 +2,13 @@
 import "./Resource.css";
 import { Helmet } from "react-helmet-async";
 import Footer from "../Component/Footer";
+import ResourceHome from "../Asset/ResourceHome.png";
+import ExpQuotes from "../Asset/ExpQuotes.png";
+import ThoughtMaps from "../Asset/ThoughtMaps.png";
+import System from "../Asset/System.png";
+import CaseStudies from "../Asset/CaseStudies.png";
+import Process from "../Asset/Process.png";
+import Doe from "../Asset/DOE.png";
 
 // Defining the Resource component
 const Resource = () => {
@@ -33,76 +40,51 @@ const Resource = () => {
             DOE, systems thinking, thought maps, and process maps. Read our case
             studies to discover how other businesses have transformed their
             product development process with Twinmo.
-          </h2>{" "}
+          </h2>
           <h2>
             Transform your product development today. Get faster to market and
             stay ahead of the competition with Twinmo. Contact us now. Your
             success is our mission.
           </h2>
-          <h2>
-            Remember to include relevant images and videos to make the content
-            more engaging and visually appealing.
-          </h2>
         </div>
         <div className="col-62">
-          <img className="product61" alt="" src="/group-18@2x.png" />
+          <img className="product61" alt="" src={ResourceHome} />
         </div>
       </div>
       {/* Row - 2 */}
-      <h3>Methods and Tools for Experimentation and Analysis</h3>
+      <h3 className="title-resource">
+        Methods and Tools for Experimentation and Analysis
+      </h3>
       <div className="row-62">
         <div className="col-63">
           <div className="huge-iconinterfacebulkshiel-wrapper">
-            <img
-              className="product62"
-              alt=""
-              src="/hugeiconinterfacebulkshieldcheck.svg"
-            />
+            <img className="product62" alt="" src={ExpQuotes} />
+            <h4>Experimentation Quotes </h4>
           </div>
-          <h4>Experimentation Quotes </h4>
           <div className="huge-iconinterfacebulkshiel-wrapper">
-            <img
-              className="product62"
-              alt=""
-              src="/hugeiconinterfacesolidlove.svg"
-            />
+            <img className="product62" alt="" src={Process} />{" "}
+            <h4>Systems thinking</h4>
           </div>
-          <h4>Systems thinking</h4>
+
           <div className="huge-iconinterfacebulkshiel-wrapper">
-            <img
-              className="product62"
-              alt=""
-              src="/hugeiconinterfacebulkpaint-bucket.svg"
-            />
+            <img className="product62" alt="" src={System} />
+            <h4>Process maps</h4>
           </div>
-          <h4>Process maps</h4>
         </div>
         <div className="col-64">
           <div className="huge-iconinterfacebulkshiel-wrapper">
-            <img
-              className="product63"
-              alt=""
-              src="/hugeiconinterfacebulklocation-01.svg"
-            />
+            <img className="product63" alt="" src={ThoughtMaps} />
+            <h4>Thought maps - Track the work</h4>
           </div>
 
-          <h4>Thought maps - Track the work</h4>
           <div className="huge-iconinterfacebulkshiel-wrapper">
-            <img
-              className="product63"
-              alt=""
-              src="/hugeiconinterfacebulkopen-book.svg"
-            />
+            <img className="product63" alt="" src={CaseStudies} />
+            <h4>Case studies</h4>
           </div>
-          <h4>Case studies</h4>
           <div className="huge-iconinterfacebulkshiel-wrapper">
-            <img
-              className="product63"
-              alt=""
-              src="/hugeiconinterfacebulkzoomtext.svg"
-            />
+            <img className="product63" alt="" src={Doe} />
+            <h4>DOE advanced</h4>
           </div>
-          <h4>DOE advanced</h4>
         </div>
       </div>
       {/* Footer */}
