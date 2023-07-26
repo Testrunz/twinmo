@@ -94,7 +94,7 @@ const Services = () => {
                     <div className="input-section">
                       <input
                         className="base-input-rounded-not-sel"
-                        placeholder="Lastname"
+                        placeholder="Last name"
                         required
                       ></input>
                       <div className="mini-title-contaier">
@@ -149,7 +149,7 @@ const Services = () => {
             </div>
           </div>
           <button className="submit-button" type="submit">
-            <div className="enter">Submit</div>
+          Submit
           </button>
         </form>
       </div>
