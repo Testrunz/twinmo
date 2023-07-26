@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0cf70819.css",
-    "main.js": "/static/js/main.bd583625.js",
+    "main.js": "/static/js/main.9568800c.js",
     "static/media/ResourceHome.png": "/static/media/ResourceHome.e0f4810c5b97d33f7989.png",
     "static/media/Testrunz.png": "/static/media/Testrunz.e54e8279a23f20c45038.png",
     "static/media/LandingHome.png": "/static/media/LandingHome.78fd0b43f8f753f27850.png",
@@ -9,6 +9,7 @@
     "static/media/TestrunzMypage.png": "/static/media/TestrunzMypage.6a3a465d8c2f3f095349.png",
     "static/media/PlatformHome.png": "/static/media/PlatformHome.0937b2f114139b7fc246.png",
     "static/media/Mypage.png": "/static/media/Mypage.f642df601126576c29d1.png",
+    "static/media/Personal.png": "/static/media/Personal.27cc05eefae0a3db3a2e.png",
     "static/media/Unity.png": "/static/media/Unity.e0bf1fd2241cc58984a7.png",
     "static/media/Unified.png": "/static/media/Unified.82e9a2315c8e4509c3bc.png",
     "static/media/ImageTwinmo.png": "/static/media/ImageTwinmo.1dae3e5b4e2a3d466f70.png",
@@ -17,10 +18,10 @@
     "index.html": "/index.html",
     "static/media/charmcircletick.svg": "/static/media/charmcircletick.3cd4d3e246bdeabe5a84b6985ce88e3d.svg",
     "main.0cf70819.css.map": "/static/css/main.0cf70819.css.map",
-    "main.bd583625.js.map": "/static/js/main.bd583625.js.map"
+    "main.9568800c.js.map": "/static/js/main.9568800c.js.map"
   },
   "entrypoints": [
     "static/css/main.0cf70819.css",
-    "static/js/main.bd583625.js"
+    "static/js/main.9568800c.js"
   ]
 }

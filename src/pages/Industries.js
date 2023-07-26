@@ -2,7 +2,7 @@
 import "./Industries.css";
 import { Helmet } from "react-helmet-async";
 import Footer from "../Component/Footer";
-
+import Personal from "../Asset/Personal.png"
 // Defining the Industries component
 const Industries = () => {
   return (
@@ -20,8 +20,6 @@ const Industries = () => {
       {/* Industries page content */}
       <div className="row-41">
         <div className="col-41">
-          {/* <img className="bg-img" alt="" src="/rectangle-331.svg" />
-          <img className="bg-img" alt="" src="/rectangle-341.svg" /> */}
           <h1>Bringing the Power of Experimentation to All Industries </h1>
           <h2>
             Whether you're creating kitchen appliances, personal care
@@ -37,7 +35,7 @@ const Industries = () => {
       <h3 className="industries-title">Industries</h3>
       <div className="row-42">
         <div className="col-44">
-          <img className="product42" alt="" src="/Personal.png" />
+          <img className="product42" alt="" src={Personal} />
         </div>
         <div className="col-3">
           <h2>Personal care appliances</h2>
