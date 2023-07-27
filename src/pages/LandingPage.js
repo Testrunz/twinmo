@@ -26,8 +26,6 @@ const LandingPage = () => {
       {/* Landing page content */}
       <div className="row-1">
         <div className="col-1">
-          {/* <img className="bg-img" alt="" src="/rectangle-331.svg" />
-          <img className="bg-img" alt="" src="/rectangle-341.svg" /> */}
           <h1>
             Unleash the Power of AI based Experimentation in Product Decisions
           </h1>

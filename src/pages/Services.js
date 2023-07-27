@@ -1,10 +1,13 @@
 // Importing necessary modules and styles
-import { useNavigate } from "react-router-dom";
 import "./Services.css";
 import { Helmet } from "react-helmet-async";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Footer from "../Component/Footer";
+
+// Importing Images and SVG from Asset
+import ServiceHome from "../Asset/ServiceHome.png"
+import Envelope from "../Asset/Envelope.svg"
 
 // Defining the Service component
 const Services = () => {
@@ -50,8 +53,6 @@ const Services = () => {
       {/* Service page content */}
       <div className="row-51">
         <div className="col-51">
-          {/* <img className="bg-img" alt="" src="/rectangle-331.svg" />
-          <img className="bg-img" alt="" src="/rectangle-341.svg" /> */}
           <h1>Customized Support for Your Product Needs</h1>
           <h2>
             We understand the uniqueness of every product, and we're ready to
@@ -62,8 +63,7 @@ const Services = () => {
           </h2>
         </div>
         <div className="col-52">
-          {" "}
-          <img className="product51" alt="" src="/group-181@2x.png" />
+          <img className="product51" alt="" src={ServiceHome} />
         </div>
       </div>
       <div className="container">
@@ -123,7 +123,7 @@ const Services = () => {
                       <img
                         className="icon-duotone-envelope"
                         alt=""
-                        src="/icon--duotone--envelope.svg"
+                        src={Envelope}
                       />
                     </div>
                   </div>

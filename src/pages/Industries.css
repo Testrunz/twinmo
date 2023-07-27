@@ -159,7 +159,7 @@
 }
 .col-48 {
   position: relative;
-  flex-basis: 60%;
+  flex-basis: 10%;
   display: flex;
   align-items: center;
 }

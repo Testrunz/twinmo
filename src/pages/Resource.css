@@ -45,7 +45,6 @@
 
 /* Row 2 col- 3 & 4*/
 .row-62 {
-  /* display: flex; */
   justify-content: space-around;
   align-items: center;
   gap: var(--gap-21xl);

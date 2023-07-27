@@ -5,6 +5,12 @@ import "./UseCases.css";
 import { useState } from "react";
 import Footer from "../Component/Footer";
 
+// Importing Images and SVG from Asset
+import UsecaseHome from "../Asset/UsecaseHome.png";
+import Discover from "../Asset/Discover.png";
+import Quality from "../Asset/Quality.png";
+import Verify from "../Asset/Verify.png";
+
 // Defining the Usecase component
 const UseCases = () => {
   // Event handlers for toggle to different slides
@@ -26,13 +32,12 @@ const UseCases = () => {
         <link rel="canonical" href="/use-cases" />
       </Helmet>
       {/* Usecase page content */}
+      {/* Row - 1 */}
       <div className="row-31">
         <div className="col-31">
-          {/* <img className="bg-img" alt="" src="/rectangle-331.svg" />
-          <img className="bg-img" alt="" src="/rectangle-341.svg" /> */}
           <h1>
             Revolutionize your Product Testing with Twinmo's Innovative
-            All-in-One Solution, Testrunz{" "}
+            All-in-One Solution, Testrunz
           </h1>
           <h2>
             Twinmo's Testrunz brings the power of AI and structured
@@ -47,7 +52,7 @@ const UseCases = () => {
           </h2>
         </div>
         <div className="col-32">
-          <img className="product31" alt="" src="/ImageUsecase.png" />
+          <img className="product31" alt="" src={UsecaseHome} />
         </div>
       </div>
       {/* Typewriter component */}
@@ -127,7 +132,7 @@ const UseCases = () => {
             </p>
             <p className="revolutionize-your-product">How does it work?</p>
             <div></div>
-            <img className="frame-child14" alt="" src="/Discover04.png" />
+            <img className="frame-child14" alt="" src={Discover} />
             <b className="discover-innovate">Smart Experiment Planning</b>
             <p className="the-ai-engine">
               The AI engine takes into account the factors, levels, and
@@ -178,7 +183,7 @@ const UseCases = () => {
               and executed. Here's how Testrunz supports you during the
               Verify-Comply phase:
             </p>
-            <img className="frame-child14" alt="" src="/Graph.png" />
+            <img className="frame-child14" alt="" src={Verify} />
             <b className="discover-innovate">Automated Test Plan Generation</b>
             <p className="the-ai-engine">
               Our AI engine reviews your product specifications and pairs them
@@ -208,6 +213,7 @@ const UseCases = () => {
             </p>
           </div>
         </div>
+        {/* Show content for responsive Titles */}
         <div className={toggle === 3 ? "show-content" : "content"}>
           <div className="frame-parent24">
             <h4 className="sub-title">
@@ -224,7 +230,7 @@ const UseCases = () => {
               Testrunz equips you with data-driven tools that can:
             </p>
 
-            <img className="frame-child14" alt="" src="/Quality01.png" />
+            <img className="frame-child14" alt="" src={Quality} />
 
             <b className="discover-innovate">Monitor Manufacturing Process</b>
             <p className="the-ai-engine">

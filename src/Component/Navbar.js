@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import HomeLogo from "../Asset/HomeLogo.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -16,7 +17,7 @@ const Navbar = () => {
       <img
         className="logo"
         alt=""
-        src="/image-9@2x.png"
+        src={HomeLogo}
         onClick={onClickHome}
         style={{ cursor: "pointer" }}
       />

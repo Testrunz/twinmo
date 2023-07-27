@@ -5,6 +5,7 @@ import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { AiOutlineGithub } from "react-icons/ai";
 import { GrMail } from "react-icons/gr";
 
+import Logo from "../Asset/Logo.png";
 const Footer = () => {
   const navigate = useNavigate();
 
@@ -56,7 +57,7 @@ const Footer = () => {
           <img
             className="footer-logo"
             alt=""
-            src="/logo.png"
+            src={Logo}
             onClick={onClickHome}
           />
         </div>
@@ -111,9 +112,10 @@ const Footer = () => {
             <Link to="/privacy-policy" className="footer-items-2">
               <li onClick={onClickPrivacyPolicy}>Privacy Policy | </li>
             </Link>
-            <Link 
-            // to="/terms-service" 
-            className="footer-items-2">
+            <Link
+              // to="/terms-service"
+              className="footer-items-2"
+            >
               <li>Terms of Service | </li>
             </Link>
             <Link to="/cookie-policy" className="footer-items-2">

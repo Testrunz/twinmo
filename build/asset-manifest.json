@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.0cf70819.css",
-    "main.js": "/static/js/main.bd276efd.js",
+    "main.css": "/static/css/main.16fccaa8.css",
+    "main.js": "/static/js/main.ee28884a.js",
+    "static/media/ServiceHome.png": "/static/media/ServiceHome.41decff15de0799bc490.png",
     "static/media/ResourceHome.png": "/static/media/ResourceHome.e0f4810c5b97d33f7989.png",
     "static/media/IndustryHome.png": "/static/media/IndustryHome.9d27ccd12f8cfbd2160e.png",
+    "static/media/UsecaseHome.png": "/static/media/UsecaseHome.8f8f68f1c07213757c2e.png",
     "static/media/Research.png": "/static/media/Research.751dcd6aa70184744450.png",
+    "static/media/Quality.png": "/static/media/Quality.cb880361586b7a4510da.png",
     "static/media/Testrunz.png": "/static/media/Testrunz.e54e8279a23f20c45038.png",
     "static/media/Furniture.png": "/static/media/Furniture.ff54a57f9b3fb675c6f7.png",
     "static/media/LandingHome.png": "/static/media/LandingHome.78fd0b43f8f753f27850.png",
@@ -14,18 +17,28 @@
     "static/media/Kitchen.png": "/static/media/Kitchen.325a06990ceabe836344.png",
     "static/media/Mypage.png": "/static/media/Mypage.f642df601126576c29d1.png",
     "static/media/Personal.png": "/static/media/Personal.27cc05eefae0a3db3a2e.png",
+    "static/media/Verify.png": "/static/media/Verify.0d0a9fb791c7c1232bd4.png",
     "static/media/Unity.png": "/static/media/Unity.e0bf1fd2241cc58984a7.png",
     "static/media/Unified.png": "/static/media/Unified.82e9a2315c8e4509c3bc.png",
+    "static/media/Discover.png": "/static/media/Discover.a66adf88169a2322c628.png",
     "static/media/ImageTwinmo.png": "/static/media/ImageTwinmo.1dae3e5b4e2a3d466f70.png",
+    "static/media/HomeLogo.png": "/static/media/HomeLogo.08b25111fce51c3ffe00.png",
+    "static/media/Logo.png": "/static/media/Logo.08b25111fce51c3ffe00.png",
+    "static/media/Setting.svg": "/static/media/Setting.c85b105a37d3901936822190aaea6af2.svg",
+    "static/media/User.svg": "/static/media/User.c322875ec9326586215b79b86f0edbb5.svg",
     "static/media/MessageIcon.svg": "/static/media/MessageIcon.b6d6151bcd0cbf443d9f90024ab5b168.svg",
+    "static/media/DataIcon.svg": "/static/media/DataIcon.ac2fb5f6aac0f815f10bb273c5e43269.svg",
+    "static/media/Envelope.svg": "/static/media/Envelope.c18c77eb8523fde17e3cf751ad5c9041.svg",
+    "static/media/Step.svg": "/static/media/Step.c05d302a284627796fd6eed804f6ad4c.svg",
     "static/media/EditIcon.svg": "/static/media/EditIcon.ffeec0916386ec38d8e358e6adf73f46.svg",
     "index.html": "/index.html",
+    "static/media/Analytics.svg": "/static/media/Analytics.3542b32a4a88f39b9f8c430f72511410.svg",
     "static/media/charmcircletick.svg": "/static/media/charmcircletick.3cd4d3e246bdeabe5a84b6985ce88e3d.svg",
-    "main.0cf70819.css.map": "/static/css/main.0cf70819.css.map",
-    "main.bd276efd.js.map": "/static/js/main.bd276efd.js.map"
+    "main.16fccaa8.css.map": "/static/css/main.16fccaa8.css.map",
+    "main.ee28884a.js.map": "/static/js/main.ee28884a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cf70819.css",
-    "static/js/main.bd276efd.js"
+    "static/css/main.16fccaa8.css",
+    "static/js/main.ee28884a.js"
   ]
 }

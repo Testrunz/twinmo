@@ -1,19 +1,25 @@
 // Importing necessary modules and styles
 import "./Platforms.css";
-import { Helmet } from "react-helmet-async";
-import Slider from "react-slick";
 import "./Slick.css";
 import "./Slick-theme.css";
+import { Helmet } from "react-helmet-async";
+import Slider from "react-slick";
 import Footer from "../Component/Footer";
-import PlatformHome from "../Asset/PlatformHome.png"
-import Testrunz from "../Asset/Testrunz.png"
-import Unity from "../Asset/Unity.png"
-import TestrunzMypage from "../Asset/TestrunzMypage.png"
-import Mypage from "../Asset/Mypage.png"
-import EditIcon from "../Asset/EditIcon.svg"
-import MessageIcon from "../Asset/MessageIcon.svg"
 
-
+// Importing Images and SVG from Asset
+import PlatformHome from "../Asset/PlatformHome.png";
+import Testrunz from "../Asset/Testrunz.png";
+import Unity from "../Asset/Unity.png";
+import TestrunzMypage from "../Asset/TestrunzMypage.png";
+import Mypage from "../Asset/Mypage.png";
+import EditIcon from "../Asset/EditIcon.svg";
+import MessageIcon from "../Asset/MessageIcon.svg";
+import Step from "../Asset/Step.svg";
+import Analytics from "../Asset/Analytics.svg";
+import Report from "../Asset/Report.png";
+import Setting from "../Asset/Setting.svg";
+import User from "../Asset/User.svg";
+import DataIcon from "../Asset/DataIcon.svg";
 
 // Defining the Platforms component
 const Platforms = () => {
@@ -72,7 +78,7 @@ const Platforms = () => {
         />
         <link rel="canonical" href="/platforms" />
       </Helmet>
-      {/* Row 1 */}
+      {/* Row - 1 */}
       <div className="row-21">
         <div className="col-21">
           <h1>
@@ -92,7 +98,7 @@ const Platforms = () => {
       </div>
 
       <h2 className="row-title">Platforms</h2>
-      {/* Row -2 */}
+      {/* Row - 2 */}
       <div className="row-22">
         <div className="col-23">
           <img className="testrunz-img" alt="" src={Testrunz} />
@@ -118,7 +124,7 @@ const Platforms = () => {
         </div>
       </div>
       <h6 className="testrunz-title">TestRunZ</h6>
-      {/* Row -3 */}
+      {/* Row - 3 */}
       <div className="row-23">
         <div className="col-26">
           <h2>Digital Experimentation</h2>
@@ -129,13 +135,13 @@ const Platforms = () => {
           </h3>
         </div>
         <div className="col-25">
-          <img className="product23" alt=""  src={Mypage}/>
+          <img className="product23" alt="" src={Mypage} />
         </div>
       </div>
       {/* Row 4 */}
       <div className="row-24">
         <div className="col-28">
-          <img className="product24" alt=""src={TestrunzMypage}  />
+          <img className="product24" alt="" src={TestrunzMypage} />
         </div>
         <div className="col-27">
           <h2>Detailed Statistics of your RunZ</h2>
@@ -155,11 +161,7 @@ const Platforms = () => {
       <Slider className="slider_list" {...settings}>
         <div className="slide_box">
           <div className="rectangle-parent9">
-            <img
-              className="edit-24-outline1"
-              alt=""
-              src={EditIcon}
-            />
+            <img className="edit-24-outline1" alt="" src={EditIcon} />
           </div>
           <br />
           <b className="slider_title">Predefined Test Procedure Library</b>
@@ -170,11 +172,7 @@ const Platforms = () => {
         </div>
         <div className="slide_box">
           <div className="rectangle-parent9">
-            <img
-              className="edit-24-outline1"
-              alt=""
-              src={MessageIcon}
-            />
+            <img className="edit-24-outline1" alt="" src={MessageIcon} />
           </div>
           <br />
           <b className="slider_title">
@@ -186,7 +184,7 @@ const Platforms = () => {
           </p>
         </div>
         <div className="slide_box">
-          <img className="rectangle-parent9" alt="" src="/frame-181.svg" />
+          <img className="rectangle-parent9" alt="" src={Step} />
           <br />
           <b className="slider_title">Step-by-step Digital Work Instructions</b>
           <p>
@@ -196,11 +194,7 @@ const Platforms = () => {
         </div>
         <div className="slide_box">
           <div className="rectangle-parent9">
-            <img
-              className="edit-24-outline1"
-              alt=""
-              src="/grid--24--outline1.svg"
-            />
+            <img className="edit-24-outline1" alt="" src={DataIcon} />
           </div>
           <br />
           <b className="slider_title">
@@ -213,11 +207,7 @@ const Platforms = () => {
         </div>
         <div className="slide_box">
           <div className="rectangle-parent9">
-            <img
-              className="edit-24-outline1"
-              alt=""
-              src="/users--24--outline1.svg"
-            />
+            <img className="edit-24-outline1" alt="" src={User} />
           </div>
           <br />
           <b className="slider_title">
@@ -230,11 +220,7 @@ const Platforms = () => {
         </div>
         <div className="slide_box">
           <div className="rectangle-parent9">
-            <img
-              className="edit-24-outline1"
-              alt=""
-              src="/setting--24--outline1.svg"
-            />
+            <img className="edit-24-outline1" alt="" src={Setting} />
           </div>
           <br />
           <b className="slider_title">
@@ -247,11 +233,10 @@ const Platforms = () => {
         </div>
         <div className="slide_box">
           <div className="rectangle-parent9">
-            {/* <div className="frame-child12" /> */}
             <img
               className="mdireport-bell-curve-cumulati-icon1"
               alt=""
-              src="/mdi_report-bell-curve-cumulative.png"
+              src={Report}
             />
           </div>
           <br />
@@ -263,12 +248,7 @@ const Platforms = () => {
         </div>
         <div className="slide_box">
           <div className="rectangle-parent9">
-            {/* <div className="frame-child12" /> */}
-            <img
-              className="iconoirreports1"
-              alt=""
-              src="/iconoirreports1.svg"
-            />
+            <img className="iconoirreports1" alt="" src={Analytics} />
           </div>
           <br />
           <b className="slider_title">
