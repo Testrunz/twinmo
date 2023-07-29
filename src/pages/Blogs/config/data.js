@@ -108,6 +108,6 @@ export const blogList = [
     "7. Simplified Test Report Generation:Easily generate comprehensive test reports with our streamlined reporting tool. With Testrunz, creating detailed and compliant reports becomes a breeze.",<br></br>,
   "8. Advanced Analytics for Further Data Analysis: Dive deep into your data with our advanced analytics capabilities, enabling insightful and detailed data examination. Uncover patterns, trends, and correlations that lead to more informed decisions."],
     
-    cover: "/Asset/Research.png",
+    cover: "/Asset/Industry.png",
   },
 ];
