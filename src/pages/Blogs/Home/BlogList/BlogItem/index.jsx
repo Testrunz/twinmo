@@ -22,7 +22,7 @@ const BlogItem = ({
   return (
     <div className="blogItem-wrap">
       <img className="blogItem-cover" src={cover} alt="cover" />
-      <Chip label={category} />
+      {/* <Chip label={category} /> */}
       <Link className="blogItem-link" to={`/blog/${id}`}>
         <h3>{title}</h3>
         </Link>

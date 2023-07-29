@@ -11,6 +11,7 @@ const Header = () => (
       Welcome to Twinmo, the AI-powered experimentation platform
       <br /> revolutionizing product development
     </p>
+    <br />
   </header>
 );
 
