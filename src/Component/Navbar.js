@@ -45,9 +45,14 @@ const Navbar = () => {
             Services
           </li>
         </Link>
-        <Link to="/resource" className="nav-items">
+        {/* <Link to="/resource" className="nav-items">
           <li className={location.pathname === "/resource" ? "active" : ""}>
             Resource
+          </li>
+        </Link> */}
+        <Link to="/blog" className="nav-items">
+          <li className={location.pathname === "/blog" ? "active" : ""}>
+            Blog
           </li>
         </Link>
       </ul>

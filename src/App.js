@@ -11,6 +11,8 @@ import Platforms from "./pages/Platforms";
 import PrivacyAndPolicy from "./pages/Privacy";
 import CookiePolicy from "./pages/Cookie";
 import Navbar from "./Component/Navbar";
+import Home from "./pages/Blogs/Blog";
+import Blog from "./pages/Blogs";
 
 // Defining the main App component
 function App() {
@@ -27,6 +29,8 @@ function App() {
         <Route path="/platforms" element={<Platforms />} />
         <Route path="/privacy-policy" element={<PrivacyAndPolicy />} />
         <Route path="/cookie-policy" element={<CookiePolicy />} />
+        <Route path="/blog" element={<Home />} />
+        <Route path="/blog/:id" element={<Blog />} />
       </Routes>
     </>
   );

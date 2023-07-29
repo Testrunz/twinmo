@@ -189,7 +189,7 @@ const Platforms = () => {
           <b className="slider_title">Step-by-step Digital Work Instructions</b>
           <p>
             Navigate your experiments with ease, courtesy of our detailed
-            digital work instructions
+            digital work instructions.
           </p>
         </div>
         <div className="slide_box">

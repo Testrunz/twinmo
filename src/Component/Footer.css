@@ -156,6 +156,10 @@
 
   .footer-col-4 ul li {
     margin-right: 0;
+    font-size: 14px;
+  }
+  .footer-col-5 p {
+    font-size: 14px;
   }
   .contact-us-title {
     margin-bottom: 20px;

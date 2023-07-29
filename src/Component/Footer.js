@@ -35,9 +35,14 @@ const Footer = () => {
     navigate("/services");
   };
 
-  const onClickResource = () => {
+  // const onClickResource = () => {
+  //   window.scrollTo(0, 0);
+  //   navigate("/resource");
+  // };
+
+  const onClickBlog = () => {
     window.scrollTo(0, 0);
-    navigate("/resource");
+    navigate("/blog");
   };
 
   const onClickPrivacyPolicy = () => {
@@ -79,8 +84,11 @@ const Footer = () => {
             <Link to="/services" className="footer-items">
               <li onClick={onClickServices}>Services</li>
             </Link>
-            <Link to="/resource" className="footer-items">
+            {/* <Link to="/resource" className="footer-items">
               <li onClick={onClickResource}>Resource</li>
+            </Link> */}
+             <Link to="/blog" className="footer-items">
+              <li onClick={onClickBlog}>Blog</li>
             </Link>
           </ul>
         </div>
@@ -104,7 +112,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-row-2">
-        <div className="footer-col-4">
+        <div className="footer-col-5">
           <p>© 2023 Twinmo, Inc. All rights reserved</p>
         </div>
         <div className="footer-col-4">
