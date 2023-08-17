@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.90213ba0.css",
-    "main.js": "/static/js/main.4b5cabe0.js",
+    "main.css": "/static/css/main.8edce4db.css",
+    "main.js": "/static/js/main.faf6dd28.js",
     "static/media/ServiceHome.png": "/static/media/ServiceHome.41decff15de0799bc490.png",
     "static/media/ResourceHome.png": "/static/media/ResourceHome.e0f4810c5b97d33f7989.png",
     "static/media/IndustryHome.png": "/static/media/IndustryHome.9d27ccd12f8cfbd2160e.png",
@@ -22,8 +22,7 @@
     "static/media/Unified.png": "/static/media/Unified.82e9a2315c8e4509c3bc.png",
     "static/media/Discover.png": "/static/media/Discover.a66adf88169a2322c628.png",
     "static/media/ImageTwinmo.png": "/static/media/ImageTwinmo.1dae3e5b4e2a3d466f70.png",
-    "static/media/HomeLogo.png": "/static/media/HomeLogo.08b25111fce51c3ffe00.png",
-    "static/media/Logo.png": "/static/media/Logo.08b25111fce51c3ffe00.png",
+    "static/media/HomeLogo.png": "/static/media/HomeLogo.84d306472ddb2e6c26be.png",
     "static/media/Setting.svg": "/static/media/Setting.c85b105a37d3901936822190aaea6af2.svg",
     "static/media/User.svg": "/static/media/User.c322875ec9326586215b79b86f0edbb5.svg",
     "static/media/MessageIcon.svg": "/static/media/MessageIcon.b6d6151bcd0cbf443d9f90024ab5b168.svg",
@@ -34,11 +33,11 @@
     "index.html": "/index.html",
     "static/media/Analytics.svg": "/static/media/Analytics.3542b32a4a88f39b9f8c430f72511410.svg",
     "static/media/charmcircletick.svg": "/static/media/charmcircletick.3cd4d3e246bdeabe5a84b6985ce88e3d.svg",
-    "main.90213ba0.css.map": "/static/css/main.90213ba0.css.map",
-    "main.4b5cabe0.js.map": "/static/js/main.4b5cabe0.js.map"
+    "main.8edce4db.css.map": "/static/css/main.8edce4db.css.map",
+    "main.faf6dd28.js.map": "/static/js/main.faf6dd28.js.map"
   },
   "entrypoints": [
-    "static/css/main.90213ba0.css",
-    "static/js/main.4b5cabe0.js"
+    "static/css/main.8edce4db.css",
+    "static/js/main.faf6dd28.js"
   ]
 }

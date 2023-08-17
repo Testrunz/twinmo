@@ -1,11 +1,11 @@
 import React from "react";
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "./Footer.css";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { AiOutlineGithub } from "react-icons/ai";
 import { GrMail } from "react-icons/gr";
 
-import Logo from "../Asset/Logo.png";
+import Logo from "../Asset/HomeLogo.png";
 const Footer = () => {
   const navigate = useNavigate();
 
@@ -56,7 +56,7 @@ const Footer = () => {
   };
   return (
     <div>
-      {/* <hr/> */}
+      <hr/>
       <div className="footer-row-1">
         <div className="footer-col-1">
           <img
@@ -65,31 +65,29 @@ const Footer = () => {
             src={Logo}
             onClick={onClickHome}
           />
+          {/* <p>Our innovative all-in-one solution revolutionizes <br/> the way industries approach experimentation and <br/> product development.</p> */}
         </div>
         <div className="footer-col-2">
-          <p className="about-us-title">About us</p>
+          {/* <p className="about-us-title">Quick Links</p> */}
           <ul className="footer-links">
-            <Link to="/" className="footer-items">
-              <li onClick={onClickHome}>Home</li>
-            </Link>
-            <Link to="/platforms" className="footer-items">
-              <li onClick={onClickPlatform}>Platforms</li>
-            </Link>
-            <Link to="/use-cases" className="footer-items">
-              <li onClick={onClickUsecase}>Use Cases</li>
-            </Link>
-            <Link to="/industries" className="footer-items">
-              <li onClick={onClickIndustries}>Industries</li>
-            </Link>
-            <Link to="/services" className="footer-items">
-              <li onClick={onClickServices}>Services</li>
-            </Link>
-            {/* <Link to="/resource" className="footer-items">
-              <li onClick={onClickResource}>Resource</li>
-            </Link> */}
-             <Link to="/blog" className="footer-items">
-              <li onClick={onClickBlog}>Blog</li>
-            </Link>
+            <li className="footer-items" onClick={onClickHome}>
+              Home
+            </li>
+            <li className="footer-items" onClick={onClickPlatform}>
+              Platforms
+            </li>
+            <li className="footer-items" onClick={onClickUsecase}>
+              Use Cases
+            </li>
+            <li className="footer-items" onClick={onClickIndustries}>
+              Industries
+            </li>
+            <li className="footer-items" onClick={onClickServices}>
+              Services
+            </li>
+              <li className="footer-items" onClick={onClickBlog}>
+                Blog
+              </li>
           </ul>
         </div>
         <div className="footer-col-3">
@@ -117,18 +115,13 @@ const Footer = () => {
         </div>
         <div className="footer-col-4">
           <ul className="footer-links-2">
-            <Link to="/privacy-policy" className="footer-items-2">
-              <li onClick={onClickPrivacyPolicy}>Privacy Policy | </li>
-            </Link>
-            <Link
-              // to="/terms-service"
-              className="footer-items-2"
-            >
-              <li>Terms of Service | </li>
-            </Link>
-            <Link to="/cookie-policy" className="footer-items-2">
-              <li onClick={onClickCookiePolicy}>Cookie Policy</li>
-            </Link>
+            <li className="footer-items-2" onClick={onClickPrivacyPolicy}>
+              Privacy Policy |{" "}
+            </li>
+            <li className="footer-items-2">Terms of Service | </li>
+            <li className="footer-items-2" onClick={onClickCookiePolicy}>
+              Cookie Policy
+            </li>
           </ul>
         </div>
       </div>

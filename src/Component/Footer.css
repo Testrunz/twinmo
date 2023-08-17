@@ -8,7 +8,7 @@
   justify-content: space-around;
   align-items: center;
   gap: var(--gap-21xl);
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 .footer-logo {
   width: 250px;
@@ -164,6 +164,10 @@
   .contact-us-title {
     margin-bottom: 20px;
     font-weight: bold;
+    text-align: center;
+  }
+  .footer-col-1{
+    align-items: center;
     text-align: center;
   }
 }

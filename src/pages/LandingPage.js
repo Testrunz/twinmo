@@ -183,7 +183,7 @@ const LandingPage = () => {
         future of product testing. Welcome to Twinmo, where experiments are
         transformed into insights!
       </p>
-
+<br/>
       {/* Footer */}
       <Footer />
     </div>
