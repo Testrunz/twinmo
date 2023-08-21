@@ -114,51 +114,59 @@ const UseCases = () => {
             <h4 className="sub-title">
               Discover/Innovate: Accelerate Innovation with DOE and AI
             </h4>
-            <p className="revolutionize-your-product">
+            <div className="revolutionize-your-product">
               When it comes to innovation, speed is of the essence. You need to
               test quickly, learn rapidly, and iterate promptly. At Twinmo, we
               understand this need for speed. That's why Testrunz is not just
               designed to support Design of Experiments (DOE), but also
               leverages the power of modern artificial intelligence to
               streamline and optimize your discovery and innovation cycle.
-            </p>
-            <p className="revolutionize-your-product">
+            </div>
+            <div className="revolutionize-your-product">
               AI enables us to generate the most effective DOE matrix to
               facilitate faster learning. The intelligence inherent in our
               software helps in the efficient design of experiments, helping you
               understand how different factors interact to affect outcomes. This
               helps reduce the number of tests required and consequently shrinks
               the time taken in the discovery and innovation phase.
-            </p>
-            <p className="revolutionize-your-product">How does it work?</p>
+            </div>
+            <div className="revolutionize-your-product">How does it work?</div>
             <div></div>
             <img className="frame-child14" alt="" src={Discover} />
-            <b className="discover-innovate">Smart Experiment Planning</b>
-            <p className="the-ai-engine">
-              The AI engine takes into account the factors, levels, and
-              responses you've identified for your experiment, and generates an
-              optimized DOE matrix that captures all interactions in the least
-              number of runs.
-            </p>
-            <div className="discover-innovate">Real-Time Analysis</div>
-            <div className="the-ai-engine">
-              As your experiments progress, the AI engine in Testrunz analyzes
-              results in real-time, identifying significant factors and their
-              interactions quickly and accurately.
+            <div>
+              <div className="discover-innovate">Smart Experiment Planning</div>
+              <div className="the-ai-engine">
+                The AI engine takes into account the factors, levels, and
+                responses you've identified for your experiment, and generates
+                an optimized DOE matrix that captures all interactions in the
+                least number of runs.
+              </div>
             </div>
-            <div className="discover-innovate">Predictive Insights</div>
-            <div className="the-ai-engine">
-              The AI engine takes into account the factors, levels, and
-              responses you've identified for your experiment, and generates an
-              optimized DOE matrix that captures all interactions in the least
-              number of runs.
+            <div>
+              <div className="discover-innovate">Real-Time Analysis</div>
+              <div className="the-ai-engine">
+                As your experiments progress, the AI engine in Testrunz analyzes
+                results in real-time, identifying significant factors and their
+                interactions quickly and accurately.
+              </div>
             </div>
-            <div className="discover-innovate">Smart Experiment Planning</div>
-            <div className="the-ai-engine">
-              Learning from each experiment, the AI engine continually refines
-              your DOE matrix, promoting an iterative learning process that
-              supports faster, more effective innovation.
+            <div>
+              <div className="discover-innovate">Predictive Insights</div>
+              <div className="the-ai-engine">
+                The AI doesn’t just look at what’s happened; it predicts what
+                could happen. It can foresee optimal conditions and suggest ways
+                to achieve better results, saving time and resources.
+              </div>
             </div>
+            <div>
+              <div className="discover-innovate">Iterative Learning</div>
+              <div className="the-ai-engine">
+                Learning from each experiment, the AI engine continually refines
+                your DOE matrix, promoting an iterative learning process that
+                supports faster, more effective innovation.
+              </div>
+            </div>
+            <br />
           </div>
         </div>
         <div className={toggle === 2 ? "show-content" : "content"}>
@@ -166,15 +174,15 @@ const UseCases = () => {
             <h4 className="sub-title">
               Verify-Comply: Streamline Compliance with AI and Testrunz
             </h4>
-            <p className="revolutionize-your-product">
+            <div className="revolutionize-your-product">
               The next crucial phase in your product journey is verification and
               compliance. Regulatory requirements are often complex and
               multi-faceted, and meeting these requirements is mandatory to
               ensure market access. At Twinmo, we've combined the power of
               artificial intelligence with the capabilities of Testrunz to
               simplify and streamline this process for you.
-            </p>
-            <p className="revolutionize-your-product">
+            </div>
+            <div className="revolutionize-your-product">
               Utilizing AI, Testrunz can automatically generate a comprehensive
               test plan based on your product specifications and regulatory
               requirements of your target markets. This eliminates the
@@ -182,35 +190,56 @@ const UseCases = () => {
               testable parameters and ensures all necessary tests are planned
               and executed. Here's how Testrunz supports you during the
               Verify-Comply phase:
-            </p>
+            </div>
             <img className="frame-child14" alt="" src={Verify} />
-            <b className="discover-innovate">Automated Test Plan Generation</b>
-            <p className="the-ai-engine">
-              Our AI engine reviews your product specifications and pairs them
-              with relevant regulatory requirements, creating a detailed and
-              comprehensive test plan. This ensures that no compliance aspect is
-              overlooked.
-            </p>
-            <b className="discover-innovate">Compliance Tracking</b>
-            <p className="the-ai-engine">
-              Testrunz helps you track the progress of your compliance tests,
-              providing real-time updates and detailed insights. It creates a
-              clear visual path to see how close you are to achieving full
-              compliance.
-            </p>
-            <b className="discover-innovate">Regulation Updates</b>
-            <p className="the-ai-engine">
-              As regulations change, Testrunz's AI engine keeps up, updating
-              your test plan to reflect new or altered requirements. This
-              ensures your product stays compliant even as market regulations
-              evolve.
-            </p>
-            <b className="discover-innovate">Regulation-Specific Templates</b>
-            <p className="the-ai-engine">
-              Testrunz has a library of predefined templates for various
-              regulatory standards, such as IS 4250 for mixer grinders, saving
-              you the time of creating test protocols from scratch.
-            </p>
+            <div>
+              <div className="discover-innovate">
+                Automated Test Plan Generation
+              </div>
+              <div className="the-ai-engine">
+                Our AI engine reviews your product specifications and pairs them
+                with relevant regulatory requirements, creating a detailed and
+                comprehensive test plan. This ensures that no compliance aspect
+                is overlooked.
+              </div>
+            </div>
+            <div>
+              <div className="discover-innovate">Compliance Tracking</div>
+              <div className="the-ai-engine">
+                Testrunz helps you track the progress of your compliance tests,
+                providing real-time updates and detailed insights. It creates a
+                clear visual path to see how close you are to achieving full
+                compliance.
+              </div>
+            </div>
+            <div>
+              <div className="discover-innovate">Regulation Updates</div>
+              <div className="the-ai-engine">
+                As regulations change, Testrunz's AI engine keeps up, updating
+                your test plan to reflect new or altered requirements. This
+                ensures your product stays compliant even as market regulations
+                evolve.
+              </div>
+            </div>
+            <div>
+              <div className="discover-innovate">Compliance Reporting</div>
+              <div className="the-ai-engine">
+                Beyond tracking and testing, Testrunz also generates compliance
+                reports. These reports are fully customizable and can be
+                tailored to suit the needs of different regulatory bodies.
+              </div>
+            </div>
+            <div>
+              <div className="discover-innovate">
+                Regulation-Specific Templates
+              </div>
+              <div className="the-ai-engine">
+                Testrunz has a library of predefined templates for various
+                regulatory standards, such as IS 4250 for mixer grinders, saving
+                you the time of creating test protocols from scratch.
+              </div>
+            </div>
+            <br />
           </div>
         </div>
         {/* Show content for responsive Titles */}
@@ -219,47 +248,53 @@ const UseCases = () => {
             <h4 className="sub-title">
               Manufacture/Quality Control: Elevate Standards with Testrunz
             </h4>
-            <p className="revolutionize-your-product">
+            <div className="revolutionize-your-product">
               Manufacturing and quality control form the bedrock of your
               product's reputation in the market. It's here that the
               consistency, reliability, and integrity of your product are truly
               tested. With Testrunz, you can enhance these critical phases to
               meet and exceed industry standards.
-            </p>
-            <p className="revolutionize-your-product">
+            </div>
+            <div className="revolutionize-your-product">
               Testrunz equips you with data-driven tools that can:
-            </p>
+            </div>
 
             <img className="frame-child14" alt="" src={Quality} />
-
-            <b className="discover-innovate">Monitor Manufacturing Process</b>
-            <p className="the-ai-engine">
-              Track the manufacturing process in real-time with Testrunz, and
-              ensure that every product leaving the line meets the defined
-              standards.
-            </p>
-
-            <b className="discover-innovate">Automated Quality Control</b>
-            <p className="the-ai-engine">
-              Use Testrunz to automate routine quality checks, allowing for
-              greater consistency and significantly reducing the likelihood of
-              human error.
-            </p>
-
-            <b className="discover-innovate">Analyze and Improve</b>
-            <p className="the-ai-engine">
-              Our platform’s advanced analysis tools enable you to identify
-              patterns, anomalies, or areas of improvement in your manufacturing
-              process.
-            </p>
-
-            <b className="discover-innovate">Smart Experiment Planning </b>
-            <p className="the-ai-engine">
-              The AI engine takes into account the factors, levels, and
-              responses you've identified for your experiment, and generates an
-              optimized DOE matrix that captures all interactions in the least
-              number of runs.
-            </p>
+            <div>
+              <div className="discover-innovate">
+                Monitor Manufacturing Process
+              </div>
+              <div className="the-ai-engine">
+                Track the manufacturing process in real-time with Testrunz, and
+                ensure that every product leaving the line meets the defined
+                standards.
+              </div>
+            </div>
+            <div>
+              <div className="discover-innovate">Automated Quality Control</div>
+              <div className="the-ai-engine">
+                Use Testrunz to automate routine quality checks, allowing for
+                greater consistency and significantly reducing the likelihood of
+                human error.
+              </div>
+            </div>
+            <div>
+              <div className="discover-innovate">Analyze and Improve</div>
+              <div className="the-ai-engine">
+                Our platform’s advanced analysis tools enable you to identify
+                patterns, anomalies, or areas of improvement in your
+                manufacturing process.
+              </div>
+            </div>
+            <div>
+              <div className="discover-innovate">Comprehensive Reporting</div>
+              <div className="the-ai-engine">
+                Generate customizable reports that help you understand your
+                product better, adhere to compliance, and make data-backed
+                decisions.
+              </div>
+            </div>
+            <br />
           </div>
         </div>
       </div>

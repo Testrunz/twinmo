@@ -4,8 +4,8 @@ import "./Footer.css";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 import { AiOutlineGithub } from "react-icons/ai";
 import { GrMail } from "react-icons/gr";
-
 import Logo from "../Asset/HomeLogo.png";
+
 const Footer = () => {
   const navigate = useNavigate();
 
