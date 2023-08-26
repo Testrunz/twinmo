@@ -235,7 +235,7 @@ const UseCases = () => {
               </div>
               <div className="the-ai-engine">
                 Testrunz has a library of predefined templates for various
-                regulatory standards, such as IS 4250 for mixer grinders, saving
+                regulatory standards, such as IEC 60335 for mixer grinders, saving
                 you the time of creating test protocols from scratch.
               </div>
             </div>
