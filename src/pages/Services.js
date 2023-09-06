@@ -1,16 +1,17 @@
 // Importing necessary modules and styles
 import "./Services.css";
 import { Helmet } from "react-helmet-async";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Footer from "../Component/Footer";
 
 // Importing Images and SVG from Asset
-import ServiceHome from "../Asset/ServiceHome.png"
-import Envelope from "../Asset/Envelope.svg"
+import ServiceHome from "../Asset/ServiceHome.png";
+import Envelope from "../Asset/Envelope.svg";
 
 // Defining the Service component
 const Services = () => {
+  const [isMessageSent, setMessageSent] = useState(false); // State to track if the message is sent
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -27,7 +28,7 @@ const Services = () => {
         (result) => {
           console.log(result.text);
           console.log("Message sent!");
-          alert("Message sent!!!");
+          setMessageSent(true);
           form.current.reset();
         },
         (error) => {
@@ -35,6 +36,18 @@ const Services = () => {
         }
       );
   };
+  useEffect(() => {
+    // Use a setTimeout to reset the isMessageSent state after 3 seconds
+    if (isMessageSent) {
+      const timeout = setTimeout(() => {
+        setMessageSent(false);
+      }, 3000);
+
+      // Clear the timeout when the component unmounts
+      return () => clearTimeout(timeout);
+    }
+  }, [isMessageSent]);
+
 
   return (
     <div className="servicepage">
@@ -149,8 +162,9 @@ const Services = () => {
             </div>
           </div>
           <button className="submit-button" type="submit">
-          Submit
+            Submit
           </button>
+          {isMessageSent && <p style={{color:"#f1c232"}}>Message sent!</p>}
         </form>
       </div>
       {/* Footer */}
