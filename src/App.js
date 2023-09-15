@@ -1,6 +1,5 @@
 // Importing necessary modules from react-router-dom
 import { Routes, Route } from "react-router-dom";
-
 // Importing the required page components
 import LandingPage from "./pages/LandingPage";
 import Resource from "./pages/Resource";
@@ -13,14 +12,9 @@ import CookiePolicy from "./pages/Cookie";
 import Navbar from "./Component/Navbar";
 import Home from "./pages/Blogs/Blog";
 import Blog from "./pages/Blogs";
-import ReactGA from "react-ga4";
 
 // Defining the main App component
 function App() {
-  const TRACKING_ID="G-KLJ2KDGF2F"
-  ReactGA.initialize(TRACKING_ID);
-  // Send pageview with a custom path
-ReactGA.pageview(document.location.pathname);
 
   return (
     // Defining the routing configuration using Routes component
