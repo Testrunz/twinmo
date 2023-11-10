@@ -8,4 +8,4 @@
   2) In the terminal, run `npm install`
   3) Run `npm start` to view the project in the browser
 
-  See our site in live <a href="https://www.twinmo.ai/">twinmo.ai</a>
+ Live site link <a href="https://www.twinmo.ai/">twinmo.ai</a>
